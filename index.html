@@ -2,13 +2,16 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Isotope combination filters with checkboxes 2</title>
+  <title>ArtBoard Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<h1>Isotope combination filters with checkboxes 2</h1>
+<h1>ArtBoard Test</h1>
+
+<p><input type="text" class="quicksearch" placeholder="Search" /></p>
 
 <div id="options">
   <div class="option-set" data-group="brand">
@@ -39,9 +42,110 @@
 
 <p id="filter-display"></p>
 
-<div id="container"></div>
+<!-- <div id="container"></div> -->
+<div class="grid" data-isotope='{ "itemSelector": ".item", "layoutMode": "fitRows" }'>
 <!-- partial -->
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+    <div class="item brand1 blue alpha size10">
+        <p>brand1</p>
+        <p>alpha</p>
+        <p>size 10</p>
+    </div>
+
+
+    <div class="item brand1 green alpha size8">
+        <p>brand1</p>
+        <p>alpha</p>
+        <p>size 8</p>
+    </div>
+
+    <div class="item brand1 red alpha size10">
+        <p>brand1</p>
+        <p>alpha</p>
+        <p>size 10</p>
+    </div>
+
+    <div class="item brand1 red alpha size8">
+        <p>brand1</p>
+        <p>alpha</p>
+        <p>size 8</p>
+    </div>
+
+    <div class="item brand1 blue alpha size9">
+        <p>brand1</p>
+        <p>alpha</p>
+        <p>size 9</p>
+    </div>
+
+
+    <div class="item brand2 red alpha size7">
+        <p>brand1</p>
+        <p>alpha</p>
+        <p>size 7</p>
+    </div>
+
+    <div class="item brand2 red alpha size9">
+        <p>brand1</p>
+        <p>alpha</p>
+        <p>size 9</p>
+    </div>
+
+    <div class="item brand2 red alpha size8">
+        <p>brand1</p>
+        <p>alpha</p>
+        <p>size 8</p>
+    </div>
+
+    <div class="item brand1 yellow alpha size8">
+        <p>brand1</p>
+        <p>alpha</p>
+        <p>size 8</p>
+    </div>
+
+    <div class="item brand1 green alpha size8">
+        <p>brand1</p>
+        <p>alpha</p>
+        <p>size 8</p>
+    </div>
+
+    <div class="item brand4 red alpha size7">
+        <p>brand1</p>
+        <p>alpha</p>
+        <p>size 7</p>
+    </div>
+
+    <div class="item brand4 red delta size8">
+        <p>brand1</p>
+        <p>alpha</p>
+        <p>size 8</p>
+    </div>
+
+    <div class="item brand4 yellow alpha size7">
+        <p>brand1</p>
+        <p>alpha</p>
+        <p>size 7</p>
+    </div>
+
+
+    <div class="item brand1 green gmma size10">
+        <p>brand1</p>
+        <p>alpha</p>
+        <p>size 10</p>
+    </div>
+
+    <div class="item brand2 green alpha size20">
+        <p>brand1</p>
+        <p>alpha</p>
+        <p>size 20</p>
+    </div>
+
+    <div class="item brand3 blue beta size10">
+        <p>brand1</p>
+        <p>alpha</p>
+        <p>size 10</p>
+    </div>
+
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 <script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script><script  src="./script.js"></script>
 
 </body>
