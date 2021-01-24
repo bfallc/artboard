@@ -7,16 +7,22 @@
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
+
+
+<div class="header">
+
 <h1>ArtBoard Ver0.1</h1>
 <p>(Uses <a href="https://codepen.io/desandro/pen/WyOZjx">Isotope - combination filters &amp; search)</a></p>
 
 <p><input type="text" class="quicksearch" placeholder="Search" /></p>
 
+</div><!--header-->
+
 <div class="filters">
 
+  <p>Medium:</p>
   <div class="ui-group">
-    <h3>Medium</h3>
+    <!-- <h3>Medium</h3> -->
     <div class="button-group js-radio-button-group" data-filter-group="color">
       <button class="button is-checked" data-filter="">any</button>
       <button class="button" data-filter=".sculpture">sculpture</button>
@@ -27,12 +33,15 @@
       <button class="button" data-filter=".screenbased">screen-based</button>
       <button class="button" data-filter=".internet">internet</button>
       <button class="button" data-filter=".performance">performance</button>
+      <button class="button" data-filter=".photo">photo</button>
       <button class="button" data-filter=".other">other</button>
     </div>
   </div>
 
+
+<p>Topic:</p>
   <div class="ui-group">
-    <h3>Size</h3>
+    <!-- <h3>Size</h3> -->
     <div class="button-group js-radio-button-group" data-filter-group="Subject">
       <button class="button is-checked" data-filter="">any</button>
       <button class="button" data-filter=".technology">technology</button>
@@ -43,12 +52,14 @@
       <button class="button" data-filter=".politics">politics</button>
       <button class="button" data-filter=".nature">nature</button>
       <button class="button" data-filter=".artcrit">art criticism</button>
-      <button class="button" data-filter=".labor">labor</button>
+      <button class="button" data-filter=".social">socially engaged</button>
+      <button class="button" data-filter=".physcom">physical computing</button>
     </div>
   </div>
 
+  <p>Decade/Period:</p>
   <div class="ui-group">
-    <h3>Shape</h3>
+    <!-- <h5>Shape</h> -->
     <div class="button-group js-radio-button-group" data-filter-group="Decade/Period">
       <button class="button is-checked" data-filter="">any</button>
       <button class="button" data-filter=".1980s">1980's</button>
@@ -56,17 +67,20 @@
       <button class="button" data-filter=".2000s">2000's</button>
       <button class="button" data-filter=".2010s">2010's</button>
     </div>
+    </div>
 
+    <p>Added by:</p>
   <div class="ui-group">
-    <h3>Shape</h3>
+    <!-- <h3>Shape</h3> -->
     <div class="button-group js-radio-button-group" data-filter-group="Added By">
       <button class="button is-checked" data-filter="">any</button>
       <button class="button" data-filter=".blake">Blake</button>
       <button class="button" data-filter=".doug">Doug</button>
     </div>
   </div>
+</div><!--filters-->
 
-</div>
+
 
 <div class="grid">
   <div class="item screenbased conceptual capitalism technology 2000s blake">
@@ -90,25 +104,32 @@
     <p class="externallink"><a href="https://aesf.art/projects/europe_europe/" target="_blank">[external link]</a></p>
   </div>
 
-  <div class="item sculpture conceptual capitalism artcrit labor 1990s blake">
+  <div class="item sculpture conceptual capitalism artcrit social 1990s blake">
     <a href="images/AiWeiwei-HanDynastyUrnWithCocaColaLogo.jpg" target="_blank"><img class=image src="images/AiWeiwei-HanDynastyUrnWithCocaColaLogo.jpg"></a>
     <p class="title">Ai Weiwei - Han Dynasty Urn with Coca Cola Logo (1993)</p>
     <p class="description">Presumed original urns (bought at flea markets), repainted with modern logos.</p>
     <p class="externallink"><a href="https://elephant.art/coca-cola-meets-china-ai-weiweis-subversive-symbolism/" target="_blank">[external link]</a></p>
   </div>
 
-  <div class="item screenbased conceptual capitalism politics 2000s blake">
+  <div class="item capitalism politics social 2000s blake">
     <a href="images/AiWeiwei-WorldMap.jpg" target="_blank"><img class=image src="images/AiWeiwei-WorldMap.jpg"></a>
     <p class="title">Ai Weiwei - World Map (2006-2009)</p>
     <p class="description">Layers of cotton meticulously cut and stacked. Critical of China's cheap labor markets and garmet industry.</p>
     <p class="externallink"><a href="http://www.aaronkoblin.com/work/thesheepmarket/" target="_blank">[external link]</a></p>
   </div>
  
-  <div class="item screenbased conceptual capitalism politics 2000s blake">
+  <div class="item social politics photo 2000s blake">
     <a href="images/AiWeiwei.jpg" target="_blank"><img class=image src="images/AiWeiwei.jpg"></a>
     <p class="title">Ai Weiwei - <i>Ai Weiwei in the Elevator When Taken into Custody by the Police</i> (2009)</p>
     <p class="description">Inkjet print. “I don’t see myself as a dissident artist, I see them as a dissident government!”</p>
     <p class="externallink"><a href="https://www.artsy.net/artwork/ai-weiwei-ai-weiwei-in-the-elevator-when-taken-into-custody-by-the-police" target="_blank">[external link]</a></p>
+  </div>
+
+  <div class="item sculpture installation technology physcom 2000s blake">
+    <a href="images/AlbinKarlsson-Thermopaper2.jpg" target="_blank"><img class=image src="images/AlbinKarlsson-Thermopaper2.jpg"></a>
+    <p class="title">Albin Karlsson - <i>Thermopaper 2</i></p>
+    <p class="description">Heating element discolors paper as it slowly scrolls by.</p>
+    <p class="externallink"><a href="https://we-make-money-not-art.com/albin_karlsson_at_icon_experim/" target="_blank">[external link]</a></p>
   </div>
 
   <div class="item wide square yellow">Magnesium</div>
