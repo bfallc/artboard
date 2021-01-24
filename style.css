@@ -1,30 +1,137 @@
+* { box-sizing: border-box; }
+
 body {
-    font-family: sans-serif;
-  }
-  
-  .item {
-    width: 20vw;
-    height: 20vw;
-    padding: 5px;
-    margin: 5px;
-    color: white;
-    float: left;
-  }
-  
-  label { margin-right: 5px; }
-  
-  p {
-    margin: 0;
-  }
-  
-  #filter-display {
-    font-size: 18px;
-    padding: 0.5em;
-    border: 1px solid #CCC;
-    color: blue;
-  }
-  
-  .red { background: red; }
-  .blue { background: blue; }
-  .green { background: green; }
-  .yellow { background: yellow; color: black; }
+  font-family: sans-serif;
+}
+
+/* ---- input ---- */
+
+input[type="text"] {
+  font-size: 20px;
+}
+
+/* ---- button ---- */
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: #EEE;
+  border: none;
+  border-radius: 7px;
+  background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-shadow: 0 1px white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #8CF;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: #222;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #28F;
+}
+
+.button.is-checked {
+  color: white;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
+/* ---- isotope ---- */
+
+.grid {
+  background: #EEE;
+  max-width: 95vw;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ui group */
+
+.ui-group {
+  display: inline-block;
+}
+
+.ui-group h3 {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 32px;
+  margin-right: 0.2em;
+  font-size: 16px;
+}
+
+.ui-group .button-group {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* item */
+
+.item {
+  width: 310px;
+  /* height: 70px; */
+  margin: 2.5px;
+  padding: 5px;
+  float: left;
+  /* text-shadow: 1px 1px white; */
+  background-color:rgb(117, 181, 255);
+  font-weight: bold;
+}
+ 
+.item.round {
+  border-radius: 35px;
+}
+ 
+.item.big.round {
+  border-radius: 75px;
+}
+ 
+.item.red { background: red; }
+.item.blue { background: blue; }
+.item.yellow { background: yellow; }
+ 
+.item.wide, .item.big { width: 150px; }
+.item.tall, .item.big { height: 150px; }
+
+/*-------My Changes Below -----------*/
+
+
+
+.image {
+  width: 300px;
+  display:block;
+  margin:auto;
+}
+

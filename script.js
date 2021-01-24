@@ -1,103 +1,70 @@
-/*jshint browser:true, undef: true, unused: true, jquery: true */
+// external js: isotope.pkgd.js
 
-// store filter per group
-var filters = {};
+// store filter for each group
+var buttonFilters = {};
+var buttonFilter;
+// quick search regex
+var qsRegex;
 
-// only used to dynamically generate items
-var data = {
-  brands: [ 'brand1', 'brand2', 'brand3', 'brand4' ],
-  productTypes: [ 'alpha', 'beta', 'gamma', 'delta' ],
-  colors: [ 'red', 'blue', 'green', 'yellow' ],
-  sizes: [ 'size8', 'size9', 'size10', 'size11' ],
-};
-
-var $container = $('#container');
-
-createContent();
-
-var $filterDisplay = $('#filter-display');
-
-$container.isotope();
-// do stuff when checkbox change
-$('#options').on( 'change', function( event ) {
-  var checkbox = event.target;
-  var $checkbox = $( checkbox );
-  var group = $checkbox.parents('.option-set').attr('data-group');
-  // create array for filter group, if not there yet
-  var filterGroup = filters[ group ];
-  if ( !filterGroup ) {
-    filterGroup = filters[ group ] = [];
-  }
-  // add/remove filter
-  if ( checkbox.checked ) {
-    // add filter
-    filterGroup.push( checkbox.value );
-  } else {
-    // remove filter
-    var index = filterGroup.indexOf( checkbox.value );
-    filterGroup.splice( index, 1 );
-  }
-  
-  var comboFilter = getComboFilter();
-  $container.isotope({ filter: comboFilter });
-  $filterDisplay.text( comboFilter );
+// init Isotope
+var $grid = $('.grid').isotope({
+  itemSelector: '.item',
+  filter: function() {
+    var $this = $(this);
+    var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
+    var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
+    return searchResult && buttonResult;
+  },
 });
 
+$('.filters').on( 'click', '.button', function() {
+  var $this = $(this);
+  // get group key
+  var $buttonGroup = $this.parents('.button-group');
+  var filterGroup = $buttonGroup.attr('data-filter-group');
+  // set filter for group
+  buttonFilters[ filterGroup ] = $this.attr('data-filter');
+  // combine filters
+  buttonFilter = concatValues( buttonFilters );
+  // Isotope arrange
+  $grid.isotope();
+});
 
+// use value of search field to filter
+var $quicksearch = $('.quicksearch').keyup( debounce( function() {
+  qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+  $grid.isotope();
+}) );
 
-function getComboFilter() {
-  var combo = [];
-  for ( var prop in filters ) {
-    var group = filters[ prop ];
-    if ( !group.length ) {
-      // no filters in group, carry on
-      continue;
-    }
-    // add first group
-    if ( !combo.length ) {
-      combo = group.slice(0);
-      continue;
-    }
-    // add additional groups
-    var nextCombo = [];
-    // split group into combo: [ A, B ] & [ 1, 2 ] => [ A1, A2, B1, B2 ]
-    for ( var i=0; i < combo.length; i++ ) {
-      for ( var j=0; j < group.length; j++ ) {
-        var item = combo[i] + group[j];
-        nextCombo.push( item );
-      }
-    }
-    combo = nextCombo;
+// change is-checked class on buttons
+$('.button-group').each( function( i, buttonGroup ) {
+  var $buttonGroup = $( buttonGroup );
+  $buttonGroup.on( 'click', 'button', function() {
+    $buttonGroup.find('.is-checked').removeClass('is-checked');
+    $( this ).addClass('is-checked');
+  });
+});
+  
+// flatten object by concatting values
+function concatValues( obj ) {
+  var value = '';
+  for ( var prop in obj ) {
+    value += obj[ prop ];
   }
-  var comboFilter = combo.join(', ');
-  return comboFilter;
+  return value;
 }
 
-
-// helper made to make items
-function createContent() {
-  var brand, productType, color, size;
-  var items = '';
-  // dynamically create content
-  for (var i=0, len1 = data.brands.length; i < len1; i++) {
-    brand = data.brands[i];
-    for (var j=0, len2 = data.productTypes.length; j < len2; j++) {
-      productType = data.productTypes[j];
-        for (var l=0, len3 = data.colors.length; l < len3; l++) {
-        color = data.colors[l];
-        for (var k=0, len4 = data.sizes.length; k < len4; k++) {
-          size = data.sizes[k];
-          var itemHtml = '<div class="item ' + brand + ' ' +
-            productType + ' ' + color + ' ' + size + '">' +
-            '<p>' + brand + '</p>' +
-            '<p>' + productType + '</p>' +
-            '<p>' + size + '</p>' +
-            '</div>';
-            items += itemHtml;
-        }
-      }
+// debounce so filtering doesn't happen every millisecond
+function debounce( fn, threshold ) {
+  var timeout;
+  threshold = threshold || 100;
+  return function debounced() {
+    clearTimeout( timeout );
+    var args = arguments;
+    var _this = this;
+    function delayed() {
+      fn.apply( _this, args );
     }
-  }
-
-  $container.append( items );
+    timeout = setTimeout( delayed, threshold );
+  };
 }

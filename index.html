@@ -2,150 +2,131 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>ArtBoard Test</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./style.css">
+  <title>ArtBoard Ver0.1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<h1>ArtBoard Test</h1>
+<h1>ArtBoard Ver0.1</h1>
+<p>(Uses <a href="https://codepen.io/desandro/pen/WyOZjx">Isotope - combination filters &amp; search)</a></p>
 
 <p><input type="text" class="quicksearch" placeholder="Search" /></p>
 
-<div id="options">
-  <div class="option-set" data-group="brand">
-    <label><input type="checkbox" value=".brand1" /> brand1</label>
-    <label><input type="checkbox" value=".brand2" /> brand2</label>
-    <label><input type="checkbox" value=".brand3" /> brand3</label>
-    <label><input type="checkbox" value=".brand4" /> brand4</label>
+<div class="filters">
+
+  <div class="ui-group">
+    <h3>Medium</h3>
+    <div class="button-group js-radio-button-group" data-filter-group="color">
+      <button class="button is-checked" data-filter="">any</button>
+      <button class="button" data-filter=".sculpture">sculpture</button>
+      <button class="button" data-filter=".installation">installation</button>
+      <button class="button" data-filter=".filmvideo">film/video</button>
+      <button class="button" data-filter=".paintingdrawing">painting/drawing</button>
+      <button class="button" data-filter=".audio">audio</button>
+      <button class="button" data-filter=".screenbased">screen-based</button>
+      <button class="button" data-filter=".internet">internet</button>
+      <button class="button" data-filter=".performance">performance</button>
+      <button class="button" data-filter=".other">other</button>
+    </div>
   </div>
-  <div class="option-set" data-group="type">
-    <label><input type="checkbox" value=".alpha" /> alpha</label>
-    <label><input type="checkbox" value=".beta" /> beta</label>
-    <label><input type="checkbox" value=".gamma" /> gamma</label>
-    <label><input type="checkbox" value=".delta" /> delta</label>
+
+  <div class="ui-group">
+    <h3>Size</h3>
+    <div class="button-group js-radio-button-group" data-filter-group="Subject">
+      <button class="button is-checked" data-filter="">any</button>
+      <button class="button" data-filter=".technology">technology</button>
+      <button class="button" data-filter=".blockchain">blockchain</button>
+      <button class="button" data-filter=".cvml">cvml</button>
+      <button class="button" data-filter=".capitalism">capitalism</button>
+      <button class="button" data-filter=".surveillance">surveillance</button>
+      <button class="button" data-filter=".politics">politics</button>
+      <button class="button" data-filter=".nature">nature</button>
+      <button class="button" data-filter=".artcrit">art criticism</button>
+      <button class="button" data-filter=".labor">labor</button>
+    </div>
   </div>
-  <div class="option-set" data-group="color">
-    <label><input type="checkbox" value=".red" /> red</label>
-    <label><input type="checkbox" value=".blue" /> blue</label>
-    <label><input type="checkbox" value=".green" /> green</label>
-    <label><input type="checkbox" value=".yellow" /> yellow</label>
+
+  <div class="ui-group">
+    <h3>Shape</h3>
+    <div class="button-group js-radio-button-group" data-filter-group="Decade/Period">
+      <button class="button is-checked" data-filter="">any</button>
+      <button class="button" data-filter=".1980s">1980's</button>
+      <button class="button" data-filter=".1990s">1990's</button>
+      <button class="button" data-filter=".2000s">2000's</button>
+      <button class="button" data-filter=".2010s">2010's</button>
+    </div>
+
+  <div class="ui-group">
+    <h3>Shape</h3>
+    <div class="button-group js-radio-button-group" data-filter-group="Added By">
+      <button class="button is-checked" data-filter="">any</button>
+      <button class="button" data-filter=".blake">Blake</button>
+      <button class="button" data-filter=".doug">Doug</button>
+    </div>
   </div>
-  <div class="option-set" data-group="size">
-    <label><input type="checkbox" value=".size8" /> size8</label>
-    <label><input type="checkbox" value=".size9" /> size9</label>
-    <label><input type="checkbox" value=".size10" /> size10</label>
-    <label><input type="checkbox" value=".size11" /> size11</label>
-  </div>
+
 </div>
 
-<p id="filter-display"></p>
+<div class="grid">
+  <div class="item screenbased conceptual capitalism technology 2000s blake">
+    <a href="images/AaronKoblin-SheepMarket.jpg" target="_blank"><img class=image src="images/AaronKoblin-SheepMarket.jpg"></a>
+    <p class="title">Aaron Koblin - The Sheep Market (2006)</p>
+    <p class="description">Some filler text, a very short description of this project.</p>
+    <p class="externallink"><a href="http://www.aaronkoblin.com/work/thesheepmarket/" target="_blank">[external link]</a></p>
+  </div>
+  
+  <div class="item conceptual cvml technology blake 2010s">
+    <a href="images/AdamHarvey-CVDazzle.jpg" target="_blank"><img class=image src="images/AdamHarvey-CVDazzle.jpg"></a>
+    <p class="title">Adam Harvey - CV Dazzle (2010-2013)</p>
+    <p class="description">Fashion styles, haircuts, and makeup designed to circumvent machine vision and surveillance systems.</p>
+    <p class="externallink"><a href="https://cvdazzle.com/" target="_blank">[external link]</a></p>
+  </div>
 
-<!-- <div id="container"></div> -->
-<div class="grid" data-isotope='{ "itemSelector": ".item", "layoutMode": "fitRows" }'>
+  <div class="item sculpture installation conceptual politics artcrit 2000s blake">
+    <a href="images/AES+F-EuropeEurope.jpg" target="_blank"><img class=image src="images/AES+F-EuropeEurope.jpg"></a>
+    <p class="title">AES+F - Europe Europe (2007-2008)</p>
+    <p class="description">Porcelain figurines in wooden cabinet. Based on traditional 18th century artworks, but updated for contemporary politics and society.</p>
+    <p class="externallink"><a href="https://aesf.art/projects/europe_europe/" target="_blank">[external link]</a></p>
+  </div>
+
+  <div class="item sculpture conceptual capitalism artcrit labor 1990s blake">
+    <a href="images/AiWeiwei-HanDynastyUrnWithCocaColaLogo.jpg" target="_blank"><img class=image src="images/AiWeiwei-HanDynastyUrnWithCocaColaLogo.jpg"></a>
+    <p class="title">Ai Weiwei - Han Dynasty Urn with Coca Cola Logo (1993)</p>
+    <p class="description">Presumed original urns (bought at flea markets), repainted with modern logos.</p>
+    <p class="externallink"><a href="https://elephant.art/coca-cola-meets-china-ai-weiweis-subversive-symbolism/" target="_blank">[external link]</a></p>
+  </div>
+
+  <div class="item screenbased conceptual capitalism politics 2000s blake">
+    <a href="images/AiWeiwei-WorldMap.jpg" target="_blank"><img class=image src="images/AiWeiwei-WorldMap.jpg"></a>
+    <p class="title">Ai Weiwei - World Map (2006-2009)</p>
+    <p class="description">Layers of cotton meticulously cut and stacked. Critical of China's cheap labor markets and garmet industry.</p>
+    <p class="externallink"><a href="http://www.aaronkoblin.com/work/thesheepmarket/" target="_blank">[external link]</a></p>
+  </div>
+ 
+  <div class="item screenbased conceptual capitalism politics 2000s blake">
+    <a href="images/AiWeiwei.jpg" target="_blank"><img class=image src="images/AiWeiwei.jpg"></a>
+    <p class="title">Ai Weiwei - <i>Ai Weiwei in the Elevator When Taken into Custody by the Police</i> (2009)</p>
+    <p class="description">Inkjet print. “I don’t see myself as a dissident artist, I see them as a dissident government!”</p>
+    <p class="externallink"><a href="https://www.artsy.net/artwork/ai-weiwei-ai-weiwei-in-the-elevator-when-taken-into-custody-by-the-police" target="_blank">[external link]</a></p>
+  </div>
+
+  <div class="item wide square yellow">Magnesium</div>
+  <div class="item big round red">Aluminum</div>
+  <div class="item big round blue">Silicon</div>
+  <div class="item big round yellow">Phosphorus</div>
+  <div class="item big square red">Sulfur</div>
+  <div class="item big square blue">Chlorine</div>
+  <div class="item big square yellow">Argon</div>
+  <div class="item tall round red">Potassium</div>
+  <div class="item tall round blue">Calcium</div>
+  <div class="item tall round yellow">Scandium</div>
+  <div class="item tall square red">Titanium</div>
+  <div class="item tall square blue">Vanadium</div>
+  <div class="item tall square yellow">Chromium</div>
+</div>
 <!-- partial -->
-
-    <div class="item brand1 blue alpha size10">
-        <p>brand1</p>
-        <p>alpha</p>
-        <p>size 10</p>
-    </div>
-
-
-    <div class="item brand1 green alpha size8">
-        <p>brand1</p>
-        <p>alpha</p>
-        <p>size 8</p>
-    </div>
-
-    <div class="item brand1 red alpha size10">
-        <p>brand1</p>
-        <p>alpha</p>
-        <p>size 10</p>
-    </div>
-
-    <div class="item brand1 red alpha size8">
-        <p>brand1</p>
-        <p>alpha</p>
-        <p>size 8</p>
-    </div>
-
-    <div class="item brand1 blue alpha size9">
-        <p>brand1</p>
-        <p>alpha</p>
-        <p>size 9</p>
-    </div>
-
-
-    <div class="item brand2 red alpha size7">
-        <p>brand1</p>
-        <p>alpha</p>
-        <p>size 7</p>
-    </div>
-
-    <div class="item brand2 red alpha size9">
-        <p>brand1</p>
-        <p>alpha</p>
-        <p>size 9</p>
-    </div>
-
-    <div class="item brand2 red alpha size8">
-        <p>brand1</p>
-        <p>alpha</p>
-        <p>size 8</p>
-    </div>
-
-    <div class="item brand1 yellow alpha size8">
-        <p>brand1</p>
-        <p>alpha</p>
-        <p>size 8</p>
-    </div>
-
-    <div class="item brand1 green alpha size8">
-        <p>brand1</p>
-        <p>alpha</p>
-        <p>size 8</p>
-    </div>
-
-    <div class="item brand4 red alpha size7">
-        <p>brand1</p>
-        <p>alpha</p>
-        <p>size 7</p>
-    </div>
-
-    <div class="item brand4 red delta size8">
-        <p>brand1</p>
-        <p>alpha</p>
-        <p>size 8</p>
-    </div>
-
-    <div class="item brand4 yellow alpha size7">
-        <p>brand1</p>
-        <p>alpha</p>
-        <p>size 7</p>
-    </div>
-
-
-    <div class="item brand1 green gmma size10">
-        <p>brand1</p>
-        <p>alpha</p>
-        <p>size 10</p>
-    </div>
-
-    <div class="item brand2 green alpha size20">
-        <p>brand1</p>
-        <p>alpha</p>
-        <p>size 20</p>
-    </div>
-
-    <div class="item brand3 blue beta size10">
-        <p>brand1</p>
-        <p>alpha</p>
-        <p>size 10</p>
-    </div>
-
-    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
 <script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script><script  src="./script.js"></script>
 
 </body>
