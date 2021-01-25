@@ -87,10 +87,10 @@ input[type="text"] {
 
 .ui-group h3 {
   display: inline-block;
-  vertical-align: top;
-  line-height: 32px;
+  vertical-align: super;
+  line-height: 24px;
   margin-right: 0.2em;
-  font-size: 16px;
+  font-size: .8em;
 }
 
 .ui-group .button-group {
@@ -143,4 +143,20 @@ input[type="text"] {
 
 .filters {
   margin: 10px;
+}
+
+h2 { 
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+h2 span {
+  font-size: .5em;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.footer {
+  margin: 20px;
+  font-size: .75em;
 }

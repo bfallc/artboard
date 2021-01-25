@@ -11,10 +11,11 @@
 
 <div class="header">
 
-<h1>ArtBoard Ver0.1</h1>
-<p>(Uses <a href="https://codepen.io/desandro/pen/WyOZjx">Isotope - combination filters &amp; search)</a></p>
+<h2>ArtBoard Ver0.1
+  <span class="searchbar"><input type="text" class="quicksearch" placeholder="Search text" /></span>
+</h2>
 
-<p><input type="text" class="quicksearch" placeholder="Search" /></p>
+<!-- <p><input type="text" class="quicksearch" placeholder="Search" /></p> -->
 
 </div><!--header-->
 
@@ -22,8 +23,7 @@
 
   <!-- <p>Medium:</p> -->
   <div class="ui-group">
-    <p>Medium:</p>
-    <!-- <h3>Medium</h3> -->
+    <h3>Medium:</h3>
     <div class="button-group js-radio-button-group" data-filter-group="color">
       <button class="button is-checked" data-filter="">any</button>
       <button class="button" data-filter=".sculpture">sculpture</button>
@@ -41,9 +41,9 @@
   </div>
 
 
-<p>Topic:</p>
+<!-- <p>Topic:</p> -->
   <div class="ui-group">
-    <!-- <h3>Size</h3> -->
+    <h3>Topic:</h3>
     <div class="button-group js-radio-button-group" data-filter-group="Subject">
       <button class="button is-checked" data-filter="">any</button>
       <button class="button" data-filter=".technology">technology</button>
@@ -60,9 +60,9 @@
     </div>
   </div>
 
-  <p>Decade/Period:</p>
+  <!-- <p>Decade/Period:</p> -->
   <div class="ui-group">
-    <!-- <h5>Shape</h> -->
+    <h3>Decade/Period:</h3>
     <div class="button-group js-radio-button-group" data-filter-group="Decade/Period">
       <button class="button is-checked" data-filter="">any</button>
       <button class="button" data-filter=".1980s">1980's</button>
@@ -72,9 +72,9 @@
     </div>
     </div>
 
-    <p>Added by:</p>
+    <!-- <p>Added by:</p> -->
   <div class="ui-group">
-    <!-- <h3>Shape</h3> -->
+    <h3>Added by:</h3>
     <div class="button-group js-radio-button-group" data-filter-group="Added By">
       <button class="button is-checked" data-filter="">any</button>
       <button class="button" data-filter=".blake">Blake</button>
@@ -193,6 +193,16 @@
   </div>
 
 </div>
+
+<div class="footer">
+  <span>(Uses <a href="https://codepen.io/desandro/pen/WyOZjx">Isotope - combination filters &amp; search)</a>
+    <br>
+    Built 2021
+  </span>
+
+</div>
+
+
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
 <script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script><script  src="./script.js"></script>
