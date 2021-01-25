@@ -28,6 +28,7 @@ $('.filters').on( 'click', '.button', function() {
   buttonFilter = concatValues( buttonFilters );
   // Isotope arrange
   $grid.isotope();
+  // $grid.isotope({ filter: filters.join(',') });
 });
 
 // use value of search field to filter
@@ -45,6 +46,35 @@ $('.button-group').each( function( i, buttonGroup ) {
   });
 });
   
+// // change is-checked class on buttons
+// $('.filters').on( 'click', 'button', function( event ) {
+//   var $target = $( event.currentTarget );
+//   $target.toggleClass('is-checked');
+//   var isChecked = $target.hasClass('is-checked');
+//   var filter = $target.attr('data-filter');
+//   if ( isChecked ) {
+//     addFilter( filter );
+//   } else {
+//     removeFilter( filter );
+//   }
+//   // filter isotope
+//   // group filters together, inclusive
+//   $grid.isotope({ filter: filters.join(',') });
+// });
+  
+// function addFilter( filter ) {
+//   if ( filters.indexOf( filter ) == -1 ) {
+//     filters.push( filter );
+//   }
+// }
+
+// function removeFilter( filter ) {
+//   var index = filters.indexOf( filter);
+//   if ( index != -1 ) {
+//     filters.splice( index, 1 );
+//   }
+// }
+
 // flatten object by concatting values
 function concatValues( obj ) {
   var value = '';
