@@ -1,3 +1,3 @@
 # artboard
 
-sortable/filterable web page for looking at my personal collection of saved art references. 
+sortable/filterable web page for looking at a personal collection of saved art references. 
