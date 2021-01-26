@@ -55,6 +55,19 @@ $('.button-group').each( function( i, buttonGroup ) {
   });
 });
 
+
+
+//on click, 
+
+//if any other button is checked, uncheck "any"
+// if the button is already checked, toggle.
+//if any is clicked, uncheck everything except any
+
+//remove checked from any, toggle this
+
+
+
+
 // flatten object by concatting values
 function concatValues( obj ) {
   var value = '';

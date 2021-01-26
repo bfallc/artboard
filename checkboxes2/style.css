@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
+.item {
+  width: 80px;
+  height: 80px;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  float: left;
+}
+
+label { margin-right: 5px; }
+
+p {
+  margin: 0;
+}
+
+#filter-display {
+  font-size: 18px;
+  padding: 0.5em;
+  border: 1px solid #CCC;
+  color: blue;
+}
+
+.red { background: red; }
+.blue { background: blue; }
+.green { background: green; }
+.yellow { background: yellow; color: black; }
