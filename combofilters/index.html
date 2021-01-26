@@ -1,24 +1,10 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Isotope - combination filters &amp; search</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<h1>Isotope - combination filters &amp; search</h1>
-
-
-<p><input type="text" class="quicksearch" placeholder="Search" /></p>
+<h1>Isotope - combination filters with toggle buttons</h1>
 
 <div class="filters">
 
   <div class="ui-group">
     <h3>Color</h3>
-    <div class="button-group js-radio-button-group" data-filter-group="color">
-      <button class="button is-checked" data-filter="">any</button>
+    <div class="button-group js-radio-button-group">
       <button class="button" data-filter=".red">red</button>
       <button class="button" data-filter=".blue">blue</button>
       <button class="button" data-filter=".yellow">yellow</button>
@@ -27,8 +13,7 @@
 
   <div class="ui-group">
     <h3>Size</h3>
-    <div class="button-group js-radio-button-group" data-filter-group="size">
-      <button class="button is-checked" data-filter="">any</button>
+    <div class="button-group js-radio-button-group">
       <button class="button" data-filter=".small">small</button>
       <button class="button" data-filter=".wide">wide</button>
       <button class="button" data-filter=".big">big</button>
@@ -38,8 +23,7 @@
 
   <div class="ui-group">
     <h3>Shape</h3>
-    <div class="button-group js-radio-button-group" data-filter-group="shape">
-      <button class="button is-checked" data-filter="">any</button>
+    <div class="button-group js-radio-button-group">
       <button class="button" data-filter=".round">round</button>
       <button class="button" data-filter=".square">square</button>
     </div>
@@ -48,34 +32,28 @@
 </div>
 
 <div class="grid">
-  <div class="color-shape small round red">Hydrogen</div>
-  <div class="color-shape small round blue">Helium</div>
-  <div class="color-shape small round yellow">Lithium</div>
-  <div class="color-shape small square red">Beryllium</div>
-  <div class="color-shape small square blue">Boron</div>
-  <div class="color-shape small square yellow">Carbon</div>
-  <div class="color-shape wide round red">Nitrogen</div>
-  <div class="color-shape wide round blue">Oxygen</div>
-  <div class="color-shape wide round yellow">Fluorine</div>
-  <div class="color-shape wide square red">Neon</div>
-  <div class="color-shape wide square blue">Sodium</div>
-  <div class="color-shape wide square yellow">Magnesium</div>
-  <div class="color-shape big round red">Aluminum</div>
-  <div class="color-shape big round blue">Silicon</div>
-  <div class="color-shape big round yellow">Phosphorus</div>
-  <div class="color-shape big square red">Sulfur</div>
-  <div class="color-shape big square blue">Chlorine</div>
-  <div class="color-shape big square yellow">Argon</div>
-  <div class="color-shape tall round red">Potassium</div>
-  <div class="color-shape tall round blue">Calcium</div>
-  <div class="color-shape tall round yellow">Scandium</div>
-  <div class="color-shape tall square red">Titanium</div>
-  <div class="color-shape tall square blue">Vanadium</div>
-  <div class="color-shape tall square yellow">Chromium</div>
+  <div class="color-shape small round red"></div>
+  <div class="color-shape small round blue"></div>
+  <div class="color-shape small round yellow"></div>
+  <div class="color-shape small square red"></div>
+  <div class="color-shape small square blue"></div>
+  <div class="color-shape small square yellow"></div>
+  <div class="color-shape wide round red"></div>
+  <div class="color-shape wide round blue"></div>
+  <div class="color-shape wide round yellow"></div>
+  <div class="color-shape wide square red"></div>
+  <div class="color-shape wide square blue"></div>
+  <div class="color-shape wide square yellow"></div>
+  <div class="color-shape big round red"></div>
+  <div class="color-shape big round blue"></div>
+  <div class="color-shape big round yellow"></div>
+  <div class="color-shape big square red"></div>
+  <div class="color-shape big square blue"></div>
+  <div class="color-shape big square yellow"></div>
+  <div class="color-shape tall round red"></div>
+  <div class="color-shape tall round blue"></div>
+  <div class="color-shape tall round yellow"></div>
+  <div class="color-shape tall square red"></div>
+  <div class="color-shape tall square blue"></div>
+  <div class="color-shape tall square yellow"></div>
 </div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-<script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script><script  src="./script.js"></script>
-
-</body>
-</html>

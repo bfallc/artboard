@@ -1,70 +1,38 @@
 // external js: isotope.pkgd.js
 
-// store filter for each group
-var buttonFilters = {};
-var buttonFilter;
-// quick search regex
-var qsRegex;
-
 // init Isotope
 var $grid = $('.grid').isotope({
-  itemSelector: '.color-shape',
-  filter: function() {
-    var $this = $(this);
-    var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
-    var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
-    return searchResult && buttonResult;
-  },
+  itemSelector: '.color-shape'
 });
 
-$('.filters').on( 'click', '.button', function() {
-  var $this = $(this);
-  // get group key
-  var $buttonGroup = $this.parents('.button-group');
-  var filterGroup = $buttonGroup.attr('data-filter-group');
-  // set filter for group
-  buttonFilters[ filterGroup ] = $this.attr('data-filter');
-  // combine filters
-  buttonFilter = concatValues( buttonFilters );
-  // Isotope arrange
-  $grid.isotope();
-});
-
-// use value of search field to filter
-var $quicksearch = $('.quicksearch').keyup( debounce( function() {
-  qsRegex = new RegExp( $quicksearch.val(), 'gi' );
-  $grid.isotope();
-}) );
+// store filter for each group
+var filters = [];
 
 // change is-checked class on buttons
-$('.button-group').each( function( i, buttonGroup ) {
-  var $buttonGroup = $( buttonGroup );
-  $buttonGroup.on( 'click', 'button', function() {
-    $buttonGroup.find('.is-checked').removeClass('is-checked');
-    $( this ).addClass('is-checked');
-  });
+$('.filters').on( 'click', 'button', function( event ) {
+  var $target = $( event.currentTarget );
+  $target.toggleClass('is-checked');
+  var isChecked = $target.hasClass('is-checked');
+  var filter = $target.attr('data-filter');
+  if ( isChecked ) {
+    addFilter( filter );
+  } else {
+    removeFilter( filter );
+  }
+  // filter isotope
+  // group filters together, inclusive
+  $grid.isotope({ filter: filters.join(',') });
 });
   
-// flatten object by concatting values
-function concatValues( obj ) {
-  var value = '';
-  for ( var prop in obj ) {
-    value += obj[ prop ];
+function addFilter( filter ) {
+  if ( filters.indexOf( filter ) == -1 ) {
+    filters.push( filter );
   }
-  return value;
 }
 
-// debounce so filtering doesn't happen every millisecond
-function debounce( fn, threshold ) {
-  var timeout;
-  threshold = threshold || 100;
-  return function debounced() {
-    clearTimeout( timeout );
-    var args = arguments;
-    var _this = this;
-    function delayed() {
-      fn.apply( _this, args );
-    }
-    timeout = setTimeout( delayed, threshold );
-  };
+function removeFilter( filter ) {
+  var index = filters.indexOf( filter);
+  if ( index != -1 ) {
+    filters.splice( index, 1 );
+  }
 }
