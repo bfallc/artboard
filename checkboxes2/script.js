@@ -1,3 +1,5 @@
+
+
 /*jshint browser:true, undef: true, unused: true, jquery: true */
 console.log("hello");
 // store filter per group
@@ -92,6 +94,9 @@ function getComboFilter() {
 //search
 // use value of search field to filter
 var $quicksearch = $('.quicksearch').keyup( debounce( function() {
+  
+  $('input:checked').prop("checked", false);
+  
   qsRegex = new RegExp( $quicksearch.val(), 'gi' );
   $container.isotope({
     itemSelector: '.item',

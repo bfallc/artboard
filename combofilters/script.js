@@ -1,8 +1,12 @@
 // external js: isotope.pkgd.js
 
+// quick search regex
+var qsRegex;
+
 // init Isotope
 var $grid = $('.grid').isotope({
-  itemSelector: '.color-shape'
+  itemSelector: '.item'
+
 });
 
 // store filter for each group
@@ -36,3 +40,30 @@ function removeFilter( filter ) {
     filters.splice( index, 1 );
   }
 }
+
+// use value of search field to filter
+var $quicksearch = $('.quicksearch').keyup( debounce( function() {
+  qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+  $grid.isotope({  //search
+    filter: function() {
+      var $this = $(this);
+      var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
+      return searchResult;
+    },});
+}) );
+
+// debounce so filtering doesn't happen every millisecond
+function debounce( fn, threshold ) {
+  var timeout;
+  threshold = threshold || 100;
+  return function debounced() {
+    clearTimeout( timeout );
+    var args = arguments;
+    var _this = this;
+    function delayed() {
+      fn.apply( _this, args );
+    }
+    timeout = setTimeout( delayed, threshold );
+  };
+}
+
