@@ -38,14 +38,53 @@ var $quicksearch = $('.quicksearch').keyup( debounce( function() {
 }) );
 
 // change is-checked class on buttons
+
+//for loop
 $('.button-group').each( function( i, buttonGroup ) {
   var $buttonGroup = $( buttonGroup );
   $buttonGroup.on( 'click', 'button', function() {
+   
+    // //--find the currently checked button, and uncheck it
+      // $target.toggleClass('is-checked');
+
+    //--find the currently checked button, and uncheck it
     $buttonGroup.find('.is-checked').removeClass('is-checked');
+    //--make this button 'checked'
     $( this ).addClass('is-checked');
+  
   });
 });
-  
+
+// flatten object by concatting values
+function concatValues( obj ) {
+  var value = '';
+  for ( var prop in obj ) {
+    value += obj[ prop ];
+  }
+  return value;
+}
+
+// debounce so filtering doesn't happen every millisecond
+function debounce( fn, threshold ) {
+  var timeout;
+  threshold = threshold || 100;
+  return function debounced() {
+    clearTimeout( timeout );
+    var args = arguments;
+    var _this = this;
+    function delayed() {
+      fn.apply( _this, args );
+    }
+    timeout = setTimeout( delayed, threshold );
+  };
+}
+
+//---
+
+
+// // store filter for each group
+// var filters = [];
+
 // // change is-checked class on buttons
 // $('.filters').on( 'click', 'button', function( event ) {
 //   var $target = $( event.currentTarget );
@@ -74,27 +113,3 @@ $('.button-group').each( function( i, buttonGroup ) {
 //     filters.splice( index, 1 );
 //   }
 // }
-
-// flatten object by concatting values
-function concatValues( obj ) {
-  var value = '';
-  for ( var prop in obj ) {
-    value += obj[ prop ];
-  }
-  return value;
-}
-
-// debounce so filtering doesn't happen every millisecond
-function debounce( fn, threshold ) {
-  var timeout;
-  threshold = threshold || 100;
-  return function debounced() {
-    clearTimeout( timeout );
-    var args = arguments;
-    var _this = this;
-    function delayed() {
-      fn.apply( _this, args );
-    }
-    timeout = setTimeout( delayed, threshold );
-  };
-}
