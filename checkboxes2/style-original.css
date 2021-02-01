@@ -1,8 +1,7 @@
-* { box-sizing: border-box; }
 
 body {
   font-family: sans-serif;
-  margin:0px;
+
 }
 
 /* ---- input ---- */
@@ -12,8 +11,8 @@ input[type="text"] {
 }
 
 .item {
-  width: 310px;
-  /* height: 80px; */
+  width: 80px;
+  height: 80px;
   padding: 5px;
   margin: 4px;
   background-color:rgb(161, 205, 255);
@@ -47,39 +46,9 @@ p {
   clear: both;
 }
 
-/* 
+
 .red { background: red; }
 .blue { background: blue; }
 .green { background: green; }
-.yellow { background: yellow; color: black; } */
+.yellow { background: yellow; color: black; }
 
-
-.image {
-  width: 300px;
-  display:block;
-  margin:auto;
-}
-
-.header {
-  margin:10px;
-}
-
-.filters {
-  margin: 10px;
-}
-
-h2 { 
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
-
-h2 span {
-  font-size: .5em;
-  margin-right: 20px;
-  margin-left: 10px;
-}
-
-.footer {
-  margin: 20px;
-  font-size: .75em;
-}

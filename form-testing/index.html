@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><link rel="stylesheet" type="text/css" href="style.css"></head>
+<body>    <div>
+        <p>This messag will auto refresh if changd:</p>
+        <p id="content1">83</p>
+        <p>This message is changed by the form below:</p>
+        <p id="content2">say=hello&amp;to=world</p>
+    </div>    <div>        <form action="/artboard/update.php" method="POST" target="/index.html">
+            <div>
+                <label for="say">What do you want to say?</label>
+                <input name="say" id="say" value="Hello">
+            </div>
+            <div>
+                <label for="to">To whom?</label>
+                <input name="to" id="to" value="world">
+            </div>
+            <div>
+                <button>Send</button>
+            </div>
+        </form>    </div>    <script>        $(document).ready(function(){
+            var $form = $('form');
+            $form.submit(function(){
+                $.post($(this).attr('action'), $(this).serialize(), function(response){
+                // do something here on success
+                },'json');
+                return false;
+            });
+        });        $(document).ready(function () {
+            setInterval(function () {
+                $("#content1").load("index.html #content1");
+            }, 2000);               setInterval(function () {
+                $("#content2").load("index.html #content2");
+            }, 2000);           });    </script>
+</body>
+</html>

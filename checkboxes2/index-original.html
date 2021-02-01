@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Isotope combination filters with checkboxes 2</title>
+  <link rel="stylesheet" href="./style-original.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Isotope combination filters with checkboxes 2</h1>
+<span class="searchbar"><input type="text" class="quicksearch" placeholder="Search text" /></span>
+<div id="options">
+  <div class="option-set" data-group="brand">
+    <label><input type="checkbox" value=".brand1" /> brand1</label>
+    <label><input type="checkbox" value=".brand2" /> brand2</label>
+    <label><input type="checkbox" value=".brand3" /> brand3</label>
+    <label><input type="checkbox" value=".brand4" /> brand4</label>
+  </div>
+  <div class="option-set" data-group="type">
+    <label><input type="checkbox" value=".alpha" /> alpha</label>
+    <label><input type="checkbox" value=".beta" /> beta</label>
+    <label><input type="checkbox" value=".gamma" /> gamma</label>
+    <label><input type="checkbox" value=".delta" /> delta</label>
+  </div>
+  <div class="option-set" data-group="color">
+    <label><input type="checkbox" value=".red" /> red</label>
+    <label><input type="checkbox" value=".blue" /> blue</label>
+    <label><input type="checkbox" value=".green" /> green</label>
+    <label><input type="checkbox" value=".yellow" /> yellow</label>
+  </div>
+  <div class="option-set" data-group="size">
+    <label><input type="checkbox" value=".netart" /> size8</label>
+    <label><input type="checkbox" value=".size9" /> size9</label>
+    <label><input type="checkbox" value=".size10" /> size10</label>
+    <label><input type="checkbox" value=".size11" /> size11</label>
+  </div>
+</div>
+
+<p id="filter-display"></p>
+
+<div id="container">
+
+  <div class="item brand1 alpha red size8">
+    <p>brand1</p>
+    <p>alpha</p>
+    <p>size8</p>
+  </div>
+
+  <div class="item brand2 alpha blue size8">
+    <p>brand2</p>
+    <p>alpha</p>
+    <p>size8</p>
+  </div>
+
+  <div class="item brand3 alpha yellow size9">
+    <p>brand3</p>
+    <p>alpha</p>
+    <p>size9</p>
+  </div>
+
+  <div class="item brand3 gamma yellow size9">
+    <p>brand3</p>
+    <p>gamma</p>
+    <p>size9</p>
+  </div>
+
+  <div class="item brand4 alpha red size8">
+    <p>brand4</p> 
+    <p>alpha</p>
+    <p>size8</p>
+  </div>
+
+  <div class="item brand1 beta green size10">
+    <p>brand1</p>
+    <p>alpha</p>
+    <p>size10</p>
+  </div>
+
+  <div class="item brand1 beta green size10">
+    <p>brand1</p>
+    <p>beta</p>
+    <p>size10</p>
+  </div>
+
+  <div class="item brand1 delta green size10">
+    <p>brand1</p>
+    <p>delta</p>
+    <p>size10</p>
+  </div>
+
+  <div class="item brand1 delta blue size10">
+    <p>brand1</p>
+    <p>delta</p>
+    <p>size10</p>
+  </div>
+
+</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

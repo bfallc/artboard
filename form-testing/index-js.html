@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="header">
+        Send Form's data as JSON
+       </div>
+       
+       <form id="myform" type="post">
+         <fieldset>
+           <legend>Ajax Form  </legend>
+           <p>We would love to hear from you. Please fill out this form</p>
+           <div class="elements">
+             <label for="name">Name :</label>
+             <input  required="required" type="text"  value="Girish Kumar Santhu" name="fname"  size="20"  />
+           </div>
+            <div class="elements">
+             <label for="Age">Age :</label>
+             <input required="required" type="number" value="32" id="age" name="age" size="10" />
+           </div>  
+           <div class="elements">
+             <label for="pro"> Profession :</label>
+             <select name="pro">
+          <option value="Student">Student</option>
+          <option value="Engineer" selected="selected">Engineer</option>
+          </select>
+           </div>      
+           <div class="elements">
+           <label for="Gender">Gender: </label>
+             <input type="radio" name="gender" value="Male" checked="checked" id="r1"> Male 
+         <input type="radio" name="gender" value="Female" id="r2"> Female 
+       </div>  
+           <div class="elements">
+             <label for="hobby">Hobby :</label>
+             <input type="checkbox" name="hobby[]" value="Sports" id="ch1" checked="checked"> Sports 
+         <input type="checkbox" name="hobby[]" value="Coding"  id="ch2"> Coding 
+          </div>
+       
+           <div class="submit">
+              <input type="submit" id="btn" name="btn" class="btn" value="Submit" />
+           </div>
+           <span class="elements">Press "Ctrl + Shift + J" to see sent JSON in console: <span>
+         </fieldset>
+       </form>
+       
+
+       <script type="text/javascript">
+        $(document).ready(function() {
+        $("#btn").click(function(e){
+           var jsonData = {};
+      
+         var formData = $("#myform").serializeArray();
+        // console.log(formData);
+      
+         $.each(formData, function() {
+              if (jsonData[this.name]) {
+                 if (!jsonData[this.name].push) {
+                     jsonData[this.name] = [jsonData[this.name]];
+                 }
+                 jsonData[this.name].push(this.value || '');
+             } else {
+                 jsonData[this.name] = this.value || '';
+             }
+      
+      
+         });
+         console.log(jsonData);
+          $.ajax(
+          {
+              url : "action.php",
+              type: "POST",
+              data : jsonData,
+      
+          });
+          e.preventDefault(); 
+      });
+      });
+      </script>
+      
+
+</body>
+</html>

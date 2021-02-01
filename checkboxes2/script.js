@@ -1,5 +1,3 @@
-
-
 /*jshint browser:true, undef: true, unused: true, jquery: true */
 console.log("hello");
 // store filter per group
@@ -18,6 +16,7 @@ var qsRegex;
 // };
 
 var $container = $('#container');
+// console.log($container);
 
 // createContent();
 
@@ -27,11 +26,14 @@ $container.isotope();
 
 // do stuff when checkbox change
 $('#options').on( 'change', function( event ) {
+  console.log("clicked");
+
   var checkbox = event.target;
   var $checkbox = $( checkbox );
   var group = $checkbox.parents('.option-set').attr('data-group');
   // create array for filter group, if not there yet
   var filterGroup = filters[ group ];
+  console.log(filterGroup);
   if ( !filterGroup ) {
     filterGroup = filters[ group ] = [];
   }
