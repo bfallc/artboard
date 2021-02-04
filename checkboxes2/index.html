@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <title>Artboard v0.1</title>
   <link rel="stylesheet" href="./style.css">
-
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 </head>
 
-<body onload="load()">
+<body>
 
   <!-- partial:index.partial.html -->
 
@@ -34,7 +34,6 @@
     <label><input type="checkbox" value=".other" /> other</label>
   </div>
   <hr>
-
   <div class="option-set" data-group="topic">
     <label><input type="checkbox" value=".technology" /> technology</label>
     <label><input type="checkbox" value=".blockchain" /> blockchain</label>
@@ -64,7 +63,7 @@
 
 <div id="container">
 
-  <div class="item sculpture technology red size8">
+  <!-- <div class="item sculpture technology red size8">
     <p>brand1</p>
     <p>alpha</p>
     <p>size8</p>
@@ -98,7 +97,7 @@
     <p>brand1</p>
     <p>alpha</p>
     <p>size10</p>
-  </div>
+  </div> -->
 
 
 
@@ -112,7 +111,7 @@
 <!-- load json and dynamically generate div data -->
 <script>
 
-  function load() {
+  //function load() {
 
     // fetch api used to avoid CORS problems in a local (non-server) deployment. Edit: wrong! Still doesn't work.
     fetch('art.json').then(response => {
@@ -128,32 +127,29 @@
       console.log("number of entries: " + data.length);
       //log json arrays to console
       console.log(data);
-
+      
       //generate data divs within grid container
-      for(var i = 0;i < data.length; i++)
-        {
-          // div.innerHTML = div.innerHTML + "<p class='inner' id="+i+">"+ data[i].title +"</p>" + "<br>";
-            div.innerHTML = 
-            div.innerHTML + 
-            "<div class='item " + data[i].medium + " " + data[i].topic + " " + data[i].decade + " " + data[i].movement + "'>" + 
-                "<a href=" + data[i].image + " target='_blank'>" +
-                "<img class=image src=" + data[i].image + "></a>" +
-                "<p class='title'>" + data[i].firstname + " " + data[i].lastname + " - " + data[i].title + " (" + data[i].year + ") </p>" + 
-                "<p class='description'>" + data[i].description + "</p>" +
-                "<p class='externallink'><a href=" + data[i].link + " target='_blank'>[external link]</a></p>" +
-                "</div>";
-        }
+      for(var i = 0; i < data.length; i++) {
+        div.innerHTML = div.innerHTML +
+          `<div class='item ${data[i].medium} ${data[i].topic} ${data[i].decade} ${data[i].movement}'>
+              <a href='${data[i].image} target='_blank'>
+              <img class=image src='${data[i].image}'></a>
+              <p class='title'>${data[i].firstname} ${data[i].lastname} - ${data[i].title} (${data[i].year})</p>
+              <p class='description'>${data[i].description}</p>
+              <p class='externallink'><a href=${data[i].link} target='_blank'>[external link]</a></p>
+            </div>`;
+      }
     
     }).catch(err => {
       // Do something for an error here
       console.log("there was an error");
     }); //end
 
-  } 
+  //} 
 
 </script>
 
-<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
 <script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
 <script  src="./script.js"></script>
 

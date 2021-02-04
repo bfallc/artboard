@@ -1,5 +1,6 @@
 /*jshint browser:true, undef: true, unused: true, jquery: true */
 console.log("hello");
+$('.quicksearch').val('');
 // store filter per group
 var filters = {};
 
@@ -27,6 +28,7 @@ $container.isotope();
 // do stuff when checkbox change
 $('#options').on( 'change', function( event ) {
   console.log("clicked");
+  $('.quicksearch').val('');
 
   var checkbox = event.target;
   var $checkbox = $( checkbox );
