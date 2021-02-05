@@ -9,6 +9,7 @@ var filters = {};
 // quick search regex
 var qsRegex;
 
+
 var $container = $('#container');
 
 $container = $('#container').imagesLoaded( function() {
@@ -16,6 +17,8 @@ $container = $('#container').imagesLoaded( function() {
     itemSelector: '.item',
   });
 });
+
+var sortOrder = true;
 
 //SORT - part 1
 //initialization (can't be added above 'cause that's for imagesLoaded only)
@@ -33,8 +36,18 @@ $container = $('#container').isotope({
 //button clicking
 $('.sort-by-button-group').on( 'click', 'button', function() {
   var sortValue = $(this).attr('data-sort-by');
-  console.log(sortValue);
-  $container.isotope({ sortBy: sortValue });
+
+  if(sortValue == "random"){
+    $container.isotope('shuffle');
+  } else {
+    $container.isotope({ 
+      sortBy: sortValue,
+      sortAscending: sortOrder
+    });
+    //flip-flop between ascending and descending modes on each click
+    sortOrder = !sortOrder;
+  }
+
 });
 
 // createContent();
