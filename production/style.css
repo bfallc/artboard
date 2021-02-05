@@ -115,10 +115,11 @@ h2 span {
 }
 
 .option-set {
-  width: max-content;
+  max-width: max-content;
+  width: auto;
   padding: .5em;
   margin: .5em;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 div[data-group="medium"] {
