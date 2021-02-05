@@ -10,7 +10,8 @@
   "medium": "internet screen-based",
   "topic": "capitalism technology",
   "decade": "2000s",
-  "movement": "netart"
+  "movement": "netart",
+  "keyword": "cool"
 },
 
 {
@@ -24,7 +25,8 @@
   "medium": "performance",
   "topic": "capitalism technology",
   "decade": "2010s",
-  "movement": ""
+  "movement": "",
+  "keywords": "cool"
 },
 
 {
@@ -38,7 +40,8 @@
   "medium": "sculpture installation",
   "topic": "artcrit",
   "decade": "2000s",
-  "movement": ""
+  "movement": "",
+  "keywords": "cool"
 },
 
 {
@@ -52,7 +55,8 @@
   "medium": "sculpture",
   "topic": "capitalism artcrit",
   "decade": "1990s",
-  "movement": ""
+  "movement": "",
+  "keywords": "cool"
 },
 
 {
@@ -66,7 +70,8 @@
   "medium": "internet screen-based",
   "topic": "capitalism technology",
   "decade": "2000s",
-  "movement": "netart"
+  "movement": "netart",
+  "keywords": "cool"
 },
 
 {
@@ -80,7 +85,8 @@
   "medium": "performance",
   "topic": "capitalism technology",
   "decade": "2010s",
-  "movement": ""
+  "movements": "",
+  "keywords": "cool"
 },
 
 {
@@ -94,7 +100,8 @@
   "medium": "sculpture installation",
   "topic": "artcrit",
   "decade": "2000s",
-  "movement": ""
+  "movement": "",
+  "keywords": "cool"
 },
 
 {
@@ -108,7 +115,8 @@
   "medium": "sculpture",
   "topic": "capitalism artcrit",
   "decade": "1990s",
-  "movement": ""
+  "movement": "",
+  "keywords": "cool"
 }
 
 
