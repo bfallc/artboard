@@ -17,7 +17,7 @@ fetch('art.json').then(response => {
   for(var i = 0; i < data.length; i++) {
     div.innerHTML = div.innerHTML +
       `<div class='item ${data[i].medium} ${data[i].topic} ${data[i].decade} ${data[i].movement}'>
-          <a href='${data[i].image} target='_blank'>
+          <a href='images/${data[i].image}' target='_blank'>
           <img class=image src='images/${data[i].image}'></a>
           <div class="item__text">
             <p class='titlebar'><span class='firstname'>${data[i].firstname}</span> <span class='lastname'>${data[i].lastname}</span> - <span class='title'>${data[i].title}</span> (<span class='year'>${data[i].year}</span>)</p>
