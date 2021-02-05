@@ -18,10 +18,12 @@ fetch('art.json').then(response => {
     div.innerHTML = div.innerHTML +
       `<div class='item ${data[i].medium} ${data[i].topic} ${data[i].decade} ${data[i].movement}'>
           <a href='${data[i].image} target='_blank'>
-          <img class=image src='${data[i].image}'></a>
-          <p class='title'>${data[i].firstname} ${data[i].lastname} - ${data[i].title} (${data[i].year})</p>
-          <p class='description'>${data[i].description}</p>
-          <p class='externallink'><a href=${data[i].link} target='_blank'>[external link]</a></p>
+          <img class=image src='images/${data[i].image}'></a>
+          <div class="item__text">
+            <p class='title'>${data[i].firstname} ${data[i].lastname} - ${data[i].title} (${data[i].year})</p>
+            <p class='description'>${data[i].description}</p>
+            <p class='externallink'><a href=${data[i].link} target='_blank'>[external link]</a></p>
+          </div>
         </div>`;
   }
 
