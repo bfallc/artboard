@@ -115,8 +115,8 @@ h2 span {
 }
 
 .option-set {
+  
   max-width: max-content;
-  width: auto;
   padding: .5em;
   margin: .5em;
   border-radius: 10px;
