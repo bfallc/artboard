@@ -13,11 +13,29 @@ var $container = $('#container');
 
 $container = $('#container').imagesLoaded( function() {
   $container.isotope({
-    itemSelector: '.item'
+    itemSelector: '.item',
   });
 });
 
-// console.log($container);
+//SORT - part 1
+//initialization (can't be added above 'cause that's for imagesLoaded only)
+$container = $('#container').isotope({
+  itemSelector: '.item',
+  getSortData: {
+    firstname: '.firstname',
+    lastname: '.lastname',
+    title: '.title',
+    year: '.year'
+  }
+})
+
+// SORT - part2
+//button clicking
+$('.sort-by-button-group').on( 'click', 'button', function() {
+  var sortValue = $(this).attr('data-sort-by');
+  console.log(sortValue);
+  $container.isotope({ sortBy: sortValue });
+});
 
 // createContent();
 

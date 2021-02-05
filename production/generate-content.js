@@ -20,7 +20,7 @@ fetch('art.json').then(response => {
           <a href='${data[i].image} target='_blank'>
           <img class=image src='images/${data[i].image}'></a>
           <div class="item__text">
-            <p class='title'>${data[i].firstname} ${data[i].lastname} - ${data[i].title} (${data[i].year})</p>
+            <p class='titlebar'><span class='firstname'>${data[i].firstname}</span> <span class='lastname'>${data[i].lastname}</span> - <span class='title'>${data[i].title}</span> (<span class='year'>${data[i].year}</span>)</p>
             <p class='description'>${data[i].description}</p>
             <p class='externallink'><a href=${data[i].link} target='_blank'>[external link]</a></p>
           </div>
