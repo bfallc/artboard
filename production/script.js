@@ -1,4 +1,4 @@
-console.log("this is script.js");
+console.log("this is script.js [isotope]");
 
 // clears search box on page load
 $('.quicksearch').val('');
@@ -12,9 +12,12 @@ var qsRegex;
 
 var $container = $('#container');
 
+//call isotope init after all images are loaded (isotope trouble spot)
 $container = $('#container').imagesLoaded( function() {
   $container.isotope({
     itemSelector: '.item',
+    //fit rows layout mode for testing instead of masonry
+    layoutMode: 'fitRows',
   });
 });
 
@@ -25,10 +28,33 @@ var sortOrder = true;
 $container = $('#container').isotope({
   itemSelector: '.item',
   getSortData: {
-    firstname: '.firstname',
-    lastname: '.lastname',
-    title: '.title',
-    year: '.year'
+    firstname: function( itemElem ) {
+      //find the text within the class
+      var name = $( itemElem ).find('.firstname').text();
+      //make lowercase to sort better
+      return name.toLowerCase();
+    },
+
+    lastname: function( itemElem ) {
+      var name = $( itemElem ).find('.lastname').text();
+      return name.toLowerCase();
+    },
+
+    title: function( itemElem ) {
+      var name = $( itemElem ).find('.title').text();
+      return name.toLowerCase();
+    },
+
+    year: function( itemElem ) {
+      var year = $( itemElem ).find('.year').text();
+      //if no year, make it 0000
+      if(year == ""){
+        year = "0000";
+      }
+      //use just the first 4 char in case of multi years
+      firstYear = year.substring(0,4);
+      return firstYear;
+    },
   }
 })
 

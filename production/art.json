@@ -60,48 +60,48 @@
 },
 
 {
-  "firstname": "Aaron",
-  "lastname": "Koblin",
-  "title": "The Sheep Market",
-  "year": "2006",
-  "description": "ain't it neat?",
-  "link": "http://www.aaronkoblin.com/work/thesheepmarket/",
-  "image": "AaronKoblin-SheepMarket.jpg",
-  "medium": "internet screen-based",
-  "topic": "capitalism technology",
+  "firstname": "Ai",
+  "lastname": "Weiwei",
+  "title": "World Map",
+  "year": "",
+  "description": "[description]",
+  "link": "",
+  "image": "AiWeiwei-WorldMap.jpg",
+  "medium": "sculpture installation",
+  "topic": "capitalism",
   "decade": "2000s",
-  "movement": "netart",
-  "keywords": "cool"
+  "movement": "",
+  "keywords": "ai weiwei china chinese world fabric felt capitalism market consumerism"
 },
 
 {
-  "firstname": "Adam",
-  "lastname": "Harvey",
-  "title": "CV Dazzle",
-  "year": "2010-2013",
-  "description": "Fashion styles, haircuts, and makeup designed to circumvent machine vision and surveillance systems.",
-  "link": "https://cvdazzle.com/",
-  "image": "AdamHarvey-CVDazzle.jpg",
-  "medium": "performance",
+  "firstname": "Ai",
+  "lastname": "Weiwei",
+  "title": "photo",
+  "year": "",
+  "description": "description",
+  "link": "",
+  "image": "AiWeiwei.jpg",
+  "medium": "photo performance",
   "topic": "capitalism technology",
   "decade": "2010s",
   "movements": "",
-  "keywords": "cool"
+  "keywords": "china dissident authoritarian arrest"
 },
 
 {
-  "firstname": "AES+F",
-  "lastname": "",
-  "title": "Europe Europe",
-  "year": "2007-2008",
-  "description": "Porcelain figurines in wooden cabinet. Based on traditional 18th century artworks, but updated for contemporary politics and society.",
-  "link": "https://aesf.art/projects/europe_europe/",
-  "image": "AES+F-EuropeEurope.jpg",
-  "medium": "sculpture installation",
-  "topic": "artcrit",
+  "firstname": "Albin",
+  "lastname": "Karlsson",
+  "title": "Thermopaper 2",
+  "year": "",
+  "description": "description",
+  "link": "",
+  "image": "AlbinKarlsson-Thermopaper2.jpg",
+  "medium": "sculpture",
+  "topic": "technology",
   "decade": "2000s",
   "movement": "",
-  "keywords": "cool"
+  "keywords": "minimal abstract tech thermopaper"
 },
 
 {

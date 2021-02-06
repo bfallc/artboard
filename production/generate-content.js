@@ -25,6 +25,8 @@ fetch('art.json').then(response => {
             <p class='externallink'><a href=${data[i].link} target='_blank'>[external link]</a></p>
           </div>
         </div>`;
+
+        console.log("done generating content")
   }
 
 }).catch(err => {
