@@ -26,8 +26,24 @@ fetch('art.json').then(response => {
           </div>
         </div>`;
 
-        console.log("done generating content")
+        
   }
+  //possible last div for form stuff
+  div.innerHTML = div.innerHTML + `<div class='item' id='end'><form action="/action_page.php">
+  <input type="text" id="ffirstname" name="fname" value="first name"><br>
+  <input type="text" id="flastname" name="lname" value="last name"><br>
+  <input type="text" id="ftitle" name="title" value="title"><br>
+  <input type="text" id="fyear" name="year" value="year"><br>
+  <input type="text" id="fdescription" name="description" value="description"><br>
+  <input type="text" id="fmedium" name="mediums" value="mediums"><br>
+  <input type="text" id="ftopics" name="topics" value="topics"><br>
+  <input type="text" id="fkeywords" name="keywords" value="keywords"><br>
+  <input type="text" id="fmovement" name="movement" value="movement"><br>
+  <input type="file" id="myFile" name="filename"><br><br>
+  <input type="submit" value="Submit">
+</form> </div>`;
+
+  console.log("done generating content");
 
 }).catch(err => {
   // Do something for an error here

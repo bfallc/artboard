@@ -1,3 +1,5 @@
+//SCRIPT.JS BELOW////////
+
 console.log("this is script.js [isotope]");
 
 // clears search box on page load
@@ -20,6 +22,25 @@ $container = $('#container').imagesLoaded( function() {
     layoutMode: 'fitRows',
   });
 });
+
+//ATTEMPT TO RELOAD ISOTOPE AFTER JSON CONTENT IS LOADED 
+jQuery(document).ready(checkContainer);
+
+function checkContainer () {
+  if($('#end').is(':visible')){ //if the container is visible on the page
+    $container.isotope({
+      itemSelector: '.item',
+      //fit rows layout mode for testing instead of masonry
+      layoutMode: 'fitRows',
+    });
+    console.log("end loaded");
+  } else {
+    setTimeout(checkContainer, 100); //wait 50 ms, then try again
+  }
+}
+//didn't work...
+
+
 
 var sortOrder = true;
 
@@ -56,7 +77,7 @@ $container = $('#container').isotope({
       return firstYear;
     },
   }
-})
+});
 
 // SORT - part2
 //button clicking
