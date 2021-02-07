@@ -20,6 +20,9 @@ $container = $('#container').imagesLoaded( function() {
     itemSelector: '.item',
     //fit rows layout mode for testing instead of masonry
     layoutMode: 'fitRows',
+  //   fitRows:{
+  //     columnWidth: 320
+  // }  
   });
 });
 

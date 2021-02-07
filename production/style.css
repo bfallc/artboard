@@ -17,6 +17,7 @@ input[type="text"] {
 
 .item {
   width: 100%;
+  /* width: 400px; */
   max-width: 400px;
 
   /* height: 80px; */
@@ -144,4 +145,8 @@ div[data-group="movement"] {
   margin: .5em;
   border-radius: 10px;
 
+}
+
+.keywords {
+  display: none;
 }
