@@ -44,13 +44,17 @@ $container = $('#container').isotope({
     },
 
     lastname: function( itemElem ) {
-      var name = $( itemElem ).find('.lastname').text();
-      return name.toLowerCase();
+      var lastname = $( itemElem ).find('.lastname').text();
+      //if there is no lastname (artist group), use the firstname instead
+      if(lastname == ""){
+        lastname = $( itemElem ).find('.firstname').text();
+      }
+      return lastname.toLowerCase();
     },
 
     title: function( itemElem ) {
-      var name = $( itemElem ).find('.title').text();
-      return name.toLowerCase();
+      var title = $( itemElem ).find('.title').text();
+      return title.toLowerCase();
     },
 
     year: function( itemElem ) {
