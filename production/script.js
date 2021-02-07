@@ -1,5 +1,4 @@
 //SCRIPT.JS BELOW////////
-
 console.log("this is script.js [isotope]");
 
 // clears search box on page load
@@ -11,41 +10,26 @@ var filters = {};
 // quick search regex
 var qsRegex;
 
-
 var $container = $('#container');
 
-//call isotope init after all images are loaded (isotope trouble spot)
-$container = $('#container').imagesLoaded( function() {
-  $container.isotope({
-    itemSelector: '.item',
-    //fit rows layout mode for testing instead of masonry
-    layoutMode: 'fitRows',
-  //   fitRows:{
-  //     columnWidth: 320
-  // }  
-  });
-});
-
 //ATTEMPT TO RELOAD ISOTOPE AFTER JSON CONTENT IS LOADED 
-jQuery(document).ready(checkContainer);
+// jQuery(document).ready(checkContainer);
 
-function checkContainer () {
-  if($('#end').is(':visible')){ //if the container is visible on the page
-    $container.isotope({
-      itemSelector: '.item',
-      //fit rows layout mode for testing instead of masonry
-      layoutMode: 'fitRows',
-    });
-    console.log("end loaded");
-  } else {
-    setTimeout(checkContainer, 100); //wait 50 ms, then try again
-  }
-}
-//didn't work...
+// function checkContainer () {
+//   if($('#end').is(':visible')){ //if the container is visible on the page
+//     $container.isotope({
+//       itemSelector: '.item',
+//       //fit rows layout mode for testing instead of masonry
+//       layoutMode: 'fitRows',
+//     });
+//     console.log("end loaded");
+//   } else {
+//     setTimeout(checkContainer, 100); //wait 50 ms, then try again
+//   }
+// }
+//works but didn't solve issue...
 
 
-
-var sortOrder = true;
 
 //SORT - part 1
 //initialization (can't be added above 'cause that's for imagesLoaded only)
@@ -84,6 +68,8 @@ $container = $('#container').isotope({
 
 // SORT - part2
 //button clicking
+var sortOrder = true;
+
 $('.sort-by-button-group').on( 'click', 'button', function() {
   var sortValue = $(this).attr('data-sort-by');
 
@@ -101,10 +87,14 @@ $('.sort-by-button-group').on( 'click', 'button', function() {
 });
 
 // createContent();
+generateContent();
 
 var $filterDisplay = $('#filter-display');
 
-$container.isotope();
+// $container.isotope();
+
+
+
 
 // do stuff when checkbox change
 $('#options').on( 'change', function( event ) {
@@ -236,3 +226,84 @@ function debounce( fn, threshold ) {
 
 //   $container.append( items );
 // }
+
+function generateContent() {
+
+    // fetch api used to avoid CORS problems in a local (non-server) deployment. Edit: wrong! Still doesn't work.
+  fetch('art.json').then(response => {
+    //get file contents
+    return response.json();
+  }).then(data => {
+    // Work with JSON data here
+
+    //define target div by id 
+    // var div = document.getElementById('container');
+    
+    //log number of entries
+    console.log("number of entries: " + data.length);
+    //log json arrays to console
+    console.log(data);
+    
+    //generate data divs within grid container
+    for(var i = 0; i < data.length; i++) {
+      var $newItem = $(
+        `<div class='item ${data[i].medium} ${data[i].topic} ${data[i].decade} ${data[i].movement}'>
+          <a href='images/${data[i].image}' target='_blank'><img class=image src='images/${data[i].image}'></a>
+          <div class="item__text">
+            <p class='titlebar'><span class='firstname'>${data[i].firstname}</span> <span class='lastname'>${data[i].lastname}</span> - <span class='title'>${data[i].title}</span> (<span class='year'>${data[i].year}</span>)</p>
+            <p class='description'>${data[i].description}</p>
+            <p class='externallink'><a href=${data[i].link} target='_blank'>[external link]</a></p>
+            <p class='keywords'>${data[i].keywords}</p>
+          </div>
+        </div>`);
+
+      // $container.append( $newItem ).isotope( 'appended', $newItem );    
+      $container.isotope( 'insert', $newItem );    
+          
+    }
+
+
+    //possible last div for form stuff
+    var $lastDiv = $(
+      `<div class='item' id='end'>
+        <form action="/action_page.php">
+          <input type="text" id="ffirstname" name="fname" value="first name"><br>
+          <input type="text" id="flastname" name="lname" value="last name"><br>
+          <input type="text" id="ftitle" name="title" value="title"><br>
+          <input type="text" id="fyear" name="year" value="year"><br>
+          <input type="text" id="fdescription" name="description" value="description"><br>
+          <input type="text" id="fmedium" name="mediums" value="mediums"><br>
+          <input type="text" id="ftopics" name="topics" value="topics"><br>
+          <input type="text" id="fkeywords" name="keywords" value="keywords"><br>
+          <input type="text" id="fmovement" name="movement" value="movement"><br>
+          <input type="file" id="myFile" name="filename"><br><br>
+          <input type="submit" value="Submit">
+        </form> 
+      </div>`);
+    //insert form into isotope grid
+    $container.isotope( 'insert', $lastDiv );  
+
+    //call isotope init after all images are loaded (isotope trouble spot)
+    $container = $('#container').imagesLoaded( function() {
+      $container.isotope({
+        itemSelector: '.item',
+        //fit rows layout mode for testing instead of masonry
+        // layoutMode: 'fitRows', 
+        masonry: {
+          //make sure boxes are always sorted left to right even if rows don't align height perfectlye
+          horizontalOrder: true
+        }
+      });
+    });
+
+    console.log("done generating content");
+
+  }).catch(err => {
+    // Do something for an error here
+    console.log("there was an error");
+  }); //end
+
+
+
+
+}

@@ -11,7 +11,7 @@ fetch('art.json').then(response => {
   //log number of entries
   console.log("number of entries: " + data.length);
   //log json arrays to console
-  console.log(data);
+  // console.log(data);
   
   //generate data divs within grid container
   for(var i = 0; i < data.length; i++) {
