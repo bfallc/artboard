@@ -84,7 +84,7 @@
   "image": "AiWeiwei.jpg",
   "medium": "photo performance",
   "topic": "sociallyengaged",
-  "decade": "2010s",
+  "decade": "2000s",
   "movements": "",
   "keywords": "china dissident authoritarian arrest selfie"
 },
@@ -340,6 +340,441 @@
   "medium": "",
   "topic": "",
   "decade": "2000s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Arthur",
+  "lastname": "Ganson",
+  "title": "Cory's Yellow Chair",
+  "year": "1997",
+  "description": "",
+  "link": "https://www.arthurganson.com/cory-s-yellow-chair-1",
+  "image": "ArthurGanson-CorysYellowChair.png",
+  "medium": "sculpture",
+  "topic": "technology conceptual",
+  "decade": "1990s",
+  "movement": "",
+  "keywords": "chair mechanical machine kinetic"
+},
+
+{
+  "firstname": "Arthur",
+  "lastname": "Ganson",
+  "title": "Machine with Concrete",
+  "year": "1992",
+  "description": "",
+  "link": "https://arthur.io/art/arthur-ganson/machine-with-concrete",
+  "image": "ArthurGanson-MachineWithConcrete.jpg",
+  "medium": "sculpture",
+  "topic": "technology conceptual",
+  "decade": "1990s",
+  "movement": "",
+  "keywords": "kinetic machine mechanical"
+},
+
+{
+  "firstname": "Atelier",
+  "lastname": "Van Lieshout",
+  "title": "Clip-On",
+  "year": "1997",
+  "description": "",
+  "link": "https://www.ateliervanlieshout.com/work/clip-on/",
+  "image": "AtelierVanLieshout-ClipOn.jpg",
+  "medium": "installation",
+  "topic": "",
+  "decade": "1990s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "",
+  "lastname": "",
+  "title": "",
+  "year": "",
+  "description": "",
+  "link": "",
+  "image": "BenGrosser-FacebookDemtricator.gif",
+  "medium": "",
+  "topic": "",
+  "decade": "",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "",
+  "lastname": "",
+  "title": "",
+  "year": "",
+  "description": "",
+  "link": "",
+  "image": "BenGrosser-Safebook.png",
+  "medium": "",
+  "topic": "",
+  "decade": "",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Ben",
+  "lastname": "Peterson",
+  "title": "Ramada",
+  "year": "2008-2009",
+  "description": "",
+  "link": "https://www.ratio3.org/exhibitions/ben-peterson-the-pilgrim-s-progress/works?page=2",
+  "image": "BenPeterson-Ramada.jpg",
+  "medium": "paintdraw",
+  "topic": "capitalism consumerism",
+  "decade": "2000s",
+  "movement": "",
+  "keywords": "disaster"
+},
+
+{
+  "firstname": "Ben",
+  "lastname": "Peterson",
+  "title": "T.R.",
+  "year": "2006",
+  "description": "",
+  "link": "https://ratio3.org/exhibitions/ben-peterson-you-build-it-we-burn-it/works/4368",
+  "image": "BenPeterson-T.R.jpg",
+  "medium": "paintdraw",
+  "topic": "capitalism consumerism",
+  "decade": "2000s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Bernard",
+  "lastname": "Brunon",
+  "title": "That's Painting",
+  "year": "1989-2016",
+  "description": "",
+  "link": "http://thatspainting.com/thats-painting",
+  "image": "BernardBrunon-ThatsPainting.jpeg",
+  "medium": "paintdraw",
+  "topic": "artcrit",
+  "decade": "1980s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Ben",
+  "lastname": "Peterson",
+  "title": "Baggage Claim",
+  "year": "2010",
+  "description": "",
+  "link": "https://www.mutualart.com/Artwork/Baggage-Claim/191AB36ED2A5ED82",
+  "image": "BenPeterson-BaggageClaim.png",
+  "medium": "paintdraw",
+  "topic": "capitalism consumerism",
+  "decade": "2010s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Brendan",
+  "lastname": "Dawes",
+  "title": "Amongst the Leaves",
+  "year": "2018",
+  "description": "",
+  "link": "http://brendandawes.com/projects/amongsttheleaves",
+  "image": "BrendanDawes-AmongstTheLeaves.jpg",
+  "medium": "sculpture installation",
+  "topic": "creativecoding nature",
+  "decade": "2010s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Brent",
+  "lastname": "Watanabe",
+  "title": "San Andreas Deer Cam",
+  "year": "2015-2016",
+  "description": "",
+  "link": "http://bwatanabe.com/GTA_V_WanderingDeer.html",
+  "image": "BrentWatanabe-SanAndreasDeerCam.png",
+  "medium": "digital",
+  "topic": "nature creativecoding spectacle",
+  "decade": "2010s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Brett",
+  "lastname": "Balogh",
+  "title": "Wolf",
+  "year": "2015",
+  "description": "",
+  "link": "http://www.brettbalogh.com/",
+  "image": "BrettBalogh-Wolf.jpg",
+  "medium": "digital installation",
+  "topic": "",
+  "decade": "2010s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Brian",
+  "lastname": "Jungen",
+  "title": "The Prince",
+  "year": "2006",
+  "description": "",
+  "link": "https://www.si.edu/newsdesk/photos/prince",
+  "image": "BrianJungen-ThePrince.jpg",
+  "medium": "sculpture",
+  "topic": "",
+  "decade": "2000s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Brian",
+  "lastname": "Urlich",
+  "title": "Granger",
+  "year": "2003",
+  "description": "",
+  "link": "http://notifbutwhen.com/retail",
+  "image": "BrianUrlich-Granger.jpg",
+  "medium": "photo",
+  "topic": "",
+  "decade": "2000s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Bruce",
+  "lastname": "Nauman",
+  "title": "Live-Taped Video Corridor",
+  "year": "1970",
+  "description": "",
+  "link": "https://www.guggenheim.org/artwork/3153",
+  "image": "BruceNauman-LiveTapedVideoCorridor.jpg",
+  "medium": "installation filmvideo",
+  "topic": "",
+  "decade": "1970s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Caleb",
+  "lastname": "Larsen",
+  "title": "A Tool to Deceive and Slaughter",
+  "year": "2009",
+  "description": "",
+  "link": "https://rhizome.org/editorial/2010/mar/01/a-tool-to-deceive-and-slaughter-2009-caleb-larsen/",
+  "image": "CalebLarsen-AToolToDeceiveAndSlaughter.jpeg",
+  "medium": "sculpture internet",
+  "topic": "capitalism",
+  "decade": "2000s",
+  "movement": "",
+  "keywords": "ebay"
+},
+
+{
+  "firstname": "Casey",
+  "lastname": "Reas",
+  "title": "Ultraconcentrated",
+  "year": "2013",
+  "description": "",
+  "link": "https://reas.com/ultraconcentrated/",
+  "image": "CaseyReas-ultraconcentrated.jpg",
+  "medium": "digital filmvideo",
+  "topic": "creativecoding",
+  "decade": "",
+  "movement": "",
+  "keywords": "p5 processing"
+},
+
+{
+  "firstname": "Charles",
+  "lastname": "Gaines",
+  "title": "Numbers and Trees: Central Park Series III: Tree 8, Andrea",
+  "year": "2016",
+  "description": "",
+  "link": "https://www.maxhetzler.com/exhibitions/charles-gaines-grids-numbers-and-trees-iii-and-palm-trees-ii-2016/zoom-w/8",
+  "image": "CharlesGaines-Numbers and Trees-CentralParkSeriesIIITree8Andrea.jpg",
+  "medium": "paintdraw",
+  "topic": "nature creativecoding",
+  "decade": "2010s",
+  "movement": "",
+  "keywords": "tree"
+},
+
+{
+  "firstname": "Charles",
+  "lastname": "Ray",
+  "title": "Unpainted Sculpture",
+  "year": "1997",
+  "description": "",
+  "link": "https://walkerart.org/collections/artworks/unpainted-sculpture",
+  "image": "CharlesRay-UnpaintedSculpture.jpg",
+  "medium": "sculpture",
+  "topic": "",
+  "decade": "1990s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Cheryl",
+  "lastname": "Pope",
+  "title": "Remember to Remember",
+  "year": "2013",
+  "description": "\"Names and dates of Chicago youth killed by gun violence in 2012-May 2013. Haikus written by 7th and 8th grade students of Nobel Elementary School are placed between.\"",
+  "link": "https://www.cherylpope.net/remeber-to-remember",
+  "image": "CherylPope-RememberToRemeber.jpg",
+  "medium": "sculpture installation",
+  "topic": "",
+  "decade": "2010s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Chico",
+  "lastname": "MacMurtie",
+  "title": "Border Crossers",
+  "year": "2017",
+  "description": "\"Border Crossers comprise a series of lightweight robotic sculptures that poetically explore the notion of borders and boundary conditions. The inflatable sculptures rise up to several stories high and extend across a given threshold.\"",
+  "link": "http://amorphicrobotworks.org/border-crossers",
+  "image": "ChicoMacMurtie-BorderCrossers.jpg",
+  "medium": "installation",
+  "topic": "politics",
+  "decade": "",
+  "movement": "",
+  "keywords": "border crossing"
+},
+
+{
+  "firstname": "Chico",
+  "lastname": "MacMurtie",
+  "title": "Totomobile",
+  "year": "2012",
+  "description": "",
+  "link": "http://amorphicrobotworks.org/totemobile",
+  "image": "ChicoMacMurtie-Totemobile.jpg",
+  "medium": "sculpture",
+  "topic": "technology nature",
+  "decade": "",
+  "movement": "",
+  "keywords": "citroen totempole machine mechanical car"
+},
+
+{
+  "firstname": "Chris",
+  "lastname": "Burden",
+  "title": "Shoot",
+  "year": "1971",
+  "description": "",
+  "link": "https://en.wikipedia.org/wiki/Shoot_(Burden)",
+  "image": "ChrisBurden-Shoot.jpg",
+  "medium": "conceptual performance photo",
+  "topic": "artcrit",
+  "decade": "1970s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Christian",
+  "lastname": "Moeller",
+  "title": "Cheese",
+  "year": "2003",
+  "description": "",
+  "link": "https://christianmoeller.com/Cheese",
+  "image": "ChristianMoeller-Cheese.jpg",
+  "medium": "installation",
+  "topic": "creativecoding",
+  "decade": "2000s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Christine",
+  "lastname": "Kozlov",
+  "title": "Information Drift",
+  "year": "1968",
+  "description": "Inscription: Combined recordings of news bulletins of the shootings of Andy Warhol and Robert Kennedy.",
+  "link": "http://www.henry-moore.foundation/gallery/article/124/8",
+  "image": "ChristineKozlov-InformationDrift.jpg",
+  "medium": "conceptual audio",
+  "topic": "spectacle",
+  "decade": "1960s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Christine",
+  "lastname": "Kozlov",
+  "title": "Information: No Theory",
+  "year": "1971",
+  "description": "",
+  "link": "https://www.ubu.com/papers/kozlov_information.html",
+  "image": "ChristineKozlov-InformationNoTheory.jpg",
+  "medium": "conceptual audio installation",
+  "topic": "",
+  "decade": "1970s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Cildo",
+  "lastname": "Meireles",
+  "title": "Zero Dollar",
+  "year": "1974-1984",
+  "description": "",
+  "link": "https://www.macba.cat/en/art-artists/artists/meireles-cildo/zero-dollar",
+  "image": "CildoMeireles-ZeroDollar.jpg",
+  "medium": "print",
+  "topic": "",
+  "decade": "1970s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Claire",
+  "lastname": "Hentschker",
+  "title": "Tiffany's from the Side",
+  "year": "2017",
+  "description": "",
+  "link": "http://www.clairesophie.com/images",
+  "image": "ClaireHentschker-BreakfastAtTiffanysFromTheSide.png",
+  "medium": "digital",
+  "topic": "",
+  "decade": "2010s",
+  "movement": "",
+  "keywords": "lidar vr ar"
+},
+
+{
+  "firstname": "Claire",
+  "lastname": "Hentschker",
+  "title": "Merch Mulch",
+  "year": "2017",
+  "description": "",
+  "link": "http://www.clairesophie.com/merch-mulch",
+  "image": "ClaireHentschker-MerchMulch.jpg",
+  "medium": "digital",
+  "topic": "capitalism",
+  "decade": "2010s",
   "movement": "",
   "keywords": ""
 }
