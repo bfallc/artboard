@@ -777,6 +777,186 @@
   "decade": "2010s",
   "movement": "",
   "keywords": ""
+},
+
+{
+  "firstname": "Clement",
+  "lastname": "Valla",
+  "title": "Hapax Phaenomena",
+  "year": "2012",
+  "description": "\"Hapax Phaenomena is a collection of historically unique images discovered by Google image search from collaborators Clement Valla and John Cayley.\"",
+  "link": "http://clementvalla.com/work/hapax-phaenomena/",
+  "image": "ClementValla-HapaxPhaenomena.png",
+  "medium": "internet digital",
+  "topic": "",
+  "decade": "2010s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Clement",
+  "lastname": "Valla",
+  "title": "Postcards from Google Earth",
+  "year": "2010-ongoing",
+  "description": "",
+  "link": "http://www.postcards-from-google-earth.com/",
+  "image": "ClementValla-PostcardsFromGoogleEarth.png",
+  "medium": "digital internet",
+  "topic": "",
+  "decade": "",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Clement",
+  "lastname": "Valla",
+  "title": "Sol LeWitt and Mechanical Turk",
+  "year": "2009",
+  "description": "\"Custom software recreates a Sol LeWitt drawing. The software also posts instructions on Amazon.com’s Mechanical Turk. Human workers execute the drawings online based on the instructions. The workers are paid 5¢ for each drawing. The software then assembles the Mechanical Turk drawings in a grid. The software drawings and the Mechancial Turk drawings are presented side by side.\"",
+  "link": "http://clementvalla.com/work/sol-lewitt-mechanical-turk/",
+  "image": "ClementValla-SolLeWittAndMechanicalTurk.jpg",
+  "medium": "digital paintdraw internet",
+  "topic": "",
+  "decade": "",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Constantine",
+  "lastname": "Zletev",
+  "title": "The Last Gun",
+  "year": "2012",
+  "description": "\" The Last Gun is a mechano-robotic flute built out of a disabled shotgun and salvaged industrial components. The gun barrels have been transformed into a double-flute, which is played by compressed air. The installation graphically charts and then musically depicts the rise & fall of annual U.S. arms exports.\"",
+  "link": "https://madeinconstantine.com/the-last-gun",
+  "image": "ConstantineZlatev-TheLastGun.jpg",
+  "medium": "",
+  "topic": "",
+  "decade": "",
+  "movement": "",
+  "keywords": "gun shotgun flute"
+},
+
+{
+  "firstname": "Cory",
+  "lastname": "Arcangel",
+  "title": "Permanent Vacation",
+  "year": "2008",
+  "description": "\"2 computers stuck in an out of office email loop.\"",
+  "link": "https://coryarcangel.com/things-i-made/2008-003-permanent-vacation",
+  "image": "CoryArcangel-PermanentVacation.jpg",
+  "medium": "installation digital internet",
+  "topic": "",
+  "decade": "",
+  "movement": "",
+  "keywords": "email"
+},
+
+{
+  "firstname": "Cory",
+  "lastname": "Arcangel",
+  "title": "Super Mario Clouds",
+  "year": "2002",
+  "description": "Cory Arcangel “hacked” a cartridge of Super Mario Brothers, the original version of the blockbuster Nintendo video game released in the United States in 1985. By tweaking the game’s code, the artist erased all of the sound and visual elements except the iconic scrolling clouds.",
+  "link": "https://whitney.org/collection/works/20588",
+  "image": "CoryArcangel-SuperMarioClouds.png",
+  "medium": "digital",
+  "topic": "",
+  "decade": "",
+  "movement": "",
+  "keywords": "game video mario nes nintendo"
+},
+
+{
+  "firstname": "Daito",
+  "lastname": "Manabe",
+  "title": "Face Visualizer",
+  "year": "2008",
+  "description": "",
+  "link": "http://www.daito.ws/en/work/smiles.html",
+  "image": "DaitoManabe-FaceVisualizer.jpg",
+  "medium": "performance",
+  "topic": "",
+  "decade": "",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Damien",
+  "lastname": "Hirst",
+  "title": "For the Love of God",
+  "year": "2007",
+  "description": "",
+  "link": "http://www.damienhirst.com/for-the-love-of-god",
+  "image": "DamienHirst-ForTheLoveOfGod.jpg",
+  "medium": "",
+  "topic": "",
+  "decade": "2000s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Dan",
+  "lastname": "Flavin",
+  "title": "Untitled (to Pat and Bob Rohm)",
+  "year": "1969",
+  "description": "",
+  "link": "https://www.artsy.net/artwork/dan-flavin-untitled-to-pat-and-bob-rohm",
+  "image": "DanFlavin-Untitled.jpg",
+  "medium": "installation sculptuer",
+  "topic": "minimalism",
+  "decade": "1960s",
+  "movement": "",
+  "keywords": "light"
+},
+
+{
+  "firstname": "Daniel",
+  "lastname": "Agdag",
+  "title": "The Third Fatality",
+  "year": "2014",
+  "description": "",
+  "link": "http://publicoffice.com.au/works/the-third-fatality/",
+  "image": "DanielAgdag-TheThirdFatality.jpg",
+  "medium": "sculpture",
+  "topic": "",
+  "decade": "2010s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Daniel Joseph",
+  "lastname": "Martinez",
+  "title": "Divine Violence",
+  "year": "2007",
+  "description": "\"Divine Violence functions, in Daniel Joseph Martinez’s words, as 'a typology of every organization in the world that uses violence or aggression to fulfill its political ideology.' The installation is comprised of 125 panels, each of which bears the name of a political organization in black lettering on a wooden ground painted with automotive gold flake. These organizations represent diverse—and sometimes vehemently contradictory—aims and politics.\"",
+  "link": "https://whitney.org/collection/works/33379",
+  "image": "DanielJosephMartinez-DivineViolence.jpg",
+  "medium": "installation",
+  "topic": "politics",
+  "decade": "2000s",
+  "movement": "",
+  "keywords": ""
+},
+
+{
+  "firstname": "Daniel",
+  "lastname": "Rozin",
+  "title": "Penguins Mirror",
+  "year": "2015",
+  "description": "",
+  "link": "https://www.youtube.com/watch?v=9QAVauBL2mc",
+  "image": "DanielRozin-PenguinsMirror.jpg",
+  "medium": "sculpture installation",
+  "topic": "physicalcomputing creativecode",
+  "decade": "2010s",
+  "movement": "",
+  "keywords": ""
 }
 
 ]
