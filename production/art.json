@@ -743,10 +743,10 @@
   "link": "https://www.macba.cat/en/art-artists/artists/meireles-cildo/zero-dollar",
   "image": "CildoMeireles-ZeroDollar.jpg",
   "medium": "print",
-  "topic": "",
+  "topic": "politics captialism",
   "decade": "1970s",
   "movement": "",
-  "keywords": ""
+  "keywords": "dollar bill"
 },
 
 {
@@ -758,10 +758,10 @@
   "link": "http://www.clairesophie.com/images",
   "image": "ClaireHentschker-BreakfastAtTiffanysFromTheSide.png",
   "medium": "digital",
-  "topic": "",
+  "topic": "technology",
   "decade": "2010s",
   "movement": "",
-  "keywords": "lidar vr ar"
+  "keywords": "lidar vr ar movie"
 },
 
 {
@@ -773,10 +773,10 @@
   "link": "http://www.clairesophie.com/merch-mulch",
   "image": "ClaireHentschker-MerchMulch.jpg",
   "medium": "digital",
-  "topic": "capitalism",
+  "topic": "capitalism technology",
   "decade": "2010s",
   "movement": "",
-  "keywords": ""
+  "keywords": "dead mall"
 },
 
 {
@@ -788,10 +788,10 @@
   "link": "http://clementvalla.com/work/hapax-phaenomena/",
   "image": "ClementValla-HapaxPhaenomena.png",
   "medium": "internet digital",
-  "topic": "",
+  "topic": "technology",
   "decade": "2010s",
   "movement": "",
-  "keywords": ""
+  "keywords": "google search"
 },
 
 {
@@ -802,11 +802,11 @@
   "description": "",
   "link": "http://www.postcards-from-google-earth.com/",
   "image": "ClementValla-PostcardsFromGoogleEarth.png",
-  "medium": "digital internet",
-  "topic": "",
+  "medium": "digital internet print",
+  "topic": "technology  creativecoding",
   "decade": "2010s",
   "movement": "",
-  "keywords": ""
+  "keywords": "google map"
 },
 
 {
@@ -817,7 +817,7 @@
   "description": "\"Custom software recreates a Sol LeWitt drawing. The software also posts instructions on Amazon.com’s Mechanical Turk. Human workers execute the drawings online based on the instructions. The workers are paid 5¢ for each drawing. The software then assembles the Mechanical Turk drawings in a grid. The software drawings and the Mechancial Turk drawings are presented side by side.\"",
   "link": "http://clementvalla.com/work/sol-lewitt-mechanical-turk/",
   "image": "ClementValla-SolLeWittAndMechanicalTurk.jpg",
-  "medium": "digital paintdraw internet",
+  "medium": "digital paintdraw internet print",
   "topic": "",
   "decade": "2000s",
   "movement": "",
@@ -832,11 +832,11 @@
   "description": "\" The Last Gun is a mechano-robotic flute built out of a disabled shotgun and salvaged industrial components. The gun barrels have been transformed into a double-flute, which is played by compressed air. The installation graphically charts and then musically depicts the rise & fall of annual U.S. arms exports.\"",
   "link": "https://madeinconstantine.com/the-last-gun",
   "image": "ConstantineZlatev-TheLastGun.jpg",
-  "medium": "",
+  "medium": "sculpture technology politics",
   "topic": "",
   "decade": "2010s",
   "movement": "",
-  "keywords": "gun shotgun flute"
+  "keywords": "gun shotgun flute arduino raspberry pi"
 },
 
 {
@@ -848,7 +848,7 @@
   "link": "https://coryarcangel.com/things-i-made/2008-003-permanent-vacation",
   "image": "CoryArcangel-PermanentVacation.jpg",
   "medium": "installation digital internet",
-  "topic": "",
+  "topic": "repetition",
   "decade": "",
   "movement": "",
   "keywords": "email"
@@ -863,7 +863,7 @@
   "link": "https://whitney.org/collection/works/20588",
   "image": "CoryArcangel-SuperMarioClouds.gif",
   "medium": "digital",
-  "topic": "",
+  "topic": "technology nature creativecoding",
   "decade": "2000s",
   "movement": "",
   "keywords": "game video mario nes nintendo"
@@ -877,11 +877,11 @@
   "description": "",
   "link": "http://www.daito.ws/en/work/smiles.html",
   "image": "DaitoManabe-FaceVisualizer.jpg",
-  "medium": "performance",
-  "topic": "",
+  "medium": "performance audio",
+  "topic": "technology body",
   "decade": "2000s",
   "movement": "",
-  "keywords": ""
+  "keywords": "electric shock face japanese"
 },
 
 {
@@ -896,7 +896,7 @@
   "topic": "",
   "decade": "2000s",
   "movement": "",
-  "keywords": ""
+  "keywords": "diamonds skull"
 },
 
 {
@@ -910,8 +910,8 @@
   "medium": "installation sculptuer",
   "topic": "minimalism",
   "decade": "1960s",
-  "movement": "",
-  "keywords": "light"
+  "movement": "lightart",
+  "keywords": "light flourescent tube color field"
 },
 
 {
@@ -919,7 +919,7 @@
   "lastname": "Agdag",
   "title": "The Third Fatality",
   "year": "2014",
-  "description": "",
+  "description": "Cardboard and paper.",
   "link": "http://publicoffice.com.au/works/the-third-fatality/",
   "image": "DanielAgdag-TheThirdFatality.jpg",
   "medium": "sculpture",
@@ -953,10 +953,10 @@
   "link": "https://www.youtube.com/watch?v=9QAVauBL2mc",
   "image": "DanielRozin-PenguinsMirror.gif",
   "medium": "sculpture installation",
-  "topic": "physicalcomputing creativecode",
+  "topic": "physicalcomputing creativecode cvml",
   "decade": "2010s",
   "movement": "",
-  "keywords": ""
+  "keywords": "motor penguin mirror arduino"
 }
 
 ]
