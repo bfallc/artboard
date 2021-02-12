@@ -91,7 +91,9 @@ $('.sort-by-button-group').on( 'click', 'button', function() {
 });
 
 // createContent();
+
 generateContent();
+
 
 var $filterDisplay = $('#filter-display');
 
@@ -247,6 +249,10 @@ function generateContent() {
     console.log("number of entries: " + data.length);
     //log json arrays to console
     console.log(data);
+
+    generateMediumCheckboxes();
+    generateTopicCheckboxes();
+    generateDecadeCheckboxes();
     
     //generate data divs within grid container
     for(var i = 0; i < data.length; i++) {
@@ -263,42 +269,98 @@ function generateContent() {
 
       // $container.append( $newItem ).isotope( 'appended', $newItem );    
       $container.isotope( 'insert', $newItem );    
-          
     }
 
+    
 
-    //possible last div for form stuff
-    // var $lastDiv = $(
-    //   `<div class='item' id='end'>
-    //     <form action="/action_page.php">
-    //       <input type="text" id="ffirstname" name="fname" value="first name"><br>
-    //       <input type="text" id="flastname" name="lname" value="last name"><br>
-    //       <input type="text" id="ftitle" name="title" value="title"><br>
-    //       <input type="text" id="fyear" name="year" value="year"><br>
-    //       <input type="text" id="fdescription" name="description" value="description"><br>
-    //       <input type="text" id="fmedium" name="mediums" value="mediums"><br>
-    //       <input type="text" id="ftopics" name="topics" value="topics"><br>
-    //       <input type="text" id="fkeywords" name="keywords" value="keywords"><br>
-    //       <input type="text" id="fmovement" name="movement" value="movement"><br>
-    //       <input type="file" id="myFile" name="filename"><br><br>
-    //       <input type="submit" value="Submit">
-    //     </form> 
-    //   </div>`);
-    // //insert form into isotope grid
-    // $container.isotope( 'insert', $lastDiv );  
+    //////////////// FUNCTIONS
 
-    //call isotope init after all images are loaded (isotope trouble spot)
-    $container = $('#container').imagesLoaded( function() {
-      $container.isotope({
-        itemSelector: '.item',
-        //fit rows layout mode for testing instead of masonry
-        // layoutMode: 'fitRows', 
-        masonry: {
-          //make sure boxes are always sorted left to right even if rows don't align height perfectlye
-          horizontalOrder: true
-        }
-      });
+function generateDecadeCheckboxes() {
+  var decadeGroup = `<div id="decade" class="option-set" data-group="decade"></div>`
+
+  $('#options').append(decadeGroup);
+  
+  // find all unique checkboxes
+  var checkboxNames = [];
+  for(var i = 0; i < data.length; i++) {
+    var currDecade = data[i].decade;
+    if(checkboxNames.indexOf(currDecade) == -1) {
+      checkboxNames.push(currDecade);
+    }
+  }
+  checkboxNames.sort();
+  // generate html
+  for(var i = 0; i < checkboxNames.length; i++) {
+    let checkbox = `<label><input type="checkbox" value=".${checkboxNames[i]}" />${checkboxNames[i]}</label>`
+    $("div[data-group='decade']").append(checkbox);
+  }
+}
+
+
+function generateTopicCheckboxes() {
+  var topicGroup = `<div id="topic" class="option-set" data-group="topic"></div>`
+  $('#options').append(topicGroup);
+
+  // var checkboxWords = [];
+  var checkboxNames = [];
+  for(var i = 0; i < data.length; i++) {
+    var word = data[i].topic.split(" ");
+    // find all unique checkboxes
+
+    for(var j = 0; j < word.length; j++) {
+      if(checkboxNames.indexOf(word[j]) == -1) {
+        checkboxNames.push(word[j]);
+      }
+    }
+  }
+
+  checkboxNames.sort();
+  // generate html
+  for(var i = 0; i < checkboxNames.length; i++) {
+    let checkbox = `<label><input type="checkbox" value=".${checkboxNames[i]}" />${checkboxNames[i]} </label>`
+    $("div[data-group='topic']").append(checkbox);
+  }
+}
+
+function generateMediumCheckboxes() {
+  var mediumGroup = `<div id="medium" class="option-set" data-group="medium"></div>`
+  $('#options').append(mediumGroup);
+
+  // var checkboxWords = [];
+  var checkboxNames = [];
+  for(var i = 0; i < data.length; i++) {
+    var word = data[i].medium.split(" ");
+    // find all unique checkboxes
+
+    for(var j = 0; j < word.length; j++) {
+      if(checkboxNames.indexOf(word[j]) == -1) {
+        checkboxNames.push(word[j]);
+      }
+    }
+  }
+
+  checkboxNames.sort();
+  // generate html
+  for(var i = 0; i < checkboxNames.length; i++) {
+    let checkbox = `<label><input type="checkbox" value=".${checkboxNames[i]}" />${checkboxNames[i]} </label>`
+    $("div[data-group='medium']").append(checkbox);
+  }
+}
+    
+
+
+  //call isotope init after all images are loaded (isotope trouble spot)
+  $container = $('#container').imagesLoaded( function() {
+    $container.isotope({
+      itemSelector: '.item',
+      //fit rows layout mode for testing instead of masonry
+      // layoutMode: 'fitRows', 
+      masonry: {
+        //make sure boxes are always sorted left to right even if rows don't align height perfectlye
+        horizontalOrder: true
+      }
     });
+  });
 
     console.log("done generating content");
 
@@ -308,6 +370,8 @@ function generateContent() {
   }); //end
 
 
-
-
+  
 }
+
+
+
