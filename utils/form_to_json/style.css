@@ -126,3 +126,23 @@ html, body {
 .bracket {
   
 }
+
+#entry-form {
+  background: white;
+  padding: 1em;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 100px;
+  left: 300px;
+}
+
+#entry-form input {
+  margin-bottom: 1em;
+}
+
+label {
+  font-size: .75rem;
+  margin-bottom: .125em;
+}

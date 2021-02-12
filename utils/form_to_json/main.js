@@ -27,7 +27,7 @@ fetch('../../production/art.json').then(response => {
 
     // "loop" through each property in the current object
     for (const property in entry) {
-      console.log(property, entry[property]);
+      //console.log(property, entry[property]);
       formattedEntry+=
         `<p class="line">
             <span class='${property} property'>"${property}":</span> <span class='content'>"${entry[property]}"</span>
@@ -56,17 +56,17 @@ fetch('../../production/art.json').then(response => {
       opacity: 0,
       fontSize: "0px"
     }, 500, function(){
-      console.log($(this).parent());
       $(this).hide();
     })
   })
 
 let fileName =  'art_updated.json'; // You can use the .txt extension if you want
 
-function downloadInnerHtml(filename, elId, mimeType) {
-    var elHtml = document.getElementById(elId).innerText;
-    var link = document.createElement('a');
-    mimeType = mimeType || 'text/plain';
+// https://stackoverflow.com/questions/22084698/how-to-export-source-content-within-div-to-text-html-file
+function downloadJSON(filename, elId, mimeType) {
+    let elHtml = document.getElementById(elId).innerText;
+    let link = document.createElement('a');
+    mimeType = mimeType || 'text/json';
 
     link.setAttribute('download', filename);
     link.setAttribute('href', 'data:' + mimeType  +  ';charset=utf-8,' + encodeURIComponent(elHtml));
@@ -74,10 +74,8 @@ function downloadInnerHtml(filename, elId, mimeType) {
 }
 
 
-
-
   $('.download').click(function(){
-    downloadInnerHtml(fileName, 'container', 'text/json');
+    downloadJSON(fileName, 'container', 'text/json');
   })
 
   // $('.copy').on('click', function(){
@@ -103,6 +101,8 @@ function downloadInnerHtml(filename, elId, mimeType) {
   //   temp.remove();
   // });
 })
+
+
 
 
 
