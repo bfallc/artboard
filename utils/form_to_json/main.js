@@ -69,7 +69,7 @@ fetch('../../production/art.json').then(response => {
     
   })
 
-let fileName =  'art_updated.json'; // You can use the .txt extension if you want
+let fileName =  'art.json'; // You can use the .txt extension if you want
 
 // https://stackoverflow.com/questions/22084698/how-to-export-source-content-within-div-to-text-html-file
 function downloadJSON(filename, elId, mimeType) {
