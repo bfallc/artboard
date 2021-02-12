@@ -128,21 +128,57 @@ html, body {
 }
 
 #entry-form {
-  background: white;
-  padding: 1em;
+  background: #eef;
+  padding: .5em;
   border: 1px solid black;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   position: fixed;
-  top: 100px;
-  left: 300px;
+  top: 50%;
+  left: 50%;
+  width: 98%;
+  max-width: 800px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 6px 14px -10px;
+}
+
+.form-group {
+  margin: .325em 1em;
 }
 
 #entry-form input {
-  margin-bottom: 1em;
+ 
+}
+
+.entry-form__close {
+  position: absolute;
+  right: .025em;
+  top: .25em;
+  color: black;
+  font-size: 1.2rem;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+}
+  
+.entry-form__close:hover {
+  cursor: pointer;
+  color: #a44;
 }
 
 label {
+  font-size: .85rem;
+}
+
+input {
+  padding: .325em;
+  margin-left: .25em;
   font-size: .75rem;
-  margin-bottom: .125em;
+  border: 1px solid black;
+}
+
+input:focus {
+  outline: 3px solid seagreen;
 }
