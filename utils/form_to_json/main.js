@@ -48,4 +48,16 @@ fetch('../../production/art.json').then(response => {
     $('.container').append(formattedEntry);
     $('.entry').append(`<div class="delete">+</div>`)
   }
+
+  $('.delete').click(function(){
+    $(this).parent().animate({
+      opacity: 0,
+      fontSize: "0px"
+    }, 500, function(){
+      console.log($(this).parent());
+      $(this).hide();
+    })
+    console.log('clicked');
+  })
 })
+
