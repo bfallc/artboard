@@ -78,6 +78,79 @@ function downloadJSON(filename, elId, mimeType) {
     downloadJSON(fileName, 'container', 'text/json');
   })
 
+  $('.entry-form__close').click(function(){
+    $('#entry-form').hide();
+  });
+
+  $('.entry-submit').click(function(){
+    addNewEntry();
+  })
+
+  function addNewEntry() {
+    
+    // TODO: swap out any double quotes in the entry field with
+    // &quot.
+
+    let firstname = $('#firstname').val();
+    let lastname = $('#lastname').val();
+    let title = $('#title').val();
+    let year = $('#year').val();
+    let description = $('#description').val();
+    let link = $('#link').val();
+    let thumb = $('#thumb').val();
+    let medium = $('#medium').val();
+    let topic = $('#topic').val();
+    let decade = $('#decade').val();
+    let movement = $('#movement').val();
+    let keywords = $('#keywords').val();
+
+    let entry = `
+      <div class="entry">{
+        <p class="line">
+          <span class='firstname property'>"firstname":</span> <span class='content'>"${firstname}"</span>
+        </p>
+        <p class="line">
+          <span class='lastname property'>"lastname":</span> <span class='content'>"${lastname}"</span>
+        </p>
+        <p class="line">  
+          <span class='title property'>"title":</span> <span class='content'>"${title}"</span>
+        </p>
+        <p class="line">  
+          <span class='year property'>"year":</span> <span class='content'>"${year}"</span>
+        </p>
+        <p class="line">  
+          <span class='description property'>"description":</span> <span class='content'>"${description}"</span>
+        </p>
+        <p class="line">  
+          <span class='link property'>"link":</span> <span class='content'>"${link}"</span>
+        </p>
+        <p class="line">  
+          <span class='thumb property'>"thumb":</span> <span class='content'>"${thumb}"</span>
+        </p>
+        <p class="line">  
+          <span class='medium property'>"medium":</span> <span class='content'>"${medium}"</span>
+        </p>
+        <p class="line">  
+          <span class='topic property'>"topic":</span> <span class='content'>"${topic}"</span>
+        </p>
+        <p class="line">  
+          <span class='decade property'>"decade":</span> <span class='content'>"${decade}"</span>
+        </p>
+        <p class="line">  
+          <span class='movement property'>"movement":</span> <span class='content'>"${movement}"</span>
+        </p>
+        <p class="line">  
+          <span class='keywords property'>"keywords":</span> <span class='content'>"${keywords}"</span>
+        </p>
+        <p class="line">
+        } 
+      </div>
+    `
+
+    $('#container .entry:last-child').after(entry);
+    
+  }
+
   // $('.copy').on('click', function(){
   
   //   let temp = $("<input>");
