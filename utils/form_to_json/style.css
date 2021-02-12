@@ -140,7 +140,7 @@ html, body {
   background: #eef;
   padding: .5em;
   border: 1px solid black;
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   position: fixed;
   top: 50%;
@@ -190,4 +190,9 @@ input {
 
 input:focus {
   outline: 3px solid seagreen;
+}
+
+.note {
+  max-width: 50ch;
+  margin-left: 1em;
 }

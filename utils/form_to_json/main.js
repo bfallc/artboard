@@ -41,7 +41,7 @@ fetch('../../production/art.json').then(response => {
         propCounter++;
     }
     if(i < data.length-1) {
-      formattedEntry+=`<span class="bracket">}</span>,</div>`;
+      formattedEntry+=`<span class="bracket">},</span></div>`;
     } else {
       formattedEntry+=`<span class="bracket">}</span></div>]`;
     }
@@ -56,8 +56,11 @@ fetch('../../production/art.json').then(response => {
       opacity: 0,
       fontSize: "0px"
     }, 500, function(){
-      $(this).hide();
+      $(this).remove();
+      $('.bracket').last().text('}');
     })
+    
+    
   })
 
 let fileName =  'art_updated.json'; // You can use the .txt extension if you want
@@ -99,24 +102,22 @@ function downloadJSON(filename, elId, mimeType) {
     // TODO: swap out any double quotes in the entry field with
     // &quot.
 
-    $('#firstname').val("");
-    $('#lastname').val("");
-    $('#title').val("");
-    $('#year').val("");
-    $('#description').val("");
-    $('#link').val("");
-    $('#image').val("");
-    $('#medium').val("");
-    $('#topic').val("");
-    $('#decade').val("");
-    $('#movement').val("");
-    $('#keywords').val("");
+    
 
     let firstname = $('#firstname').val();
     let lastname = $('#lastname').val();
     let title = $('#title').val();
     let year = $('#year').val();
     let description = $('#description').val();
+    
+    // Automatically adds escape character to any instances of double quotes in the description.
+    if(description.indexOf(`\"`) != -1) {
+      console.log("found quote", description.indexOf(`\"`))
+      description = description.replace(/"/g, `\\"`);
+      console.log(description)
+    }
+    console.log(description)
+
     let link = $('#link').val();
     let image = $('#image').val();
     let medium = $('#medium').val();
@@ -169,6 +170,19 @@ function downloadJSON(filename, elId, mimeType) {
     `
 
     $('#container .entry:last-child').after(entry);
+
+    $('#firstname').val("");
+    $('#lastname').val("");
+    $('#title').val("");
+    $('#year').val("");
+    $('#description').val("");
+    $('#link').val("");
+    $('#image').val("");
+    $('#medium').val("");
+    $('#topic').val("");
+    $('#decade').val("");
+    $('#movement').val("");
+    $('#keywords').val("");
     
   }
 
