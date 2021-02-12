@@ -4,8 +4,48 @@
 
 html, body {
   font-family: 'Crimson Pro', serif;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 900px;
 }
 
 .entry {
-  margin: 1em 0;
+  margin: .5em 0;
+  margin-left: 1em;
+  position: relative;
+  padding: .25em;
+}
+
+.entry:hover {
+  background: #eee;
+}
+
+.delete {
+  position: absolute;
+  right: .25em;
+  top: 0;
+  color: black;
+  font-weight: 200;
+  font-size: 2rem;
+  transform: rotateZ(45deg);
+}
+
+.delete:hover {
+  cursor: pointer;
+  color: #d22;
+}
+
+.line {
+  margin: .5em 0;
+  margin-left: 1em;
+}
+
+.property {
+  color: blue;
+}
+
+.content {
+  color: purple;
 }
