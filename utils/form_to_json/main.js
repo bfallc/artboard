@@ -28,9 +28,15 @@ fetch('../../production/art.json').then(response => {
     // "loop" through each property in the current object
     for (const property in entry) {
       //console.log(property, entry[property]);
+      let currContent = entry[property];
+      if(property == "description") {
+        if(currContent.indexOf(`\"`) != -1) {
+          currContent = currContent.replace(/"/g, `\\"`);
+        }
+      }
       formattedEntry+=
         `<p class="line">
-            <span class='${property} property'>"${property}":</span> <span class='content'>"${entry[property]}"</span>
+            <span class='${property} property'>"${property}":</span> <span class='content'>"${currContent}"</span>
         `
         // only add a comma if not the last property
         if(propCounter < numProperties-1) {
@@ -112,11 +118,8 @@ function downloadJSON(filename, elId, mimeType) {
     
     // Automatically adds escape character to any instances of double quotes in the description.
     if(description.indexOf(`\"`) != -1) {
-      console.log("found quote", description.indexOf(`\"`))
       description = description.replace(/"/g, `\\"`);
-      console.log(description)
     }
-    console.log(description)
 
     let link = $('#link').val();
     let image = $('#image').val();

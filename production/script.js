@@ -256,6 +256,7 @@ function generateContent() {
     
     //generate data divs within grid container
     for(var i = 0; i < data.length; i++) {
+
       var $newItem = $(
         `<div class='item ${data[i].medium} ${data[i].topic} ${data[i].decade} ${data[i].movement}'>
           <a href='images/${data[i].image}' target='_blank'><img class=image src='images/${data[i].image}'></a>
