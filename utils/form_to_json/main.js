@@ -46,8 +46,10 @@ fetch('../../production/art.json').then(response => {
       formattedEntry+=`<span class="bracket">}</span></div>]`;
     }
     $('.container').append(formattedEntry);
-    $('.entry').append(`<div class="delete">&#10005</div>`)
   }
+
+  // $('.entry').append(`<div class="copy">copy</div>`)
+  $('.entry').append(`<div class="delete">&#10005</div>`)
 
   $('.delete').click(function(){
     $(this).parent().animate({
@@ -57,23 +59,54 @@ fetch('../../production/art.json').then(response => {
       console.log($(this).parent());
       $(this).hide();
     })
-    console.log('clicked');
   })
+
+let fileName =  'art_updated.json'; // You can use the .txt extension if you want
+
+function downloadInnerHtml(filename, elId, mimeType) {
+    var elHtml = document.getElementById(elId).innerText;
+    var link = document.createElement('a');
+    mimeType = mimeType || 'text/plain';
+
+    link.setAttribute('download', filename);
+    link.setAttribute('href', 'data:' + mimeType  +  ';charset=utf-8,' + encodeURIComponent(elHtml));
+    link.click(); 
+}
+
+
+
+
+  $('.download').click(function(){
+    downloadInnerHtml(fileName, 'container', 'text/json');
+  })
+
+  // $('.copy').on('click', function(){
+  
+  //   let temp = $("<input>");
+  //   $("body").append(temp);
+  //   temp.val($(this).parent().text());
+  //   let text = temp.val();
+
+  //   let clickedText = $(this).parent().text();
+  //   let lastEntry = $('.entries .entry:last-child').text()
+  //   if(clickedText == lastEntry) {
+  //     text = text.slice(0, text.length-5);
+  //   } else {
+  //     text = text.slice(0, text.length-6);
+  //   }
+
+  //   text = text.trim();
+    
+  //   temp.val(text).select();
+    
+  //   document.execCommand("copy");
+  //   temp.remove();
+  // });
 })
 
 
-show();
 
-//
 
-$('.copy').on('click', copyToClipboard);
 
-function copyToClipboard() {
-  let temp = $(".container");
-  $("body").append(temp);
-  temp.val($(this).text()).select();
-  document.execCommand("copy");
-  temp.remove();
-}
 
 

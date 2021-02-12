@@ -5,27 +5,35 @@
 html, body {
   font-family: 'Crimson Pro', serif;
   font-size: 20px;
+  background: #ffedde
+}
+.page-title {
+  font-size: 3rem;
+  color: #904000;
 }
 
-.copy {
+.download {
   padding: .5em 1em;
-  background: #fff;
   border: 2px solid black;
-  font-size: 1rem;
+  font-size: .75rem;
   font-family: 'Crimson Pro', serif;
+  opacity: 0.5;
 
   position: fixed;
-  top: 1em;
+  bottom: 1em;
   right: 1em;
+  z-index: 100;
+  transition: all .125s;
 }
 
-.copy:hover {
+.download:hover {
   background: #444;
+  opacity: 1;
   color: white;
   cursor: pointer;
 }
 
-.copy:active {
+.download:active {
   background: #000;
 }
 
@@ -37,11 +45,15 @@ html, body {
   margin: .5em 0;
   margin-left: 1em;
   position: relative;
-  padding: .25em;
+  padding: .75em;
 }
 
 .entry:hover {
-  background: #eee;
+  background: #eff;
+}
+
+.entry:hover .delete, .entry:hover .copy {
+  display: flex;
 }
 
 .delete {
@@ -52,16 +64,50 @@ html, body {
   font-size: 1.2rem;
   width: 32px;
   height: 32px;
-  display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 100px;
+  display: none;
+  
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 .delete:hover {
   cursor: pointer;
   color: #fff;
-  background: #d22;
+  background: #a44;
+}
+
+.copy {
+  background: none;
+  display: none;
+  border: none;
+  position: absolute;
+  top: .85em;
+  right: 4em;
+  font-size: .75rem;
+  border: 1px solid black;
+  padding: .125em .25em;
+  padding-bottom: .2em;
+
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.copy:hover {
+  cursor: pointer;
+  background: gray;
+  color: white;
+}
+
+.copy:active {
+  background: black;
+  color: white;
 }
 
 .line {
@@ -78,5 +124,5 @@ html, body {
 }
 
 .bracket {
-  font-size: 1.25rem;
+  
 }
