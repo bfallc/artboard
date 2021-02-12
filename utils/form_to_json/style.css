@@ -7,6 +7,28 @@ html, body {
   font-size: 20px;
 }
 
+.copy {
+  padding: .5em 1em;
+  background: #fff;
+  border: 2px solid black;
+  font-size: 1rem;
+  font-family: 'Crimson Pro', serif;
+
+  position: fixed;
+  top: 1em;
+  right: 1em;
+}
+
+.copy:hover {
+  background: #444;
+  color: white;
+  cursor: pointer;
+}
+
+.copy:active {
+  background: #000;
+}
+
 .container {
   max-width: 900px;
 }
@@ -24,17 +46,22 @@ html, body {
 
 .delete {
   position: absolute;
-  right: .25em;
-  top: 0;
+  right: .5em;
+  top: .25em;
   color: black;
-  font-weight: 200;
-  font-size: 2rem;
-  transform: rotateZ(45deg);
+  font-size: 1.2rem;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
 }
 
 .delete:hover {
   cursor: pointer;
-  color: #d22;
+  color: #fff;
+  background: #d22;
 }
 
 .line {
@@ -48,4 +75,8 @@ html, body {
 
 .content {
   color: purple;
+}
+
+.bracket {
+  font-size: 1.25rem;
 }

@@ -20,9 +20,9 @@ fetch('../../production/art.json').then(response => {
 
     // only add an opening bracket at the beginning
     if(i == 0) {
-      formattedEntry =`[<div class='entry'><div class="bracket">{</div>`;
+      formattedEntry =`[<div class='entry'><span class="bracket">{</span>`;
     } else {
-      formattedEntry =`<div class='entry'><div class="bracket">{</div>`;
+      formattedEntry =`<div class='entry'><span class="bracket">{</span>`;
     }
 
     // "loop" through each property in the current object
@@ -41,12 +41,12 @@ fetch('../../production/art.json').then(response => {
         propCounter++;
     }
     if(i < data.length-1) {
-      formattedEntry+=`},</div>`;
+      formattedEntry+=`<span class="bracket">}</span>,</div>`;
     } else {
-      formattedEntry+=`}</div>]`;
+      formattedEntry+=`<span class="bracket">}</span></div>]`;
     }
     $('.container').append(formattedEntry);
-    $('.entry').append(`<div class="delete">+</div>`)
+    $('.entry').append(`<div class="delete">&#10005</div>`)
   }
 
   $('.delete').click(function(){
@@ -60,4 +60,20 @@ fetch('../../production/art.json').then(response => {
     console.log('clicked');
   })
 })
+
+
+show();
+
+//
+
+$('.copy').on('click', copyToClipboard);
+
+function copyToClipboard() {
+  let temp = $(".container");
+  $("body").append(temp);
+  temp.val($(this).text()).select();
+  document.execCommand("copy");
+  temp.remove();
+}
+
 
