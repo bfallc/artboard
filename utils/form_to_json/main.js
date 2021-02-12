@@ -88,6 +88,10 @@ function downloadJSON(filename, elId, mimeType) {
 
   function addNewEntry() {
     
+    // add comma to end of previous entry
+    $('.bracket').last().text('},');
+
+
     // TODO: swap out any double quotes in the entry field with
     // &quot.
 
@@ -105,45 +109,45 @@ function downloadJSON(filename, elId, mimeType) {
     let keywords = $('#keywords').val();
 
     let entry = `
-      <div class="entry">{
+      <div class="entry">
+      <span class='bracket'>{</span>
         <p class="line">
-          <span class='firstname property'>"firstname":</span> <span class='content'>"${firstname}"</span>
+          <span class='firstname property'>"firstname":</span> <span class='content'>"${firstname}",</span>
         </p>
         <p class="line">
-          <span class='lastname property'>"lastname":</span> <span class='content'>"${lastname}"</span>
+          <span class='lastname property'>"lastname":</span> <span class='content'>"${lastname}",</span>
         </p>
         <p class="line">  
-          <span class='title property'>"title":</span> <span class='content'>"${title}"</span>
+          <span class='title property'>"title":</span> <span class='content'>"${title}",</span>
         </p>
         <p class="line">  
-          <span class='year property'>"year":</span> <span class='content'>"${year}"</span>
+          <span class='year property'>"year":</span> <span class='content'>"${year}",</span>
         </p>
         <p class="line">  
-          <span class='description property'>"description":</span> <span class='content'>"${description}"</span>
+          <span class='description property'>"description":</span> <span class='content'>"${description}",</span>
         </p>
         <p class="line">  
-          <span class='link property'>"link":</span> <span class='content'>"${link}"</span>
+          <span class='link property'>"link":</span> <span class='content'>"${link}",</span>
         </p>
         <p class="line">  
-          <span class='thumb property'>"thumb":</span> <span class='content'>"${thumb}"</span>
+          <span class='thumb property'>"thumb":</span> <span class='content'>"${thumb}",</span>
         </p>
         <p class="line">  
-          <span class='medium property'>"medium":</span> <span class='content'>"${medium}"</span>
+          <span class='medium property'>"medium":</span> <span class='content'>"${medium}",</span>
         </p>
         <p class="line">  
-          <span class='topic property'>"topic":</span> <span class='content'>"${topic}"</span>
+          <span class='topic property'>"topic":</span> <span class='content'>"${topic}",</span>
         </p>
         <p class="line">  
-          <span class='decade property'>"decade":</span> <span class='content'>"${decade}"</span>
+          <span class='decade property'>"decade":</span> <span class='content'>"${decade}",</span>
         </p>
         <p class="line">  
-          <span class='movement property'>"movement":</span> <span class='content'>"${movement}"</span>
+          <span class='movement property'>"movement":</span> <span class='content'>"${movement}",</span>
         </p>
         <p class="line">  
           <span class='keywords property'>"keywords":</span> <span class='content'>"${keywords}"</span>
         </p>
-        <p class="line">
-        } 
+        <span class='bracket'>}</span>
       </div>
     `
 
