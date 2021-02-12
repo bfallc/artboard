@@ -8,36 +8,45 @@ html, body {
   background: #ffedde
 }
 .page-title {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #904000;
+  margin: 0;
+  margin-bottom: .5em;
+  margin-left: .25em;
+  padding: 0;
 }
 
-.download {
-  padding: .5em 1em;
-  border: 2px solid black;
-  font-size: .75rem;
-  font-family: 'Crimson Pro', serif;
-  opacity: 0.5;
-
+.button-menu {
   position: fixed;
   bottom: 1em;
   right: 1em;
   z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  padding: .5em 1em;
+  margin: .325em 0;
+  border: 2px solid black;
+  font-size: .75rem;
+  font-family: 'Crimson Pro', serif;
+  opacity: 0.5;
   transition: all .125s;
 }
 
-.download:hover {
+.button:hover {
   background: #444;
   opacity: 1;
   color: white;
   cursor: pointer;
 }
 
-.download:active {
+.button:active {
   background: #000;
 }
 
-.container {
+#container {
   max-width: 900px;
 }
 

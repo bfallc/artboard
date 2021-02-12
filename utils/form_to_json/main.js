@@ -78,6 +78,10 @@ function downloadJSON(filename, elId, mimeType) {
     downloadJSON(fileName, 'container', 'text/json');
   })
 
+  $('.add_json').click(function(){
+    $('#entry-form').css('display', 'flex');
+  })
+
   $('.entry-form__close').click(function(){
     $('#entry-form').hide();
   });
@@ -95,13 +99,26 @@ function downloadJSON(filename, elId, mimeType) {
     // TODO: swap out any double quotes in the entry field with
     // &quot.
 
+    $('#firstname').val("");
+    $('#lastname').val("");
+    $('#title').val("");
+    $('#year').val("");
+    $('#description').val("");
+    $('#link').val("");
+    $('#image').val("");
+    $('#medium').val("");
+    $('#topic').val("");
+    $('#decade').val("");
+    $('#movement').val("");
+    $('#keywords').val("");
+
     let firstname = $('#firstname').val();
     let lastname = $('#lastname').val();
     let title = $('#title').val();
     let year = $('#year').val();
     let description = $('#description').val();
     let link = $('#link').val();
-    let thumb = $('#thumb').val();
+    let image = $('#image').val();
     let medium = $('#medium').val();
     let topic = $('#topic').val();
     let decade = $('#decade').val();
@@ -130,7 +147,7 @@ function downloadJSON(filename, elId, mimeType) {
           <span class='link property'>"link":</span> <span class='content'>"${link}",</span>
         </p>
         <p class="line">  
-          <span class='thumb property'>"thumb":</span> <span class='content'>"${thumb}",</span>
+          <span class='image property'>"image":</span> <span class='content'>"${image}",</span>
         </p>
         <p class="line">  
           <span class='medium property'>"medium":</span> <span class='content'>"${medium}",</span>
@@ -154,6 +171,8 @@ function downloadJSON(filename, elId, mimeType) {
     $('#container .entry:last-child').after(entry);
     
   }
+
+  //// tried to create a function to copy an individual json entry. Didn't quite work, wasn't that useful anyway, but here it is...
 
   // $('.copy').on('click', function(){
   
