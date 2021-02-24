@@ -18,8 +18,8 @@ html, body {
 
 .button-menu {
   position: fixed;
-  bottom: 1em;
-  right: 1em;
+  top: 1.75rem;
+  right: 1.75rem;
   z-index: 100;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,8 @@ html, body {
 
 .button {
   padding: .5em 1em;
-  margin: .325em 0;
+  /* margin: .325em 0; */
+  margin-bottom: .325em;
   border: 2px solid black;
   font-size: .75rem;
   font-family: 'Crimson Pro', serif;
@@ -137,18 +138,24 @@ html, body {
   
 }
 
+.entry-container {
+  margin: 0 auto;
+  /* max-width: 1000px; */
+}
+
 #entry-form {
   background: #eef;
-  padding: .5em;
+  padding: .5em 14em;
   border: 1px solid black;
   display: none;
   flex-wrap: wrap;
   position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 98%;
-  max-width: 800px;
-  transform: translate(-50%, -50%);
+  bottom: 1.75rem;
+  left: 1.75rem;
+  right: 1.75rem;
+  /* width: 94%; */
+  /* max-width: 1000px; */
+  /* transform: translate(-50%, 0); */
   box-shadow: 0 6px 14px -10px;
 }
 
