@@ -134,9 +134,9 @@ html, body {
   color: purple;
 }
 
-.bracket {
+/* .bracket {
   
-}
+} */
 
 .entry-container {
   margin: 0 auto;
@@ -163,9 +163,9 @@ html, body {
   margin: .325em 1em;
 }
 
-#entry-form input {
+/* #entry-form input {
  
-}
+} */
 
 .entry-form__close {
   position: absolute;
