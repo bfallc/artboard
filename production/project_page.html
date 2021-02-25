@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+
+fetch('art.json')
+    .then(response => { return response.json();}) //get file contents
+    .then(data => {
+
+    console.log(data);
+
+    const url = new URL(window.location.href);
+    console.log(window.location.href)
+    const params = new URLSearchParams(url.search);
+        
+    var i = params.get('id');
+    console.log(i);
+ 
+
+
+
+    var myDiv = document.createElement('div');
+    myDiv.id = 'container';
+
+    // myDiv.innerHTML = "hello w";
+  
+  myDiv.innerHTML = `<div class='item ${data[i].medium} ${data[i].topic} ${data[i].decade} ${data[i].movement}'>
+          <a href='images/${data[i].image}' target='_blank'><img class=image src='images/${data[i].image1}'></a>
+          <div class="item__text">
+            <p class='titlebar'><span class='firstname'>${data[i].firstname}</span> <span class='lastname'>${data[i].lastname}</span> - <span class='title'>${data[i].title}</span> (<span class='year'>${data[i].year}</span>)</p>
+            <p class='description'>${data[i].description}</p>
+            <p class='externallink'><a href=${data[i].link} target='_blank'>[external link]</a> <a href='project_page?id=${data[i].id}' target='_blank'>[test link]</a> <a href='index.html' target='_blank'>[main page]</a></p>
+            <p class='keywords'>${data[i].keywords}</p>
+          </div>
+        </div>`;
+
+  myDiv.className = 'stuff';
+  document.body.appendChild(myDiv);
+// }, false);
+
+
+
+
+}).catch(err => {
+    // Do something for an error here
+    console.log("there was an error");
+  }); //end
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
