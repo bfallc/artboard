@@ -137,6 +137,9 @@ function downloadJSON(filename, elId, mimeType) {
       <div class="entry">
       <span class='bracket'>{</span>
         <p class="line">
+          <span class='id property'>"id":</span> <span class='content'>"${id}",</span>
+        </p>
+        <p class="line">
           <span class='firstname property'>"firstname":</span> <span class='content'>"${firstname}",</span>
         </p>
         <p class="line">
