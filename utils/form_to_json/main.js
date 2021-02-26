@@ -82,7 +82,6 @@ function downloadJSON(filename, elId, mimeType) {
     link.click(); 
 }
 
-
   $('.download').click(function(){
     downloadJSON(fileName, 'container', 'text/json');
   })
@@ -109,7 +108,7 @@ function downloadJSON(filename, elId, mimeType) {
     // &quot.
 
     
-
+    let id = ""+(Math.floor(Date.now()/1000));
     let firstname = $('#firstname').val();
     let lastname = $('#lastname').val();
     let title = $('#title').val();
@@ -121,13 +120,18 @@ function downloadJSON(filename, elId, mimeType) {
       description = description.replace(/"/g, `\\"`);
     }
 
+    
     let link = $('#link').val();
-    let image = $('#image').val();
+    let image1 = $('#image1').val();
+    let image2 = $('#image2').val();
+    let image3 = $('#image3').val();
+    let video = $('#video').val();
     let medium = $('#medium').val();
     let topic = $('#topic').val();
     let decade = $('#decade').val();
     let movement = $('#movement').val();
     let keywords = $('#keywords').val();
+    
 
     let entry = `
       <div class="entry">
@@ -188,6 +192,43 @@ function downloadJSON(filename, elId, mimeType) {
     $('#keywords').val("");
     
   }
+
+  // click on content, hide the content, add text box in its place.
+  let currThing = 0;
+  $('.content').click(function(){
+    if(currThing != 0) {
+      currThing.show();
+    }
+    currThing = $(this);
+    $('#editFormInput').remove();
+    
+    let currentContent = $(this).text();
+    let inputForm = `<input type="text" value=${currentContent} id="editFormInput">`
+    $(this).parent().append(inputForm);
+
+    $('#editFormInput').on('keypress', function (e) {
+      if(e.which === 13){
+
+        console.log('enter happened')
+        console.log("this.parent: ", $(this).parent())
+
+        currentContent = $(this).val();
+
+        $(this).parent().children('.content').text(`"${currentContent}"`).show();
+        $(this).remove();
+        //  //Disable textbox to prevent multiple submit
+        //  $(this).attr("disabled", "disabled");
+
+        //  //Do Stuff, submit, etc..
+
+        //  //Enable the textbox again if needed.
+        //  $(this).removeAttr("disabled");
+      }
+    });
+
+    console.log(currentContent);
+    $(this).hide();
+  })
 
   //// tried to create a function to copy an individual json entry. Didn't quite work, wasn't that useful anyway, but here it is...
 

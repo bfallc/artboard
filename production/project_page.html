@@ -20,12 +20,15 @@ fetch('art.json')
     console.log(window.location.href)
     const params = new URLSearchParams(url.search);
         
-    var i = params.get('id');
+    var i; 
+
+    for(let j = 0; j < data.length; j++) {
+      if(data[j].id == params.get('id')){
+        i = j;
+      }
+    }
     console.log(i);
  
-
-
-
     var myDiv = document.createElement('div');
     myDiv.id = 'container';
 

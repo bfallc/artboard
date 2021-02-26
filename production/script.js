@@ -259,11 +259,11 @@ function generateContent() {
 
       var $newItem = $(
         `<div class='item ${data[i].medium} ${data[i].topic} ${data[i].decade} ${data[i].movement}'>
-          <a href='images/${data[i].image}' target='_blank'><img class=image src='images/${data[i].image1}'></a>
+          <a href='project_page.html?id=${data[i].id}' target='_blank'><img class=image src='images/${data[i].image1}'></a>
           <div class="item__text">
             <p class='titlebar'><span class='firstname'>${data[i].firstname}</span> <span class='lastname'>${data[i].lastname}</span> - <span class='title'>${data[i].title}</span> (<span class='year'>${data[i].year}</span>)</p>
             <p class='description'>${data[i].description}</p>
-            <p class='externallink'><a href=${data[i].link} target='_blank'>[external link]</a> <a href='project_page.html?id=${data[i].id}' target='_blank'>[test link]</a></p>
+            <p class='externallink'><a href=${data[i].link} target='_blank'>[external link]</a></p>
             <p class='keywords'>${data[i].keywords}</p>
           </div>
         </div>`);
