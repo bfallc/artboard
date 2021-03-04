@@ -96,7 +96,10 @@ function downloadJSON(filename, elId, mimeType) {
 
   $('.entry-submit').click(function(){
     addNewEntry();
-    
+    $('#entry-form').hide();
+    $('html, body').animate({
+      scrollTop: $(document).height()
+    }, 500);
   })
 
   function addNewEntry() {
@@ -195,7 +198,7 @@ function downloadJSON(filename, elId, mimeType) {
 
     $('#container .entry:last-child').after(entry);
 
-    $('#firstname').val("");
+    $('#firstname').val("e.g. Doog");
     $('#lastname').val("");
     $('#title').val("");
     $('#year').val("");
@@ -211,7 +214,6 @@ function downloadJSON(filename, elId, mimeType) {
     $('#movement').val("");
     $('#addedby').val("");
     $('#keywords').val("");
-    
   }
 
   // click on content, hide the content, add text box in its place.
