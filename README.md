@@ -8,7 +8,7 @@ sortable/filterable web page for looking at a personal collection of saved art r
 
 ## TO-DO
 1. Refine checkbox generation
-   1. Prevent blank checkbox generation. 
+   1. ~~Prevent blank checkbox generation.~~ 
    2. If no checkboxes for given category, don't generate a row for checkboxes)
 2. Edit Form-to-JSON generator
    1. ~~Add edit functionality to individual entries~~

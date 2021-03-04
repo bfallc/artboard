@@ -182,6 +182,7 @@ function generateContent() {
     generateMediumCheckboxes();
     generateTopicCheckboxes();
     generateDecadeCheckboxes();
+    generateAddedByCheckboxes();
     
     //generate data divs within grid container
     for(let i = 0; i < data.length; i++) {
@@ -282,7 +283,32 @@ function generateMediumCheckboxes() {
     $("div[data-group='medium']").append(checkbox);
   }
 }
-    
+
+function generateAddedByCheckboxes() {
+  let addedByGroup = `<div id="addedby" class="option-set" data-group="addedby"></div>`
+
+  $('#options').append(addedByGroup);
+  
+  // find all unique checkboxes
+  let checkboxNames = [];
+  for(let i = 0; i < data.length; i++) {
+    let addedBy = data[i].addedby;
+    console.log(addedBy);
+    if(checkboxNames.indexOf(addedBy) == -1) {
+      //don't include blank json entries
+      if(addedBy.length > 0){
+        checkboxNames.push(addedBy);
+      }
+    }
+  }
+  checkboxNames.sort();
+  // generate html
+  for(let i = 0; i < checkboxNames.length; i++) {
+    let checkbox = `<label><input type="checkbox" value=".${checkboxNames[i]}" />${checkboxNames[i]}</label>`
+    $("div[data-group='addedby']").append(checkbox);
+  }
+}
+
   //call isotope init after all images are loaded (isotope trouble spot)
   $container = $('#container').imagesLoaded( function() {
     $container.isotope({

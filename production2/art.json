@@ -15,7 +15,7 @@
     "topic": "capitalism technology repetition",
     "decade": "2000s",
     "movement": "",
-    "addedby": "",
+    "addedby": "blake",
     "keyword": "sheep amazon mechanical turk pay"
   },
   {
@@ -34,7 +34,7 @@
     "topic": "technology surveillance cvml",
     "decade": "2010s",
     "movement": "",
-    "addedby": "",
+    "addedby": "blake",
     "keywords": "hair makeup surveillance"
   },
   {
@@ -72,7 +72,7 @@
     "topic": "capitalism artcrit",
     "decade": "1990s",
     "movement": "",
-    "addedby": "",
+    "addedby": "doug",
     "keywords": "cool"
   },
   {
@@ -110,6 +110,7 @@
     "topic": "sociallyengaged",
     "decade": "2000s",
     "movements": "",
+    "addedby": "",
     "keywords": "china dissident authoritarian arrest selfie"
   },
   {
@@ -1226,8 +1227,8 @@
     "image2": "",
     "image3": "",
     "video": "",
-    "medium": "Video, Animation",
-    "topic": "machine learning, cvml",
+    "medium": "video animation",
+    "topic": "machine_learning cvml",
     "decade": "2020",
     "movement": "",
     "addedby": "",
