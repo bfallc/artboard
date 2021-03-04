@@ -72,7 +72,6 @@ $('.sort-by-button-group').on( 'click', 'button', function() {
 
 generateContent();
 
-
 let $filterDisplay = $('#filter-display');
 
 // do stuff when checkbox change
