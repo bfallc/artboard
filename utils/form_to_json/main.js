@@ -96,6 +96,7 @@ function downloadJSON(filename, elId, mimeType) {
 
   $('.entry-submit').click(function(){
     addNewEntry();
+    
   })
 
   function addNewEntry() {
@@ -130,6 +131,7 @@ function downloadJSON(filename, elId, mimeType) {
     let topic = $('#topic').val();
     let decade = $('#decade').val();
     let movement = $('#movement').val();
+    let addedby = $('#addedby').val();
     let keywords = $('#keywords').val();
     
 
@@ -158,7 +160,16 @@ function downloadJSON(filename, elId, mimeType) {
           <span class='link property'>"link":</span> <span class='content'>"${link}",</span>
         </p>
         <p class="line">  
-          <span class='image property'>"image":</span> <span class='content'>"${image}",</span>
+          <span class='image2 property'>"image1":</span> <span class='content'>"${image1}",</span>
+        </p>
+        <p class="line">  
+          <span class='image3 property'>"image2":</span> <span class='content'>"${image2}",</span>
+        </p>
+        <p class="line">  
+          <span class='image3 property'>"image3":</span> <span class='content'>"${image3}",</span>
+        </p>
+        <p class="line">  
+          <span class='video property'>"video":</span> <span class='content'>"${video}",</span>
         </p>
         <p class="line">  
           <span class='medium property'>"medium":</span> <span class='content'>"${medium}",</span>
@@ -171,6 +182,9 @@ function downloadJSON(filename, elId, mimeType) {
         </p>
         <p class="line">  
           <span class='movement property'>"movement":</span> <span class='content'>"${movement}",</span>
+        </p>
+        <p class="line">  
+          <span class='addedby property'>"addedby":</span> <span class='content'>"${addedby}",</span>
         </p>
         <p class="line">  
           <span class='keywords property'>"keywords":</span> <span class='content'>"${keywords}"</span>
@@ -187,11 +201,15 @@ function downloadJSON(filename, elId, mimeType) {
     $('#year').val("");
     $('#description').val("");
     $('#link').val("");
-    $('#image').val("");
+    $('#image1').val("");
+    $('#image2').val("");
+    $('#image3').val("");
+    $('#video').val("");
     $('#medium').val("");
     $('#topic').val("");
     $('#decade').val("");
     $('#movement').val("");
+    $('#addedby').val("");
     $('#keywords').val("");
     
   }
@@ -229,7 +247,6 @@ function downloadJSON(filename, elId, mimeType) {
       }
     });
 
-    console.log(currentContent);
     $(this).hide();
   })
 

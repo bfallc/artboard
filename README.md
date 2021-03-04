@@ -15,6 +15,8 @@ sortable/filterable web page for looking at a personal collection of saved art r
    2. Add new fields to accomodate new JSON keys
    3. Add sample input type to each input textbox
    4. Add escape character checker for all fields
+   5. Allow newly-added entries to be edited
+   6. Make document jump to bottom of screen when new entry is added.
 3. ~~Add functionality to copy/edit existing entry~~
 4. ~~Dynamically display video or image for thumbnail~~
 5. batch process images into thumbnails with photoshop action

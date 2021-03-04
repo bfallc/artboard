@@ -19,8 +19,6 @@
     <button class="download button">Download JSON</button>
   </div>
   
-  
-  
   <div id="container" class="entries container"></div>
   
   <div id="entry-form">
@@ -46,7 +44,7 @@
       </div>
       
       <div class="form-group">
-        <label for="description">Description (~400 characters max)</label>
+        <label for="description">Description</label>
         <input type="text" id="description" value="">
       </div>
       
@@ -56,8 +54,23 @@
       </div>
       
       <div class="form-group">
-        <label for="image">Image (.mp4, .webm, .jpg, .png, &lt; 1MB)</label>
-        <input type="text" id="image" value="">
+        <label for="image">Image 1</label>
+        <input type="text" id="image1" value="">
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image 2</label>
+        <input type="text" id="image2" value="">
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image 3</label>
+        <input type="text" id="image3" value="">
+      </div>
+
+      <div class="form-group">
+        <label for="image">Video</label>
+        <input type="text" id="image3" value="">
       </div>
       
       <div class="form-group">
@@ -66,7 +79,7 @@
       </div>
       
       <div class="form-group">
-        <label for="topic">Topic</label>
+        <label for="topic">Topic(s)</label>
         <input type="text" id="topic" value="">
       </div>
       
@@ -81,14 +94,18 @@
       </div>
       
       <div class="form-group">
-        <label for="keywords">Keywords (separate by comma)</label>
+        <label for="keywords">Keywords (separate by space)</label>
         <input type="text" id="keywords" value="">
+      </div>
+
+      <div class="form-group">
+        <label for="keywords">Added By</label>
+        <input type="text" id="addedby" value="">
       </div>
 
       <button class="entry-submit button">Submit</button>
       
       <div class="entry-form__close">&#10005</div>
-    <!-- </div> -->
   </div>
 
   <script src="main.js"></script>
