@@ -213,7 +213,10 @@ function generateDecadeCheckboxes() {
   for(let i = 0; i < data.length; i++) {
     let currDecade = data[i].decade;
     if(checkboxNames.indexOf(currDecade) == -1) {
-      checkboxNames.push(currDecade);
+      //don't include blank json entries
+      if(currDecade.length > 0){
+        checkboxNames.push(currDecade);
+      }
     }
   }
   checkboxNames.sort();
@@ -236,7 +239,10 @@ function generateTopicCheckboxes() {
 
     for(let j = 0; j < word.length; j++) {
       if(checkboxNames.indexOf(word[j]) == -1) {
-        checkboxNames.push(word[j]);
+        //don't include blank json entries
+        if(word[j].length > 0){
+          checkboxNames.push(word[j]);
+        }
       }
     }
   }
@@ -261,7 +267,10 @@ function generateMediumCheckboxes() {
 
     for(let j = 0; j < word.length; j++) {
       if(checkboxNames.indexOf(word[j]) == -1) {
-        checkboxNames.push(word[j]);
+        //don't include blank json entries
+        if(word[j].length > 0){
+          checkboxNames.push(word[j]);
+        }
       }
     }
   }
