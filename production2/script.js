@@ -72,7 +72,7 @@ $('.sort-by-button-group').on( 'click', 'button', function() {
 
 generateContent();
 
-let $filterDisplay = $('#filter-display');
+// let $filterDisplay = $('#filter-display');
 
 // do stuff when checkbox change
 $('#options').on( 'change', function( event ) {
@@ -188,7 +188,7 @@ function generateContent() {
     for(let i = 0; i < data.length; i++) {
 
       let $newItem = $(
-        `<div class='item ${data[i].medium} ${data[i].topic} ${data[i].decade} ${data[i].movement}'>
+        `<div class='item ${data[i].medium} ${data[i].topic} ${data[i].decade} ${data[i].movement} ${data[i].addedby}'>
           <a href='project_page.html?id=${data[i].id}' target='_blank'><img class=image src='images/${data[i].image1}'></a>
           <div class="item__text">
             <p class='titlebar'><span class='firstname'>${data[i].firstname}</span> <span class='lastname'>${data[i].lastname}</span> - <span class='title'>${data[i].title}</span> (<span class='year'>${data[i].year}</span>)</p>
@@ -303,9 +303,13 @@ function generateAddedByCheckboxes() {
   }
   checkboxNames.sort();
   // generate html
-  for(let i = 0; i < checkboxNames.length; i++) {
-    let checkbox = `<label><input type="checkbox" value=".${checkboxNames[i]}" />${checkboxNames[i]}</label>`
-    $("div[data-group='addedby']").append(checkbox);
+  if(checkboxNames.length < 2) {
+    $('#addedby').css('display', 'none');
+  } else {
+    for(let i = 0; i < checkboxNames.length; i++) {
+      let checkbox = `<label><input type="checkbox" value=".${checkboxNames[i]}" />${checkboxNames[i]}</label>`
+      $("div[data-group='addedby']").append(checkbox);
+    }
   }
 }
 
