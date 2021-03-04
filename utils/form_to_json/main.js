@@ -198,7 +198,7 @@ function downloadJSON(filename, elId, mimeType) {
 
     $('#container .entry:last-child').after(entry);
 
-    $('#firstname').val("e.g. Doog");
+    $('#firstname').val("");
     $('#lastname').val("");
     $('#title').val("");
     $('#year').val("");

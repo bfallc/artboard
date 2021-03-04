@@ -27,6 +27,7 @@ sortable/filterable web page for looking at a personal collection of saved art r
       1. Center the grid
    2. Refine CSS for project page
    3. Make JSON
+   4. Truncate item description to manageable length on main page
 8. Refine User Experience
    1. Add button on home page to JSON form
    2. Add instructions to JSON form

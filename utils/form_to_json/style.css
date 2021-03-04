@@ -147,7 +147,7 @@ html, body {
   background: #eef;
   padding: .5em 14em;
   border: 1px solid black;
-  display: none;
+  display: block;
   flex-wrap: wrap;
   position: fixed;
   bottom: 1.75rem;
@@ -162,6 +162,7 @@ html, body {
 .form-group {
   margin: .325em 1em;
 }
+
 
 /* #entry-form input {
  
@@ -198,6 +199,10 @@ input {
 
 input:focus {
   outline: 3px solid seagreen;
+}
+
+input[placeholder] {
+  /* color: red; */
 }
 
 .note {
