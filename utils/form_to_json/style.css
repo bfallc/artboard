@@ -147,7 +147,7 @@ html, body {
   background: #eef;
   padding: .5em 14em;
   border: 1px solid black;
-  display: block;
+  display: none;
   flex-wrap: wrap;
   position: fixed;
   bottom: 1.75rem;
@@ -201,9 +201,9 @@ input:focus {
   outline: 3px solid seagreen;
 }
 
-input[placeholder] {
-  /* color: red; */
-}
+/* input[placeholder] {
+  
+} */
 
 .note {
   max-width: 50ch;
