@@ -33,6 +33,7 @@ sortable/filterable web page for looking at a personal collection of saved art r
 8. Refine User Experience
    1. Add button on home page to JSON form
    2. Add instructions to JSON form
+   3. Add item magnify buttons on main page
 
 ## Stretch Goals
 1. convert checkbox dashes to spaces (or, make it so entries in the json use spaces? avoid dashes and underscores?)

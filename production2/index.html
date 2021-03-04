@@ -10,14 +10,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
-    <h1>ArtBoard Ver0.1</h1>
-    <span class="searchbar"><input type="text" class="quicksearch" placeholder="Search text"></span>
-  </header>
+  <header>
+  <div class="header-topbar">
+    <div class="header-topbar_left">
+      <h1 class="page-title">ArtBoard Ver0.2</h1>
+    </div>
+    <div class="header-topbar_right">
+      <span class="searchbar"><input type="text" class="quicksearch" placeholder="Search text"></span>
+      <a href="../utils/form_to_json">Add/Edit</a>
+      <a href="#">Instructions</a>
+      <div class="show-hide">Show/Hide</div>
+      <div class="magnify-items">+ -</div>
+    </div>
+  </div>
 
   <div id="options">
     <div class="button-group sort-by-button-group">
-      <p>Sort by:</p> 
+      <span class="checkbox-label">Sort by:</span> 
       <button data-sort-by="firstname">first name</button>
       <button data-sort-by="lastname">last name</button>
       <button data-sort-by="title">title</button>
@@ -25,6 +34,7 @@
       <button data-sort-by="random">random</button>
     </div>
   </div>
+</header>
 
   <div id="container"></div>
 

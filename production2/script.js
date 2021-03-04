@@ -179,11 +179,11 @@ function generateContent() {
     //log json arrays to console
     console.log(data);
 
-    generateMediumCheckboxes();
-    generateTopicCheckboxes();
-    generateDecadeCheckboxes();
     generateAddedByCheckboxes();
-    
+    generateDecadeCheckboxes();
+    generateTopicCheckboxes();
+    generateMediumCheckboxes();
+        
     //generate data divs within grid container
     for(let i = 0; i < data.length; i++) {
 
@@ -205,9 +205,13 @@ function generateContent() {
 //////////////// FUNCTIONS
 
 function generateDecadeCheckboxes() {
-  let decadeGroup = `<div id="decade" class="option-set" data-group="decade"></div>`
+  let decadeGroup = `
+  <div class='checkbox-group'>
+    <span class="checkbox-label">Decade:</span>
+    <div id="decade" class="option-set" data-group="decade"></div>
+  </div>`
 
-  $('#options').append(decadeGroup);
+  $('#options').prepend(decadeGroup);
   
   // find all unique checkboxes
   let checkboxNames = [];
@@ -229,8 +233,12 @@ function generateDecadeCheckboxes() {
 }
 
 function generateTopicCheckboxes() {
-  let topicGroup = `<div id="topic" class="option-set" data-group="topic"></div>`
-  $('#options').append(topicGroup);
+  let topicGroup = `
+  <div class='checkbox-group'>
+    <span class="checkbox-label">Topic:</span>
+    <div id="topic" class="option-set" data-group="topic"></div>
+  </div>`
+  $('#options').prepend(topicGroup);
 
   // let checkboxWords = [];
   let checkboxNames = [];
@@ -257,8 +265,12 @@ function generateTopicCheckboxes() {
 }
 
 function generateMediumCheckboxes() {
-  let mediumGroup = `<div id="medium" class="option-set" data-group="medium"></div>`
-  $('#options').append(mediumGroup);
+  let mediumGroup = `
+    <div class='checkbox-group'>
+      <span class="checkbox-label">Medium:</span>
+      <div id="medium" class="option-set" data-group="medium"></div>
+    </div>`
+  $('#options').prepend(mediumGroup);
 
   // let checkboxWords = [];
   let checkboxNames = [];
@@ -285,9 +297,13 @@ function generateMediumCheckboxes() {
 }
 
 function generateAddedByCheckboxes() {
-  let addedByGroup = `<div id="addedby" class="option-set" data-group="addedby"></div>`
+  let addedByGroup = `
+  <div class='checkbox-group'>
+    <span class="checkbox-label">Added by:</span>
+    <div id="addedby" class="option-set" data-group="addedby"></div>
+  </div>`
 
-  $('#options').append(addedByGroup);
+  $('#options').prepend(addedByGroup);
   
   // find all unique checkboxes
   let checkboxNames = [];
