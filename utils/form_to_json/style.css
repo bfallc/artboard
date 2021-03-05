@@ -3,13 +3,13 @@
 }
 
 html, body {
-  font-family: 'Crimson Pro', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  background: #ffedde
+  background: white;
 }
 .page-title {
-  font-size: 4rem;
-  color: #904000;
+  font-size: 2rem;
+  color: black;
   margin: 0;
   margin-bottom: .5em;
   margin-left: .25em;
@@ -53,15 +53,23 @@ html, body {
 }
 
 .entry {
-  margin: .5em 0;
+  margin: 1em 0;
   margin-left: 1em;
   position: relative;
   padding: .75em;
+  background: #f2f2f2;
 }
 
-.entry:hover {
-  background: #eff;
+.counter {
+  position: absolute;
+  top: 0;
+  right: 101%;
+  color: crimson;
 }
+
+/* .entry:hover {
+  background: #eff;
+} */
 
 .entry:hover .delete, .entry:hover .copy {
   display: flex;
@@ -127,11 +135,12 @@ html, body {
 }
 
 .property {
-  color: blue;
+  color: black;
+  font-weight: 500;
 }
 
 .content {
-  color: purple;
+  color: #555;
 }
 
 /* .bracket {

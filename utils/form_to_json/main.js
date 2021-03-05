@@ -1,4 +1,5 @@
 // Load the JSON
+let entryCounter = 0;
 
 fetch('../../production/art.json').then(response => {
   //get file contents
@@ -10,6 +11,7 @@ fetch('../../production/art.json').then(response => {
     
     // store the current object
     let entry = data[i];
+    
 
     // we need to know the number of properties in the object in order to avoid adding a comma at the end of the last object. numProperties stores the number of keys (properties) in the object.
     let numProperties = (Object.keys(entry).length);
@@ -20,9 +22,9 @@ fetch('../../production/art.json').then(response => {
 
     // only add an opening bracket at the beginning
     if(i == 0) {
-      formattedEntry =`[<div class='entry'><span class="bracket">{</span>`;
+      formattedEntry =`[<div class='entry'><div class="counter">${entryCounter}</div><span class="bracket">{</span>`;
     } else {
-      formattedEntry =`<div class='entry'><span class="bracket">{</span>`;
+      formattedEntry =`<div class='entry'><div class="counter">${entryCounter}</div><span class="bracket">{</span>`;
     }
 
     // "loop" through each property in the current object
@@ -52,6 +54,7 @@ fetch('../../production/art.json').then(response => {
       formattedEntry+=`<span class="bracket">}</span></div>]`;
     }
     $('.container').append(formattedEntry);
+    entryCounter++;
   }
 
   // $('.entry').append(`<div class="copy">copy</div>`)
@@ -65,8 +68,6 @@ fetch('../../production/art.json').then(response => {
       $(this).remove();
       $('.bracket').last().text('}');
     })
-    
-    
   })
 
 let fileName =  'art.json'; // You can use the .txt extension if you want
@@ -83,7 +84,9 @@ function downloadJSON(filename, elId, mimeType) {
 }
 
   $('.download').click(function(){
+    $('.counter').hide();
     downloadJSON(fileName, 'container', 'text/json');
+    $('.counter').show();
   })
 
   $('.add_json').click(function(){
@@ -124,7 +127,6 @@ function downloadJSON(filename, elId, mimeType) {
       description = description.replace(/"/g, `\\"`);
     }
 
-    
     let link = $('#link').val();
     let image1 = $('#image1').val();
     let image2 = $('#image2').val();
@@ -137,9 +139,10 @@ function downloadJSON(filename, elId, mimeType) {
     let addedby = $('#addedby').val();
     let keywords = $('#keywords').val();
     
-
+    console.log(entryCounter);
     let entry = `
       <div class="entry">
+      <div class="counter">${entryCounter}</div>
       <span class='bracket'>{</span>
         <p class="line">
           <span class='id property'>"id":</span> <span class='content'>"${id}",</span>
@@ -214,6 +217,8 @@ function downloadJSON(filename, elId, mimeType) {
     $('#movement').val("");
     $('#addedby').val("");
     $('#keywords').val("");
+
+    entryCounter++;
   }
 
   // click on content, hide the content, add text box in its place.
