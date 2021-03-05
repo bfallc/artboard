@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  background: purple;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0px;
