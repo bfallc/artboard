@@ -18,6 +18,8 @@ header {
   top: 0;
   background: white;
   z-index: 999;
+  border-bottom: 1px solid gray;
+  box-shadow: 0 10px 20px -16px;
 }
 
 .header-topbar {
@@ -98,7 +100,8 @@ input[type="checkbox"] {
 /* ---- input ---- */
 
 input[type="text"] {
-  font-size: 16px;
+  font-size: .75rem;
+  padding: .25em;
 }
 
 .item {
