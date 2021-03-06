@@ -210,7 +210,7 @@
 
 "medium": "photo performance" ,
 
-"topic": "sociallyengaged" ,
+"topic": "socially_engaged" ,
 
 "decade": "2000s" ,
 
@@ -247,7 +247,7 @@
 
 "medium": "sculpture" ,
 
-"topic": "technology physicalcomputing repetition" ,
+"topic": "technology physical_computing repetition" ,
 
 "decade": "2000s" ,
 
@@ -284,7 +284,7 @@
 
 "medium": "sculpture digital" ,
 
-"topic": "creativecoding technology repetition" ,
+"topic": "creative_coding technology repetition" ,
 
 "decade": "2000s" ,
 
@@ -319,7 +319,7 @@
 
 "video": "" ,
 
-"medium": "paintdraw" ,
+"medium": "paint_draw" ,
 
 "topic": "capitalism" ,
 
@@ -469,7 +469,7 @@
 
 "medium": "conceptual" ,
 
-"topic": "nature capitalism politics sociallyengaged" ,
+"topic": "nature capitalism politics socially_engaged" ,
 
 "decade": "2000s" ,
 
@@ -800,7 +800,7 @@
 
 "video": "" ,
 
-"medium": "" ,
+"medium": "sculpture" ,
 
 "topic": "" ,
 
@@ -2406,43 +2406,6 @@
 },
 {
 
-"id": "1614397376" ,
-
-"firstname": "Doug" ,
-
-"lastname": "Rosman" ,
-
-"title": "self-contained" ,
-
-"year": "2019" ,
-
-"description": "GAN synthesized portraits of the artist, unstable, surreal forms expressing the algorithm's uncertainity in how to resolve a human form." ,
-
-"link": "https://dougrosman.com/" ,
-
-"image1": "DougRosman-SelfContained.jpg" ,
-
-"image2": "" ,
-
-"image3": "" ,
-
-"video": "" ,
-
-"medium": "Video, Animation" ,
-
-"topic": "machine learning, cvml" ,
-
-"decade": "2020" ,
-
-"movement": "" ,
-
-"addedby": "doug" ,
-
-"keywords": "Neural GAN Generative Bodies Morph Pix2Pix"
-
-},
-{
-
 "id": "1614995470" ,
 
 "firstname": "Daniel" ,
@@ -2665,444 +2628,444 @@
 },
 {
 
-"id": "1615062245",
+"id": "1615062245" ,
 
-"firstname": "David",
+"firstname": "David" ,
 
-"lastname": "Bowen",
+"lastname": "Bowen" ,
 
-"title": "Da46°41'58.365' LAT. -91°59'49.0128' LONG. @ 30M",
+"title": "Da46°41'58.365' LAT. -91°59'49.0128' LONG. @ 30M" ,
 
-"year": "2015",
+"year": "2015" ,
 
-"description": "",
+"description": "" ,
 
-"link": "https://www.dwbowen.com/464158365-lat-9159490128-long-30m",
+"link": "https://www.dwbowen.com/464158365-lat-9159490128-long-30m" ,
 
-"image1": "DavidBowen-464158365lat9159490128long30m.jpg",
+"image1": "DavidBowen-464158365lat9159490128long30m.jpg" ,
 
-"image2": "",
+"image2": "" ,
 
-"image3": "",
+"image3": "" ,
 
-"video": "",
+"video": "" ,
 
-"medium": "sculpture",
+"medium": "sculpture" ,
 
-"topic": "",
+"topic": "" ,
 
-"decade": "2010s",
+"decade": "2010s" ,
 
-"movement": "",
+"movement": "" ,
 
-"addedby": "blake",
+"addedby": "blake" ,
 
 "keywords": "water surface waves"
 
 },
 {
 
-"id": "1615062388",
+"id": "1615062388" ,
 
-"firstname": "David ",
+"firstname": "David " ,
 
-"lastname": "Bowen",
+"lastname": "Bowen" ,
 
-"title": "Fly AI",
+"title": "Fly AI" ,
 
-"year": "2016",
+"year": "2016" ,
 
-"description": "Flies are fed based on whether a computer vision system recognizes the image of a fly.",
+"description": "Flies are fed based on whether a computer vision system recognizes the image of a fly." ,
 
-"link": "https://www.dwbowen.com/flyai",
+"link": "https://www.dwbowen.com/flyai" ,
 
-"image1": "DavidBowen-FlyAI.jpg",
+"image1": "DavidBowen-FlyAI.jpg" ,
 
-"image2": "",
+"image2": "" ,
 
-"image3": "",
+"image3": "" ,
 
-"video": "",
+"video": "" ,
 
-"medium": "sculpture",
+"medium": "sculpture" ,
 
-"topic": "computer_vision AI",
+"topic": "computer_vision AI" ,
 
-"decade": "2010s",
+"decade": "2010s" ,
 
-"movement": "",
+"movement": "" ,
 
-"addedby": "blake",
+"addedby": "blake" ,
 
 "keywords": "fly artificial intelligence"
 
 },
 {
 
-"id": "1615062513",
+"id": "1615062513" ,
 
-"firstname": "David",
+"firstname": "David" ,
 
-"lastname": "Bowen",
+"lastname": "Bowen" ,
 
-"title": "Fly Tweet",
+"title": "Fly Tweet" ,
 
-"year": "2012",
+"year": "2012" ,
 
-"description": "",
+"description": "" ,
 
-"link": "https://www.dwbowen.com/flytweet",
+"link": "https://www.dwbowen.com/flytweet" ,
 
-"image1": "DavidBowen-FlyTweet.jpg",
+"image1": "DavidBowen-FlyTweet.jpg" ,
 
-"image2": "",
+"image2": "" ,
 
-"image3": "",
+"image3": "" ,
 
-"video": "",
+"video": "" ,
 
-"medium": "sculpture",
+"medium": "sculpture" ,
 
-"topic": "computer_vision",
+"topic": "computer_vision" ,
 
-"decade": "2010s",
+"decade": "2010s" ,
 
-"movement": "",
+"movement": "" ,
 
-"addedby": "blake",
+"addedby": "blake" ,
 
 "keywords": "flies tweets twitter"
 
 },
 {
 
-"id": "1615062598",
+"id": "1615062598" ,
 
-"firstname": "David",
+"firstname": "David" ,
 
-"lastname": "Bowen",
+"lastname": "Bowen" ,
 
-"title": "Space Junk",
+"title": "Space Junk" ,
 
-"year": "2016",
+"year": "2016" ,
 
-"description": "",
+"description": "" ,
 
-"link": "https://www.dwbowen.com/spacejunk",
+"link": "https://www.dwbowen.com/spacejunk" ,
 
-"image1": "DavidBowen-SpaceJunk.jpg",
+"image1": "DavidBowen-SpaceJunk.jpg" ,
 
-"image2": "",
+"image2": "" ,
 
-"image3": "",
+"image3": "" ,
 
-"video": "",
+"video": "" ,
 
-"medium": "",
+"medium": "" ,
 
-"topic": "physical_computing",
+"topic": "physical_computing" ,
 
-"decade": "2010s",
+"decade": "2010s" ,
 
-"movement": "",
+"movement": "" ,
 
-"addedby": "blake",
+"addedby": "blake" ,
 
 "keywords": "space tracking twigs"
 
 },
 {
 
-"id": "1615062695",
+"id": "1615062695" ,
 
-"firstname": "David",
+"firstname": "David" ,
 
-"lastname": "Bowen",
+"lastname": "Bowen" ,
 
-"title": "Telepresent Wind",
+"title": "Telepresent Wind" ,
 
-"year": "2018",
+"year": "2018" ,
 
-"description": "",
+"description": "" ,
 
-"link": "https://www.dwbowen.com/telepresent-wind",
+"link": "https://www.dwbowen.com/telepresent-wind" ,
 
-"image1": "DavidBowen-TelepresentWind.jpg",
+"image1": "DavidBowen-TelepresentWind.jpg" ,
 
-"image2": "",
+"image2": "" ,
 
-"image3": "",
+"image3": "" ,
 
-"video": "",
+"video": "" ,
 
-"medium": "",
+"medium": "" ,
 
-"topic": "nature physical_computing",
+"topic": "nature physical_computing" ,
 
-"decade": "2010s",
+"decade": "2010s" ,
 
-"movement": "",
+"movement": "" ,
 
-"addedby": "blake",
+"addedby": "blake" ,
 
 "keywords": "twig wind servo"
 
 },
 {
 
-"id": "1615062813",
+"id": "1615062813" ,
 
-"firstname": "David",
+"firstname": "David" ,
 
-"lastname": "Brooks",
+"lastname": "Brooks" ,
 
-"title": "Desert Rooftops",
+"title": "Desert Rooftops" ,
 
-"year": "2012",
+"year": "2012" ,
 
-"description": "",
+"description": "" ,
 
-"link": "https://art21.org/read/david-brooks-desert-rooftops/",
+"link": "https://art21.org/read/david-brooks-desert-rooftops/" ,
 
-"image1": "DavidBrooks-DesertRooftops.jpg",
+"image1": "DavidBrooks-DesertRooftops.jpg" ,
 
-"image2": "",
+"image2": "" ,
 
-"image3": "",
+"image3": "" ,
 
-"video": "",
+"video": "" ,
 
-"medium": "sculpture",
+"medium": "sculpture" ,
 
-"topic": "",
+"topic": "" ,
 
-"decade": "2010s",
+"decade": "2010s" ,
 
-"movement": "",
+"movement": "" ,
 
-"addedby": "blake",
-
-"keywords": ""
-
-},
-{
-
-"id": "1615063009",
-
-"firstname": "David",
-
-"lastname": "Bowen",
-
-"title": "Cloud Piano",
-
-"year": "2014",
-
-"description": "",
-
-"link": "https://www.dwbowen.com/cloud-piano",
-
-"image1": "DavidBowen-CloudPiano.jpg",
-
-"image2": "",
-
-"image3": "",
-
-"video": "",
-
-"medium": "sculpture",
-
-"topic": "physical_computing computer_vision",
-
-"decade": "2010s",
-
-"movement": "",
-
-"addedby": "blake",
+"addedby": "blake" ,
 
 "keywords": ""
 
 },
 {
 
-"id": "1615063112",
+"id": "1615063009" ,
 
-"firstname": "David ",
+"firstname": "David" ,
 
-"lastname": "Hall",
+"lastname": "Bowen" ,
 
-"title": "1001 TV Sets",
+"title": "Cloud Piano" ,
 
-"year": "2012",
+"year": "2014" ,
 
-"description": "",
+"description": "" ,
 
-"link": "https://mymodernmet.com/david-hall-1001-tv-sets-end-piece/",
+"link": "https://www.dwbowen.com/cloud-piano" ,
 
-"image1": "DavidHall-1001TVSets.jpg",
+"image1": "DavidBowen-CloudPiano.jpg" ,
 
-"image2": "",
+"image2": "" ,
 
-"image3": "",
+"image3": "" ,
 
-"video": "",
+"video": "" ,
 
-"medium": "sculpture",
+"medium": "sculpture" ,
 
-"topic": "repetition",
+"topic": "physical_computing computer_vision" ,
 
-"decade": "2010s",
+"decade": "2010s" ,
 
-"movement": "",
+"movement": "" ,
 
-"addedby": "blake",
+"addedby": "blake" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1615063112" ,
+
+"firstname": "David " ,
+
+"lastname": "Hall" ,
+
+"title": "1001 TV Sets" ,
+
+"year": "2012" ,
+
+"description": "" ,
+
+"link": "https://mymodernmet.com/david-hall-1001-tv-sets-end-piece/" ,
+
+"image1": "DavidHall-1001TVSets.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture" ,
+
+"topic": "repetition" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "blake" ,
 
 "keywords": "television signal"
 
 },
 {
 
-"id": "1615063233",
+"id": "1615063233" ,
 
-"firstname": "David",
+"firstname": "David" ,
 
-"lastname": "Quayola",
+"lastname": "Quayola" ,
 
-"title": "Remains Series",
+"title": "Remains Series" ,
 
-"year": "2018",
+"year": "2018" ,
 
-"description": "",
+"description": "" ,
 
-"link": "https://quayola.com/work/series/remains-series.php",
+"link": "https://quayola.com/work/series/remains-series.php" ,
 
-"image1": "DavidQuayola-RemainsSeries.jpg",
+"image1": "DavidQuayola-RemainsSeries.jpg" ,
 
-"image2": "",
+"image2": "" ,
 
-"image3": "",
+"image3": "" ,
 
-"video": "",
+"video": "" ,
 
-"medium": "",
+"medium": "" ,
 
-"topic": "computer_vision nature",
+"topic": "computer_vision nature" ,
 
-"decade": "2010s",
+"decade": "2010s" ,
 
-"movement": "",
+"movement": "" ,
 
-"addedby": "blake",
+"addedby": "blake" ,
 
 "keywords": "lidar"
 
 },
 {
 
-"id": "1615063338",
+"id": "1615063338" ,
 
-"firstname": "David",
+"firstname": "David" ,
 
-"lastname": "Quayola",
+"lastname": "Quayola" ,
 
-"title": "Sculpture Factory",
+"title": "Sculpture Factory" ,
 
-"year": "2016",
+"year": "2016" ,
 
-"description": "",
+"description": "" ,
 
-"link": "https://quayola.com/work/series/sculpture-factory.php",
+"link": "https://quayola.com/work/series/sculpture-factory.php" ,
 
-"image1": "DavidQuayola-SculptureFactory.jpg",
+"image1": "DavidQuayola-SculptureFactory.jpg" ,
 
-"image2": "",
+"image2": "" ,
 
-"image3": "",
+"image3": "" ,
 
-"video": "",
+"video": "" ,
 
-"medium": "sculpture",
+"medium": "sculpture" ,
 
-"topic": "physical_computing",
+"topic": "physical_computing" ,
 
-"decade": "2010s",
+"decade": "2010s" ,
 
-"movement": "",
+"movement": "" ,
 
-"addedby": "blake",
+"addedby": "blake" ,
 
 "keywords": "robot carving machine foam"
 
 },
 {
 
-"id": "1615063422",
+"id": "1615063422" ,
 
-"firstname": "David",
+"firstname": "David" ,
 
-"lastname": "Reuter",
+"lastname": "Reuter" ,
 
-"title": "Barbed Wire Fence Telephone",
+"title": "Barbed Wire Fence Telephone" ,
 
-"year": "2013",
+"year": "2013" ,
 
-"description": "",
+"description": "" ,
 
-"link": "http://davidrueter.com/projects/2013-11-barbedwire.html",
+"link": "http://davidrueter.com/projects/2013-11-barbedwire.html" ,
 
-"image1": "DavidReuter-BarbedWireFenceTelephone.jpg",
+"image1": "DavidReuter-BarbedWireFenceTelephone.jpg" ,
 
-"image2": "",
+"image2": "" ,
 
-"image3": "",
+"image3": "" ,
 
-"video": "",
+"video": "" ,
 
-"medium": "sculpture",
+"medium": "sculpture" ,
 
-"topic": "",
+"topic": "" ,
 
-"decade": "2010s",
+"decade": "2010s" ,
 
-"movement": "",
+"movement": "" ,
 
-"addedby": "blake",
+"addedby": "blake" ,
 
 "keywords": ""
 
 },
 {
 
-"id": "1615063505",
+"id": "1615063505" ,
 
-"firstname": "Douglas",
+"firstname": "Douglas" ,
 
-"lastname": "Gordon",
+"lastname": "Gordon" ,
 
-"title": "24 Hour Psycho",
+"title": "24 Hour Psycho" ,
 
-"year": "1993",
+"year": "1993" ,
 
-"description": "",
+"description": "" ,
 
-"link": "https://en.wikipedia.org/wiki/24_Hour_Psycho",
+"link": "https://en.wikipedia.org/wiki/24_Hour_Psycho" ,
 
-"image1": "DouglasGordon-24HourPsycho.jpg",
+"image1": "DouglasGordon-24HourPsycho.jpg" ,
 
-"image2": "",
+"image2": "" ,
 
-"image3": "",
+"image3": "" ,
 
-"video": "",
+"video": "" ,
 
-"medium": "film_video",
+"medium": "film_video" ,
 
-"topic": "",
+"topic": "" ,
 
-"decade": "1990s",
+"decade": "1990s" ,
 
-"movement": "",
+"movement": "" ,
 
-"addedby": "blake",
+"addedby": "blake" ,
 
 "keywords": ""
 
