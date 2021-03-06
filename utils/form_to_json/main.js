@@ -1,7 +1,7 @@
 // Load the JSON
 let entryCounter = 0;
 
-fetch('../../production/art.json').then(response => {
+fetch('../../production2/art.json').then(response => {
   //get file contents
   return response.json();
 }).then(data => {
