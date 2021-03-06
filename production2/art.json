@@ -1,1380 +1,3110 @@
 [
-    {
-      "id": "1614297315",
-      "firstname": "Aaron",
-      "lastname": "Koblin",
-      "title": "The Sheep Market",
-      "year": "2006",
-      "description": "A collection of 10,000 sheep made by workers on Amazons Mechanical Turk. Workers were paid $0.02 (USD) to \"draw a sheep facing to the left.\" ",
-      "link": "http://www.aaronkoblin.com/work/thesheepmarket/",
-      "image1": "AaronKoblin-SheepMarket.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "internet digital ",
-      "topic": "capitalism technology repetition",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "blake",
-      "keyword": "sheep amazon mechanical turk pay"
-    },
-    {
-      "id": "1614297316",
-      "firstname": "Adam",
-      "lastname": "Harvey",
-      "title": "CV Dazzle",
-      "year": "2010-2013",
-      "description": "Fashion styles, haircuts, and makeup designed to circumvent machine vision and surveillance systems.",
-      "link": "https://cvdazzle.com/",
-      "image1": "AdamHarvey-CVDazzle.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "performance",
-      "topic": "technology surveillance cvml",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "blake",
-      "keywords": "hair makeup surveillance"
-    },
-    {
-      "id": "1614297313",
-      "firstname": "AES+F",
-      "lastname": "",
-      "title": "Europe Europe",
-      "year": "2007-2008",
-      "description": "Porcelain figurines in wooden cabinet. Based on traditional 18th century artworks, but updated for contemporary politics and society.",
-      "link": "https://aesf.art/projects/europe_europe/",
-      "image1": "AES+F-EuropeEurope.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture installation",
-      "topic": "artcrit",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "cool"
-    },
-    {
-      "id": "1614297320",
-      "firstname": "Ai",
-      "lastname": "Weiwei",
-      "title": "Han Dynasty Urn with Coca Cola Logo",
-      "year": "1993",
-      "description": "Presumed original urns (bought at flea markets), repainted with modern logos.",
-      "link": "https://elephant.art/coca-cola-meets-china-ai-weiweis-subversive-symbolism/",
-      "image1": "AiWeiwei-HanDynastyUrnWithCocaColaLogo.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture",
-      "topic": "capitalism artcrit",
-      "decade": "1990s",
-      "movement": "",
-      "addedby": "doug",
-      "keywords": "cool"
-    },
-    {
-      "id": "1604297316",
-      "firstname": "Ai",
-      "lastname": "Weiwei",
-      "title": "World Map",
-      "year": "2006-2009",
-      "description": "Made of thousands of layers of thin cotton cloth, the map is created in a way that makes it extremely labor intensive to install, illustrating China’s status as a platform for cheap labor in the clothing industry. China is the world’s largest producer of cotton and a leading manufacturer of textiles and clothes.",
-      "link": "https://www.magasin3.com/en/artwork/world-map-2/",
-      "image1": "AiWeiwei-WorldMap.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture installation",
-      "topic": "capitalism",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "ai weiwei china chinese world fabric felt capitalism market consumerism"
-    },
-    {
-      "id": "1614397316",
-      "firstname": "Ai",
-      "lastname": "Weiwei",
-      "title": "Ai Weiwei in the Elevator When Taken into Custody by the Police",
-      "year": "2009",
-      "description": "",
-      "link": "https://www.artsy.net/artwork/ai-weiwei-ai-weiwei-in-the-elevator-when-taken-into-custody-by-the-police",
-      "image1": "AiWeiwei.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "photo performance",
-      "topic": "sociallyengaged",
-      "decade": "2000s",
-      "movements": "",
-      "addedby": "",
-      "keywords": "china dissident authoritarian arrest selfie"
-    },
-    {
-      "id": "1614397317",
-      "firstname": "Albin",
-      "lastname": "Karlsson",
-      "title": "Thermopaper 2",
-      "year": "2005",
-      "description": "A big sheet of thermochromic paper is slowly wound from one spool to another. A rotating heat source draws a circle on the paper, one cycle per minute.",
-      "link": "https://we-make-money-not-art.com/albin_karlsson_at_icon_experim/",
-      "image1": "AlbinKarlsson-Thermopaper2.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture",
-      "topic": "technology physicalcomputing repetition",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "minimal abstract tech thermopaper testkeyword heat element"
-    },
-    {
-      "id": "1614397318",
-      "firstname": "Alex",
-      "lastname": "Dragulescu",
-      "title": "Spam Architecture",
-      "year": "2007",
-      "description": "The images from the Spam Architecture series are generated by a computer program that accepts as input, junk email. Various patterns, keywords and rhythms found in the text are translated into three-dimensional modeling gestures.",
-      "link": "https://rhizome.org/editorial/2009/may/18/spam-architecture-2007-alex-dragulescu/",
-      "image1": "AlexDragulescu-SpamArchitecture.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture digital",
-      "topic": "creativecoding technology repetition",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "spam email sculpture generated"
-    },
-    {
-      "id": "1614397319",
-      "firstname": "Alex",
-      "lastname": "Schaefer",
-      "title": "Bank of America Palm Springs",
-      "year": "2012",
-      "description": "\"The artwork was intended to be a visual metaphor for the havoc that banking practices have caused to the economy.\" Schaefer is interested in disaster capitalism.",
-      "link": "https://www.cjamesgallery.com/assets/wp-content/uploads/2012/02/schaefer1.pdf",
-      "image1": "AlexSchaefer-BankofAmericaBurning.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "paintdraw",
-      "topic": "capitalism",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "disaster capitalism painting bank fire burning police"
-    },
-    {
-      "id": "1614397320",
-      "firstname": "Alfredo",
-      "lastname": "Jaar",
-      "title": "September 15th",
-      "year": "2009",
-      "description": "\"This envelope contains a photograph by Alfredo Jaar of Karl Marx’s grave in Highgate Cemetery, London. The purchaser of this work agrees to view this image only once a year, on September 15, the anniversary of the day Lehman Brothers declared bankruptcy in New York.\"",
-      "link": "http://artistsbooksandmultiples.blogspot.com/2013/03/alfredo-jaar-september-15.html",
-      "image1": "AlfredoJaar-September15th2009.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "photo installation",
-      "topic": "capitalism",
-      "decade": "",
-      "movement": "",
-      "addedby": "",
-      "keywords": "chilean wall street financial crisis"
-    },
-    {
-      "id": "1614397321",
-      "firstname": "Allison",
-      "lastname": "Chernick",
-      "title": "James Franco as Bruce Nauman",
-      "year": "2010",
-      "description": "\"A contemporary update of Nauman’s Art Make-Up video piece from 1967, shot on location at the Standard Hotel, New York. The themes the artist was exploring seem perfectly in sync with Franco’s own hall-of-mirrors aesthetic: “make-up,” the stuff an actor smears on his face, assumes a double entendre as a verb—to make up, the very essence of any creative act. The video is the first in a new series by Chernick in which contemporary artists are enlisted to star in remakes of seminal video artworks, prompting a dialogue between the original artwork and the artist reinterpreting it.\"",
-      "link": "https://filmmakermagazine.com/14723-james-franco-plays-artist-bruce-nauman/#.YCAIfeBOnyk",
-      "image1": "AlisonChernick-JamesFrancoAsBruceNauman.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "filmvideo",
-      "topic": "spectacle artcrit",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "celebrity james franco bruce nauman makeup video vid"
-    },
-    {
-      "id": "1614397322",
-      "firstname": "Allison",
-      "lastname": "Burtch",
-      "title": "Log Jammer",
-      "year": "2014",
-      "description": "\"This is a cellphone jammer put in a log in the woods, in order to create a safe space in nature. It was tested in the lab (no illegal shit) and was a part of my Master’s thesis at ITP. Part of this project was largely inspired by this Deleuze quote.\"",
-      "link": "https://allisonburtch.github.io/log-jammer/",
-      "image1": "AllisonBurtch-LogJammer.png",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture installation",
-      "topic": "technology nature",
-      "decade": "2010's",
-      "movement": "",
-      "addedby": "",
-      "keywords": "cell tower log forest jammer radio signal"
-    },
-    {
-      "id": "1614397323",
-      "firstname": "Amy",
-      "lastname": "Balkan",
-      "title": "Public Smog",
-      "year": "2004",
-      "description": "Artist organized to purchase and retire carbon emmissions offsets for the public good.",
-      "link": "http://tomorrowmorning.net/publicsmog",
-      "image1": "AmyBalkan-PublicSmog.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "conceptual",
-      "topic": "nature capitalism politics sociallyengaged",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "carbon dioxide emissions offsets california smog global warming factory"
-    },
-    {
-      "id": "1614397324",
-      "firstname": "Andrea",
-      "lastname": "Zittel",
-      "title": "A-Z Comfort Units",
-      "year": "1994-1995",
-      "description": "while they are generally useful in some way, incorporating an implied social or domestic function, the critic Jan Avgikos has argued that 'Nothing about Zittel’s art suggests itself as a remedy for what ails the masses. Rather, in “A-Z’s” advocacy of an idealized lifestyle, the configuration constantly generated is that of the individual … All \"A-Z\" lifestyle products and services are highly personalized. As such, they join ranks with the worldwide flood of personal shoppers, and personal computers, and personal-size tissues and personal everything!'\"",
-      "link": "https://www.tate.org.uk/art/artworks/zittel-a-z-comfort-unit-with-special-comfort-features-by-dave-stewart-t07103",
-      "image1": "AndreaZittel-A-ZComfortUnits.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture",
-      "topic": "capitalism spectacle politic sociallyengaged",
-      "decade": "1990s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397325",
-      "firstname": "Andrew",
-      "lastname": "Yang",
-      "title": "Stella's Stoichiometry (All things being equal, 6 lbs. 13 oz.)",
-      "year": "2012",
-      "description": "",
-      "link": "",
-      "image1": "AndrewYang-StellasStoichiometry.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture",
-      "topic": "",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397326",
-      "firstname": "Anna",
-      "lastname": "Von Mertens",
-      "title": "Look to the Heavens",
-      "year": "2008",
-      "description": "\"Using a computer program to calculate these historic vistas, I then sew the star patterns into painted, hand-dyed renderings of the night sky. Through the hand-sewing of these passages of time, I mirror my own contemplative act with the age-old existential act of stargazing.\"",
-      "link": "https://annavonmertens.com/portfolio/look-to-the-heavens/",
-      "image1": "AnnaVonMertens-LookToTheHeavens.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "fiber ",
-      "topic": "creativecoding nature",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397327",
-      "firstname": "Ann",
-      "lastname": "Hamilton",
-      "title": "Tropos",
-      "year": "1993",
-      "description": "",
-      "link": "https://www.annhamiltonstudio.com/objects/tropos_books.html",
-      "image1": "AnnHamilton-Tropos.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "installation",
-      "topic": "repetition",
-      "decade": "",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397328",
-      "firstname": "Ann",
-      "lastname": "Hamilton",
-      "title": "Privation and Excesses",
-      "year": "1989",
-      "description": "",
-      "link": "https://www.annhamiltonstudio.com/projects/privationandexcesses.html",
-      "image1": "AnnHamilton-PrivationAndExcesses.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "installation",
-      "topic": "repetition capitalism",
-      "decade": "1980s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397329",
-      "firstname": "Anthony",
-      "lastname": "Gormley",
-      "title": "Another Place",
-      "year": "1997",
-      "description": "",
-      "link": "https://www.antonygormley.com/projects/item-view/id/230",
-      "image1": "AnthonyGormley-AnotherPlace.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture installation",
-      "topic": "body nature repetition",
-      "decade": "1990s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "ocean body multiples"
-    },
-    {
-      "id": "1614397330",
-      "firstname": "Arcangelo",
-      "lastname": "Sassolino",
-      "title": "Damnation Memoriae",
-      "year": "2016",
-      "description": "",
-      "link": "https://www.arcangelosassolino.it/sculpture/damnatio-memorie/",
-      "image1": "ArcangeloSassolino-DamnatioMemoriae.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture installation",
-      "topic": "artcrit technology",
-      "decade": "2010s",
-      "movement": "2010s",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397331",
-      "firstname": "Arcangelo",
-      "lastname": "Sassolino",
-      "title": "Elisa",
-      "year": "2012",
-      "description": "",
-      "link": "https://www.arcangelosassolino.it/sculpture/elisa/",
-      "image1": "ArcangeloSassolino-Elisa.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "",
-      "topic": "",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397332",
-      "firstname": "Arcangelo",
-      "lastname": "Sassolino",
-      "title": "The Way We Were",
-      "year": "2018",
-      "description": "",
-      "link": "https://www.arcangelosassolino.it/sculpture/the-way-we-were/",
-      "image1": "ArcangeloSassolino-TheWayWeWere.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "",
-      "topic": "",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397333",
-      "firstname": "Arcangelo",
-      "lastname": "Sassolino",
-      "title": "Untitled",
-      "year": "2006-2007",
-      "description": "",
-      "link": "https://www.arcangelosassolino.it/sculpture/untitled-2006/",
-      "image1": "ArcangeloSassolino-Untitled.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "",
-      "topic": "",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397334",
-      "firstname": "Arthur",
-      "lastname": "Ganson",
-      "title": "Cory's Yellow Chair",
-      "year": "1997",
-      "description": "",
-      "link": "https://www.arthurganson.com/cory-s-yellow-chair-1",
-      "image1": "ArthurGanson-CorysYellowChair.png",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture",
-      "topic": "technology conceptual",
-      "decade": "1990s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "chair mechanical machine kinetic"
-    },
-    {
-      "id": "1614397335",
-      "firstname": "Arthur",
-      "lastname": "Ganson",
-      "title": "Machine with Concrete",
-      "year": "1992",
-      "description": "",
-      "link": "https://arthur.io/art/arthur-ganson/machine-with-concrete",
-      "image1": "ArthurGanson-MachineWithConcrete.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture",
-      "topic": "technology conceptual",
-      "decade": "1990s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "kinetic machine mechanical"
-    },
-    {
-      "id": "1614397336",
-      "firstname": "Atelier",
-      "lastname": "Van Lieshout",
-      "title": "Clip-On",
-      "year": "1997",
-      "description": "",
-      "link": "https://www.ateliervanlieshout.com/work/clip-on/",
-      "image1": "AtelierVanLieshout-ClipOn.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "installation",
-      "topic": "",
-      "decade": "1990s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397337",
-      "firstname": "Ben",
-      "lastname": "Grosser",
-      "title": "Facebook Demetricator",
-      "year": "2012",
-      "description": "",
-      "link": "https://bengrosser.com/projects/facebook-demetricator/",
-      "image1": "BenGrosser-FacebookDemtricator.gif",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "digital internet",
-      "topic": "capitalism politics",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397338",
-      "firstname": "Ben",
-      "lastname": "Grosser",
-      "title": "Safebook",
-      "year": "2019",
-      "description": "",
-      "link": "https://bengrosser.com/projects/safebook",
-      "image1": "BenGrosser-Safebook.png",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "digital internet",
-      "topic": "capitalism politics",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397339",
-      "firstname": "Ben",
-      "lastname": "Peterson",
-      "title": "Ramada",
-      "year": "2008-2009",
-      "description": "",
-      "link": "https://www.ratio3.org/exhibitions/ben-peterson-the-pilgrim-s-progress/works?page=2",
-      "image1": "BenPeterson-Ramada.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "paintdraw",
-      "topic": "capitalism consumerism",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "disaster"
-    },
-    {
-      "id": "1614397340",
-      "firstname": "Ben",
-      "lastname": "Peterson",
-      "title": "T.R.",
-      "year": "2006",
-      "description": "",
-      "link": "https://ratio3.org/exhibitions/ben-peterson-you-build-it-we-burn-it/works/4368",
-      "image1": "BenPeterson-T.R.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "paintdraw",
-      "topic": "capitalism consumerism",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397341",
-      "firstname": "Bernard",
-      "lastname": "Brunon",
-      "title": "That's Painting",
-      "year": "1989-2016",
-      "description": "",
-      "link": "http://thatspainting.com/thats-painting",
-      "image1": "BernardBrunon-ThatsPainting.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "paintdraw",
-      "topic": "artcrit",
-      "decade": "1980s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397342",
-      "firstname": "Ben",
-      "lastname": "Peterson",
-      "title": "Baggage Claim",
-      "year": "2010",
-      "description": "",
-      "link": "https://www.mutualart.com/Artwork/Baggage-Claim/191AB36ED2A5ED82",
-      "image1": "BenPeterson-BaggageClaim.png",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "paintdraw",
-      "topic": "capitalism consumerism",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397343",
-      "firstname": "Brendan",
-      "lastname": "Dawes",
-      "title": "Amongst the Leaves",
-      "year": "2018",
-      "description": "",
-      "link": "http://brendandawes.com/projects/amongsttheleaves",
-      "image1": "BrendanDawes-AmongstTheLeaves.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture installation",
-      "topic": "creativecoding nature",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397344",
-      "firstname": "Brent",
-      "lastname": "Watanabe",
-      "title": "San Andreas Deer Cam",
-      "year": "2015-2016",
-      "description": "",
-      "link": "http://bwatanabe.com/GTA_V_WanderingDeer.html",
-      "image1": "BrentWatanabe-SanAndreasDeerCam.png",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "digital",
-      "topic": "nature creativecoding spectacle",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397345",
-      "firstname": "Brett",
-      "lastname": "Balogh",
-      "title": "Wolf",
-      "year": "2015",
-      "description": "",
-      "link": "http://www.brettbalogh.com/",
-      "image1": "BrettBalogh-Wolf.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "digital installation",
-      "topic": "",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397346",
-      "firstname": "Brian",
-      "lastname": "Jungen",
-      "title": "The Prince",
-      "year": "2006",
-      "description": "",
-      "link": "https://www.si.edu/newsdesk/photos/prince",
-      "image1": "BrianJungen-ThePrince.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture",
-      "topic": "",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397347",
-      "firstname": "Brian",
-      "lastname": "Urlich",
-      "title": "Granger",
-      "year": "2003",
-      "description": "",
-      "link": "http://notifbutwhen.com/retail",
-      "image1": "BrianUrlich-Granger.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "photo",
-      "topic": "",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397348",
-      "firstname": "Bruce",
-      "lastname": "Nauman",
-      "title": "Live-Taped Video Corridor",
-      "year": "1970",
-      "description": "",
-      "link": "https://www.guggenheim.org/artwork/3153",
-      "image1": "BruceNauman-LiveTapedVideoCorridor.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "installation filmvideo",
-      "topic": "",
-      "decade": "1970s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397349",
-      "firstname": "Caleb",
-      "lastname": "Larsen",
-      "title": "A Tool to Deceive and Slaughter",
-      "year": "2009",
-      "description": "",
-      "link": "https://rhizome.org/editorial/2010/mar/01/a-tool-to-deceive-and-slaughter-2009-caleb-larsen/",
-      "image1": "CalebLarsen-AToolToDeceiveAndSlaughter.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture internet",
-      "topic": "capitalism",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "ebay"
-    },
-    {
-      "id": "1614397350",
-      "firstname": "Casey",
-      "lastname": "Reas",
-      "title": "Ultraconcentrated",
-      "year": "2013",
-      "description": "",
-      "link": "https://reas.com/ultraconcentrated/",
-      "image1": "CaseyReas-ultraconcentrated.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "digital filmvideo",
-      "topic": "creativecoding",
-      "decade": "",
-      "movement": "",
-      "addedby": "",
-      "keywords": "p5 processing"
-    },
-    {
-      "id": "1614397351",
-      "firstname": "Charles",
-      "lastname": "Gaines",
-      "title": "Numbers and Trees: Central Park Series III: Tree 8, Andrea",
-      "year": "2016",
-      "description": "",
-      "link": "https://www.maxhetzler.com/exhibitions/charles-gaines-grids-numbers-and-trees-iii-and-palm-trees-ii-2016/zoom-w/8",
-      "image1": "CharlesGaines-NumbersAndTrees-CentralParkSeriesIIITree8Andrea.jpg", 
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "paintdraw",
-      "topic": "nature creativecoding",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "tree"
-    },
-    {
-      "id": "1614397352",
-      "firstname": "Charles",
-      "lastname": "Ray",
-      "title": "Unpainted Sculpture",
-      "year": "1997",
-      "description": "",
-      "link": "https://walkerart.org/collections/artworks/unpainted-sculpture",
-      "image1": "CharlesRay-UnpaintedSculpture.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture",
-      "topic": "",
-      "decade": "1990s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397353",
-      "firstname": "Cheryl",
-      "lastname": "Pope",
-      "title": "Remember to Remember",
-      "year": "2013",
-      "description": "\"Names and dates of Chicago youth killed by gun violence in 2012-May 2013. Haikus written by 7th and 8th grade students of Nobel Elementary School are placed between.\"",
-      "link": "https://www.cherylpope.net/remeber-to-remember",
-      "image1": "CherylPope-RememberToRemeber.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture installation",
-      "topic": "",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397354",
-      "firstname": "Chico",
-      "lastname": "MacMurtie",
-      "title": "Border Crossers",
-      "year": "2017",
-      "description": "\"Border Crossers comprise a series of lightweight robotic sculptures that poetically explore the notion of borders and boundary conditions. The inflatable sculptures rise up to several stories high and extend across a given threshold.\"",
-      "link": "http://amorphicrobotworks.org/border-crossers",
-      "image1": "ChicoMacMurtie-BorderCrossers.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "installation",
-      "topic": "politics",
-      "decade": "",
-      "movement": "",
-      "addedby": "",
-      "keywords": "border crossing"
-    },
-    {
-      "id": "1614397355",
-      "firstname": "Chico",
-      "lastname": "MacMurtie",
-      "title": "Totomobile",
-      "year": "2012",
-      "description": "",
-      "link": "http://amorphicrobotworks.org/totemobile",
-      "image1": "ChicoMacMurtie-Totemobile.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture",
-      "topic": "technology nature",
-      "decade": "",
-      "movement": "",
-      "addedby": "",
-      "keywords": "citroen totempole machine mechanical car"
-    },
-    {
-      "id": "1614397356",
-      "firstname": "Chris",
-      "lastname": "Burden",
-      "title": "Shoot",
-      "year": "1971",
-      "description": "",
-      "link": "https://en.wikipedia.org/wiki/Shoot_(Burden)",
-      "image1": "ChrisBurden-Shoot.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "conceptual performance photo",
-      "topic": "artcrit",
-      "decade": "1970s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397357",
-      "firstname": "Christian",
-      "lastname": "Moeller",
-      "title": "Cheese",
-      "year": "2003",
-      "description": "",
-      "link": "https://christianmoeller.com/Cheese",
-      "image1": "ChristianMoeller-Cheese.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "installation",
-      "topic": "creativecoding",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397358",
-      "firstname": "Christine",
-      "lastname": "Kozlov",
-      "title": "Information Drift",
-      "year": "1968",
-      "description": "Inscription: Combined recordings of news bulletins of the shootings of Andy Warhol and Robert Kennedy.",
-      "link": "http://www.henry-moore.foundation/gallery/article/124/8",
-      "image1": "ChristineKozlov-InformationDrift.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "conceptual audio",
-      "topic": "spectacle",
-      "decade": "1960s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397359",
-      "firstname": "Christine",
-      "lastname": "Kozlov",
-      "title": "Information: No Theory",
-      "year": "1971",
-      "description": "",
-      "link": "https://www.ubu.com/papers/kozlov_information.html",
-      "image1": "ChristineKozlov-InformationNoTheory.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "conceptual audio installation",
-      "topic": "",
-      "decade": "1970s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397360",
-      "firstname": "Cildo",
-      "lastname": "Meireles",
-      "title": "Zero Dollar",
-      "year": "1974-1984",
-      "description": "",
-      "link": "https://www.macba.cat/en/art-artists/artists/meireles-cildo/zero-dollar",
-      "image1": "CildoMeireles-ZeroDollar.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "print",
-      "topic": "politics captialism",
-      "decade": "1970s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "dollar bill"
-    },
-    {
-      "id": "1614397361",
-      "firstname": "Claire",
-      "lastname": "Hentschker",
-      "title": "Tiffany's from the Side",
-      "year": "2017",
-      "description": "",
-      "link": "http://www.clairesophie.com/images",
-      "image1": "ClaireHentschker-BreakfastAtTiffanysFromTheSide.png",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "digital",
-      "topic": "technology",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "lidar vr ar movie"
-    },
-    {
-      "id": "1614397362",
-      "firstname": "Claire",
-      "lastname": "Hentschker",
-      "title": "Merch Mulch",
-      "year": "2017",
-      "description": "",
-      "link": "http://www.clairesophie.com/merch-mulch",
-      "image1": "ClaireHentschker-MerchMulch.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "digital",
-      "topic": "capitalism technology",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "dead mall"
-    },
-    {
-      "id": "1614397363",
-      "firstname": "Clement",
-      "lastname": "Valla",
-      "title": "Hapax Phaenomena",
-      "year": "2012",
-      "description": "\"Hapax Phaenomena is a collection of historically unique images discovered by Google image search from collaborators Clement Valla and John Cayley.\"",
-      "link": "http://clementvalla.com/work/hapax-phaenomena/",
-      "image1": "ClementValla-HapaxPhaenomena.png",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "internet digital",
-      "topic": "technology",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "google search"
-    },
-    {
-      "id": "1614397364",
-      "firstname": "Clement",
-      "lastname": "Valla",
-      "title": "Postcards from Google Earth",
-      "year": "2010-ongoing",
-      "description": "",
-      "link": "http://www.postcards-from-google-earth.com/",
-      "image1": "ClementValla-PostcardsFromGoogleEarth.png",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "digital internet print",
-      "topic": "technology creativecoding",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "google map"
-    },
-    {
-      "id": "1614397365",
-      "firstname": "Clement",
-      "lastname": "Valla",
-      "title": "Sol LeWitt and Mechanical Turk",
-      "year": "2009",
-      "description": "\"Custom software recreates a Sol LeWitt drawing. The software also posts instructions on Amazon.com’s Mechanical Turk. Human workers execute the drawings online based on the instructions. The workers are paid 5¢ for each drawing. The software then assembles the Mechanical Turk drawings in a grid. The software drawings and the Mechancial Turk drawings are presented side by side.\"",
-      "link": "http://clementvalla.com/work/sol-lewitt-mechanical-turk/",
-      "image1": "ClementValla-SolLeWittAndMechanicalTurk.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "digital paintdraw internet print",
-      "topic": "",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397366",
-      "firstname": "Constantine",
-      "lastname": "Zletev",
-      "title": "The Last Gun",
-      "year": "2012",
-      "description": "\" The Last Gun is a mechano-robotic flute built out of a disabled shotgun and salvaged industrial components. The gun barrels have been transformed into a double-flute, which is played by compressed air. The installation graphically charts and then musically depicts the rise & fall of annual U.S. arms exports.\"",
-      "link": "https://madeinconstantine.com/the-last-gun",
-      "image1": "ConstantineZlatev-TheLastGun.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture technology politics",
-      "topic": "",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "gun shotgun flute arduino raspberry pi"
-    },
-    {
-      "id": "1614397367",
-      "firstname": "Cory",
-      "lastname": "Arcangel",
-      "title": "Permanent Vacation",
-      "year": "2008",
-      "description": "\"2 computers stuck in an out of office email loop.\"",
-      "link": "https://coryarcangel.com/things-i-made/2008-003-permanent-vacation",
-      "image1": "CoryArcangel-PermanentVacation.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "installation digital internet",
-      "topic": "repetition",
-      "decade": "",
-      "movement": "",
-      "addedby": "",
-      "keywords": "email"
-    },
-    {
-      "id": "1614397368",
-      "firstname": "Cory",
-      "lastname": "Arcangel",
-      "title": "Super Mario Clouds",
-      "year": "2002",
-      "description": "Cory Arcangel “hacked” a cartridge of Super Mario Brothers, the original version of the blockbuster Nintendo video game released in the United States in 1985. By tweaking the game’s code, the artist erased all of the sound and visual elements except the iconic scrolling clouds.",
-      "link": "https://whitney.org/collection/works/20588",
-      "image1": "CoryArcangel-SuperMarioClouds.png",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "digital",
-      "topic": "technology nature creativecoding",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "game video mario nes nintendo"
-    },
-    {
-      "id": "1614397369",
-      "firstname": "Daito",
-      "lastname": "Manabe",
-      "title": "Face Visualizer",
-      "year": "2008",
-      "description": "",
-      "link": "http://www.daito.ws/en/work/smiles.html",
-      "image1": "DaitoManabe-FaceVisualizer.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "performance audio",
-      "topic": "technology body",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "electric shock face japanese"
-    },
-    {
-      "id": "1614397370",
-      "firstname": "Damien",
-      "lastname": "Hirst",
-      "title": "For the Love of God",
-      "year": "2007",
-      "description": "",
-      "link": "http://www.damienhirst.com/for-the-love-of-god",
-      "image1": "DamienHirst-ForTheLoveOfGod.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "",
-      "topic": "",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "diamonds skull"
-    },
-    {
-      "id": "1614397371",
-      "firstname": "Dan",
-      "lastname": "Flavin",
-      "title": "Untitled (to Pat and Bob Rohm)",
-      "year": "1969",
-      "description": "",
-      "link": "https://www.artsy.net/artwork/dan-flavin-untitled-to-pat-and-bob-rohm",
-      "image1": "DanFlavin-Untitled.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "installation sculptuer",
-      "topic": "minimalism",
-      "decade": "1960s",
-      "movement": "lightart",
-      "addedby": "",
-      "keywords": "light flourescent tube color field"
-    },
-    {
-      "id": "1614397372",
-      "firstname": "Daniel",
-      "lastname": "Agdag",
-      "title": "The Third Fatality",
-      "year": "2014",
-      "description": "Cardboard and paper.",
-      "link": "http://publicoffice.com.au/works/the-third-fatality/",
-      "image1": "DanielAgdag-TheThirdFatality.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture",
-      "topic": "",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397373",
-      "firstname": "Daniel Joseph",
-      "lastname": "Martinez",
-      "title": "Divine Violence",
-      "year": "2007",
-      "description": "\"Divine Violence functions, in Daniel Joseph Martinez’s words, as 'a typology of every organization in the world that uses violence or aggression to fulfill its political ideology.' The installation is comprised of 125 panels, each of which bears the name of a political organization in black lettering on a wooden ground painted with automotive gold flake. These organizations represent diverse—and sometimes vehemently contradictory—aims and politics.\"",
-      "link": "https://whitney.org/collection/works/33379",
-      "image1": "DanielJosephMartinez-DivineViolence.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "installation",
-      "topic": "politics",
-      "decade": "2000s",
-      "movement": "",
-      "addedby": "",
-      "keywords": ""
-    },
-    {
-      "id": "1614397374",
-      "firstname": "Daniel",
-      "lastname": "Rozin",
-      "title": "Penguins Mirror",
-      "year": "2015",
-      "description": "",
-      "link": "https://www.youtube.com/watch?v=9QAVauBL2mc",
-      "image1": "DanielRozin-PenguinsMirror.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "sculpture installation",
-      "topic": "physicalcomputing creativecode cvml",
-      "decade": "2010s",
-      "movement": "",
-      "addedby": "",
-      "keywords": "motor penguin mirror arduino"
-    },
-    {
-      "id": "1614397375",
-      "firstname": "Doug",
-      "lastname": "Rosman",
-      "title": "self-contained",
-      "year": "2019",
-      "description": "GAN synthesized portraits of the artist, unstable, surreal forms expressing the algorithm's uncertainity in how to resolve a human form.",
-      "link": "https://dougrosman.com/",
-      "image1": "DougRosman-SelfContained.jpg",
-      "image2": "",
-      "image3": "",
-      "video": "",
-      "medium": "video animation",
-      "topic": "machine_learning cvml",
-      "decade": "2020",
-      "movement": "",
-      "addedby": "",
-      "keywords": "Neural GAN Generative Bodies Morph Pix2Pix"
-    },
-    {
-    "id": "1614397376" ,
-    "firstname": "Doug" ,
-    "lastname": "Rosman" ,
-    "title": "self-contained" ,
-    "year": "2019" ,
-    "description": "GAN synthesized portraits of the artist, unstable, surreal forms expressing the algorithm's uncertainity in how to resolve a human form." ,
-    "link": "https://dougrosman.com/" ,
-    "image1": "DougRosman-SelfContained.jpg",
-    "image2": "" ,
-    "image3": "" ,
-    "video": "" ,
-    "medium": "Video, Animation" ,
-    "topic": "machine learning, cvml" ,
-    "decade": "2020" ,
-    "movement": "" ,
-    "addedby": "doug" ,
-    "keywords": "Neural GAN Generative Bodies Morph Pix2Pix"
-    },
-    {
-    "id": "1614995470",
-    "firstname": "Daniel",
-    "lastname": "Seiple",
-    "title": "Landreform Carousel",
-    "year": "2008",
-    "description": "",
-    "link": "http://www.travelhome.org/bmw/info.html",
-    "image1": "DanielSeiple-LandreformCarousel.jpg",
-    "image2": "",
-    "image3": "",
-    "video": "",
-    "medium": "",
-    "topic": "",
-    "decade": "",
-    "movement": "",
-    "addedby": "blake",
-    "keywords": ""
-    },
-    {
-    "id": "1614995531",
-    "firstname": "Dan",
-    "lastname": "Lam",
-    "title": "Bombshell",
-    "year": "2015",
-    "description": "",
-    "link": "https://www.bydanlam.com/sculptures/man-eater-yl4le-ppar8",
-    "image1": "DanLam-Bombshell.jpg",
-    "image2": "",
-    "image3": "",
-    "video": "",
-    "medium": "",
-    "topic": "",
-    "decade": "",
-    "movement": "",
-    "addedby": "blake",
-    "keywords": ""
-    },
-    {
-    
-    "id": "1614995666",
-    "firstname": "Darius",
-    "lastname": "Kazemi",
-    "title": "Amazon Random Shopper",
-    "year": "2012",
-    "description": "",
-    "link": "https://randomshopper.tumblr.com/",
-    "image1": "DariusKazemi-AmazonRandomShopper.jpg",
-    "image2": "",
-    "image3": "",
-    "video": "",
-    "medium": "",
-    "topic": "",
-    "decade": "2010s",
-    "movement": "",
-    "addedby": "blake",
-    "keywords": ""
-    
-    },
-    {
-    
-    "id": "1614995838",
-    "firstname": "Dave",
-    "lastname": "Cole",
-    "title": "Flags of the World",
-    "year": "2008",
-    "description": "",
-    "link": "http://davecoledavecole.com/#/flags-of-the-world/",
-    "image1": "DaveCole-FlagsOfTheWorld.jpg",
-    "image2": "",
-    "image3": "",
-    "video": "",
-    "medium": "",
-    "topic": "",
-    "decade": "2000s",
-    "movement": "",
-    "addedby": "blake",
-    "keywords": ""
-    
-    },
-    {
-    
-    "id": "1614995928",
-    "firstname": "Dave",
-    "lastname": "Cole",
-    "title": "Knitted with Loaded Shotguns (Safeties Off)",
-    "year": "2008-2010",
-    "description": "",
-    "link": "http://davecoledavecole.com/#/knitting-with-loaded-shotguns-safeties-off/",
-    "image1": "DaveCole-KnittedWithLoadedShotguns.jpg",
-    "image2": "",
-    "image3": "",
-    "video": "",
-    "medium": "",
-    "topic": "",
-    "decade": "2000s",
-    "movement": "",
-    "addedby": "blake",
-    "keywords": ""
-    
-    },
-    {
-    
-    "id": "1614995974",
-    "firstname": "Dave",
-    "lastname": "Cole",
-    "title": "The Knitting Machine",
-    "year": "2005",
-    "description": "",
-    "link": "http://davecoledavecole.com/#/the-knitting-machine/",
-    "image1": "DaveCole-KnittingMachine.jpg",
-    "image2": "",
-    "image3": "",
-    "video": "",
-    "medium": "",
-    "topic": "",
-    "decade": "2000s",
-    "movement": "",
-    "addedby": "blake",
-    "keywords": ""
-    
-    }
+{
 
+"id": "1614297315" ,
 
+"firstname": "Aaron" ,
+
+"lastname": "Koblin" ,
+
+"title": "The Sheep Market" ,
+
+"year": "2006" ,
+
+"description": "A collection of 10,000 sheep made by workers on Amazons Mechanical Turk. Workers were paid $0.02 (USD) to \"draw a sheep facing to the left.\" " ,
+
+"link": "http://www.aaronkoblin.com/work/thesheepmarket/" ,
+
+"image1": "AaronKoblin-SheepMarket.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "internet digital " ,
+
+"topic": "capitalism technology repetition" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "blake" ,
+
+"keyword": "sheep amazon mechanical turk pay"
+
+},
+{
+
+"id": "1614297316" ,
+
+"firstname": "Adam" ,
+
+"lastname": "Harvey" ,
+
+"title": "CV Dazzle" ,
+
+"year": "2010-2013" ,
+
+"description": "Fashion styles, haircuts, and makeup designed to circumvent machine vision and surveillance systems." ,
+
+"link": "https://cvdazzle.com/" ,
+
+"image1": "AdamHarvey-CVDazzle.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "performance" ,
+
+"topic": "technology surveillance cvml" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "blake" ,
+
+"keywords": "hair makeup surveillance"
+
+},
+{
+
+"id": "1614297313" ,
+
+"firstname": "AES+F" ,
+
+"lastname": "" ,
+
+"title": "Europe Europe" ,
+
+"year": "2007-2008" ,
+
+"description": "Porcelain figurines in wooden cabinet. Based on traditional 18th century artworks, but updated for contemporary politics and society." ,
+
+"link": "https://aesf.art/projects/europe_europe/" ,
+
+"image1": "AES+F-EuropeEurope.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture installation" ,
+
+"topic": "artcrit" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "cool"
+
+},
+{
+
+"id": "1614297320" ,
+
+"firstname": "Ai" ,
+
+"lastname": "Weiwei" ,
+
+"title": "Han Dynasty Urn with Coca Cola Logo" ,
+
+"year": "1993" ,
+
+"description": "Presumed original urns (bought at flea markets), repainted with modern logos." ,
+
+"link": "https://elephant.art/coca-cola-meets-china-ai-weiweis-subversive-symbolism/" ,
+
+"image1": "AiWeiwei-HanDynastyUrnWithCocaColaLogo.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture" ,
+
+"topic": "capitalism artcrit" ,
+
+"decade": "1990s" ,
+
+"movement": "" ,
+
+"addedby": "doug" ,
+
+"keywords": "cool"
+
+},
+{
+
+"id": "1604297316" ,
+
+"firstname": "Ai" ,
+
+"lastname": "Weiwei" ,
+
+"title": "World Map" ,
+
+"year": "2006-2009" ,
+
+"description": "Made of thousands of layers of thin cotton cloth, the map is created in a way that makes it extremely labor intensive to install, illustrating China’s status as a platform for cheap labor in the clothing industry. China is the world’s largest producer of cotton and a leading manufacturer of textiles and clothes." ,
+
+"link": "https://www.magasin3.com/en/artwork/world-map-2/" ,
+
+"image1": "AiWeiwei-WorldMap.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture installation" ,
+
+"topic": "capitalism" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "ai weiwei china chinese world fabric felt capitalism market consumerism"
+
+},
+{
+
+"id": "1614397316" ,
+
+"firstname": "Ai" ,
+
+"lastname": "Weiwei" ,
+
+"title": "Ai Weiwei in the Elevator When Taken into Custody by the Police" ,
+
+"year": "2009" ,
+
+"description": "" ,
+
+"link": "https://www.artsy.net/artwork/ai-weiwei-ai-weiwei-in-the-elevator-when-taken-into-custody-by-the-police" ,
+
+"image1": "AiWeiwei.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "photo performance" ,
+
+"topic": "sociallyengaged" ,
+
+"decade": "2000s" ,
+
+"movements": "" ,
+
+"addedby": "" ,
+
+"keywords": "china dissident authoritarian arrest selfie"
+
+},
+{
+
+"id": "1614397317" ,
+
+"firstname": "Albin" ,
+
+"lastname": "Karlsson" ,
+
+"title": "Thermopaper 2" ,
+
+"year": "2005" ,
+
+"description": "A big sheet of thermochromic paper is slowly wound from one spool to another. A rotating heat source draws a circle on the paper, one cycle per minute." ,
+
+"link": "https://we-make-money-not-art.com/albin_karlsson_at_icon_experim/" ,
+
+"image1": "AlbinKarlsson-Thermopaper2.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture" ,
+
+"topic": "technology physicalcomputing repetition" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "minimal abstract tech thermopaper testkeyword heat element"
+
+},
+{
+
+"id": "1614397318" ,
+
+"firstname": "Alex" ,
+
+"lastname": "Dragulescu" ,
+
+"title": "Spam Architecture" ,
+
+"year": "2007" ,
+
+"description": "The images from the Spam Architecture series are generated by a computer program that accepts as input, junk email. Various patterns, keywords and rhythms found in the text are translated into three-dimensional modeling gestures." ,
+
+"link": "https://rhizome.org/editorial/2009/may/18/spam-architecture-2007-alex-dragulescu/" ,
+
+"image1": "AlexDragulescu-SpamArchitecture.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture digital" ,
+
+"topic": "creativecoding technology repetition" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "spam email sculpture generated"
+
+},
+{
+
+"id": "1614397319" ,
+
+"firstname": "Alex" ,
+
+"lastname": "Schaefer" ,
+
+"title": "Bank of America Palm Springs" ,
+
+"year": "2012" ,
+
+"description": "\"The artwork was intended to be a visual metaphor for the havoc that banking practices have caused to the economy.\" Schaefer is interested in disaster capitalism." ,
+
+"link": "https://www.cjamesgallery.com/assets/wp-content/uploads/2012/02/schaefer1.pdf" ,
+
+"image1": "AlexSchaefer-BankofAmericaBurning.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "paintdraw" ,
+
+"topic": "capitalism" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "disaster capitalism painting bank fire burning police"
+
+},
+{
+
+"id": "1614397320" ,
+
+"firstname": "Alfredo" ,
+
+"lastname": "Jaar" ,
+
+"title": "September 15th" ,
+
+"year": "2009" ,
+
+"description": "\"This envelope contains a photograph by Alfredo Jaar of Karl Marx’s grave in Highgate Cemetery, London. The purchaser of this work agrees to view this image only once a year, on September 15, the anniversary of the day Lehman Brothers declared bankruptcy in New York.\"" ,
+
+"link": "http://artistsbooksandmultiples.blogspot.com/2013/03/alfredo-jaar-september-15.html" ,
+
+"image1": "AlfredoJaar-September15th2009.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "photo installation" ,
+
+"topic": "capitalism" ,
+
+"decade": "" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "chilean wall street financial crisis"
+
+},
+{
+
+"id": "1614397321" ,
+
+"firstname": "Allison" ,
+
+"lastname": "Chernick" ,
+
+"title": "James Franco as Bruce Nauman" ,
+
+"year": "2010" ,
+
+"description": "\"A contemporary update of Nauman’s Art Make-Up video piece from 1967, shot on location at the Standard Hotel, New York. The themes the artist was exploring seem perfectly in sync with Franco’s own hall-of-mirrors aesthetic: “make-up,” the stuff an actor smears on his face, assumes a double entendre as a verb—to make up, the very essence of any creative act. The video is the first in a new series by Chernick in which contemporary artists are enlisted to star in remakes of seminal video artworks, prompting a dialogue between the original artwork and the artist reinterpreting it.\"" ,
+
+"link": "https://filmmakermagazine.com/14723-james-franco-plays-artist-bruce-nauman/#.YCAIfeBOnyk" ,
+
+"image1": "AlisonChernick-JamesFrancoAsBruceNauman.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "filmvideo" ,
+
+"topic": "spectacle artcrit" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "celebrity james franco bruce nauman makeup video vid"
+
+},
+{
+
+"id": "1614397322" ,
+
+"firstname": "Allison" ,
+
+"lastname": "Burtch" ,
+
+"title": "Log Jammer" ,
+
+"year": "2014" ,
+
+"description": "\"This is a cellphone jammer put in a log in the woods, in order to create a safe space in nature. It was tested in the lab (no illegal shit) and was a part of my Master’s thesis at ITP. Part of this project was largely inspired by this Deleuze quote.\"" ,
+
+"link": "https://allisonburtch.github.io/log-jammer/" ,
+
+"image1": "AllisonBurtch-LogJammer.png" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture installation" ,
+
+"topic": "technology nature" ,
+
+"decade": "2010's" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "cell tower log forest jammer radio signal"
+
+},
+{
+
+"id": "1614397323" ,
+
+"firstname": "Amy" ,
+
+"lastname": "Balkan" ,
+
+"title": "Public Smog" ,
+
+"year": "2004" ,
+
+"description": "Artist organized to purchase and retire carbon emmissions offsets for the public good." ,
+
+"link": "http://tomorrowmorning.net/publicsmog" ,
+
+"image1": "AmyBalkan-PublicSmog.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "conceptual" ,
+
+"topic": "nature capitalism politics sociallyengaged" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "carbon dioxide emissions offsets california smog global warming factory"
+
+},
+{
+
+"id": "1614397324" ,
+
+"firstname": "Andrea" ,
+
+"lastname": "Zittel" ,
+
+"title": "A-Z Comfort Units" ,
+
+"year": "1994-1995" ,
+
+"description": "while they are generally useful in some way, incorporating an implied social or domestic function, the critic Jan Avgikos has argued that 'Nothing about Zittel’s art suggests itself as a remedy for what ails the masses. Rather, in “A-Z’s” advocacy of an idealized lifestyle, the configuration constantly generated is that of the individual … All \"A-Z\" lifestyle products and services are highly personalized. As such, they join ranks with the worldwide flood of personal shoppers, and personal computers, and personal-size tissues and personal everything!'\"" ,
+
+"link": "https://www.tate.org.uk/art/artworks/zittel-a-z-comfort-unit-with-special-comfort-features-by-dave-stewart-t07103" ,
+
+"image1": "AndreaZittel-A-ZComfortUnits.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture" ,
+
+"topic": "capitalism spectacle politic sociallyengaged" ,
+
+"decade": "1990s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397325" ,
+
+"firstname": "Andrew" ,
+
+"lastname": "Yang" ,
+
+"title": "Stella's Stoichiometry (All things being equal, 6 lbs. 13 oz.)" ,
+
+"year": "2012" ,
+
+"description": "" ,
+
+"link": "" ,
+
+"image1": "AndrewYang-StellasStoichiometry.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture" ,
+
+"topic": "" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397326" ,
+
+"firstname": "Anna" ,
+
+"lastname": "Von Mertens" ,
+
+"title": "Look to the Heavens" ,
+
+"year": "2008" ,
+
+"description": "\"Using a computer program to calculate these historic vistas, I then sew the star patterns into painted, hand-dyed renderings of the night sky. Through the hand-sewing of these passages of time, I mirror my own contemplative act with the age-old existential act of stargazing.\"" ,
+
+"link": "https://annavonmertens.com/portfolio/look-to-the-heavens/" ,
+
+"image1": "AnnaVonMertens-LookToTheHeavens.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "fiber " ,
+
+"topic": "creativecoding nature" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397327" ,
+
+"firstname": "Ann" ,
+
+"lastname": "Hamilton" ,
+
+"title": "Tropos" ,
+
+"year": "1993" ,
+
+"description": "" ,
+
+"link": "https://www.annhamiltonstudio.com/objects/tropos_books.html" ,
+
+"image1": "AnnHamilton-Tropos.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "installation" ,
+
+"topic": "repetition" ,
+
+"decade": "" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397328" ,
+
+"firstname": "Ann" ,
+
+"lastname": "Hamilton" ,
+
+"title": "Privation and Excesses" ,
+
+"year": "1989" ,
+
+"description": "" ,
+
+"link": "https://www.annhamiltonstudio.com/projects/privationandexcesses.html" ,
+
+"image1": "AnnHamilton-PrivationAndExcesses.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "installation" ,
+
+"topic": "repetition capitalism" ,
+
+"decade": "1980s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397329" ,
+
+"firstname": "Anthony" ,
+
+"lastname": "Gormley" ,
+
+"title": "Another Place" ,
+
+"year": "1997" ,
+
+"description": "" ,
+
+"link": "https://www.antonygormley.com/projects/item-view/id/230" ,
+
+"image1": "AnthonyGormley-AnotherPlace.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture installation" ,
+
+"topic": "body nature repetition" ,
+
+"decade": "1990s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "ocean body multiples"
+
+},
+{
+
+"id": "1614397330" ,
+
+"firstname": "Arcangelo" ,
+
+"lastname": "Sassolino" ,
+
+"title": "Damnation Memoriae" ,
+
+"year": "2016" ,
+
+"description": "" ,
+
+"link": "https://www.arcangelosassolino.it/sculpture/damnatio-memorie/" ,
+
+"image1": "ArcangeloSassolino-DamnatioMemoriae.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture installation" ,
+
+"topic": "artcrit technology" ,
+
+"decade": "2010s" ,
+
+"movement": "2010s" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397331" ,
+
+"firstname": "Arcangelo" ,
+
+"lastname": "Sassolino" ,
+
+"title": "Elisa" ,
+
+"year": "2012" ,
+
+"description": "" ,
+
+"link": "https://www.arcangelosassolino.it/sculpture/elisa/" ,
+
+"image1": "ArcangeloSassolino-Elisa.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "" ,
+
+"topic": "" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397332" ,
+
+"firstname": "Arcangelo" ,
+
+"lastname": "Sassolino" ,
+
+"title": "The Way We Were" ,
+
+"year": "2018" ,
+
+"description": "" ,
+
+"link": "https://www.arcangelosassolino.it/sculpture/the-way-we-were/" ,
+
+"image1": "ArcangeloSassolino-TheWayWeWere.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "" ,
+
+"topic": "" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397333" ,
+
+"firstname": "Arcangelo" ,
+
+"lastname": "Sassolino" ,
+
+"title": "Untitled" ,
+
+"year": "2006-2007" ,
+
+"description": "" ,
+
+"link": "https://www.arcangelosassolino.it/sculpture/untitled-2006/" ,
+
+"image1": "ArcangeloSassolino-Untitled.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "" ,
+
+"topic": "" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397334" ,
+
+"firstname": "Arthur" ,
+
+"lastname": "Ganson" ,
+
+"title": "Cory's Yellow Chair" ,
+
+"year": "1997" ,
+
+"description": "" ,
+
+"link": "https://www.arthurganson.com/cory-s-yellow-chair-1" ,
+
+"image1": "ArthurGanson-CorysYellowChair.png" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture" ,
+
+"topic": "technology conceptual" ,
+
+"decade": "1990s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "chair mechanical machine kinetic"
+
+},
+{
+
+"id": "1614397335" ,
+
+"firstname": "Arthur" ,
+
+"lastname": "Ganson" ,
+
+"title": "Machine with Concrete" ,
+
+"year": "1992" ,
+
+"description": "" ,
+
+"link": "https://arthur.io/art/arthur-ganson/machine-with-concrete" ,
+
+"image1": "ArthurGanson-MachineWithConcrete.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture" ,
+
+"topic": "technology conceptual" ,
+
+"decade": "1990s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "kinetic machine mechanical"
+
+},
+{
+
+"id": "1614397336" ,
+
+"firstname": "Atelier" ,
+
+"lastname": "Van Lieshout" ,
+
+"title": "Clip-On" ,
+
+"year": "1997" ,
+
+"description": "" ,
+
+"link": "https://www.ateliervanlieshout.com/work/clip-on/" ,
+
+"image1": "AtelierVanLieshout-ClipOn.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "installation" ,
+
+"topic": "" ,
+
+"decade": "1990s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397337" ,
+
+"firstname": "Ben" ,
+
+"lastname": "Grosser" ,
+
+"title": "Facebook Demetricator" ,
+
+"year": "2012" ,
+
+"description": "" ,
+
+"link": "https://bengrosser.com/projects/facebook-demetricator/" ,
+
+"image1": "BenGrosser-FacebookDemtricator.gif" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "digital internet" ,
+
+"topic": "capitalism politics" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397338" ,
+
+"firstname": "Ben" ,
+
+"lastname": "Grosser" ,
+
+"title": "Safebook" ,
+
+"year": "2019" ,
+
+"description": "" ,
+
+"link": "https://bengrosser.com/projects/safebook" ,
+
+"image1": "BenGrosser-Safebook.png" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "digital internet" ,
+
+"topic": "capitalism politics" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397339" ,
+
+"firstname": "Ben" ,
+
+"lastname": "Peterson" ,
+
+"title": "Ramada" ,
+
+"year": "2008-2009" ,
+
+"description": "" ,
+
+"link": "https://www.ratio3.org/exhibitions/ben-peterson-the-pilgrim-s-progress/works?page=2" ,
+
+"image1": "BenPeterson-Ramada.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "paintdraw" ,
+
+"topic": "capitalism consumerism" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "disaster"
+
+},
+{
+
+"id": "1614397340" ,
+
+"firstname": "Ben" ,
+
+"lastname": "Peterson" ,
+
+"title": "T.R." ,
+
+"year": "2006" ,
+
+"description": "" ,
+
+"link": "https://ratio3.org/exhibitions/ben-peterson-you-build-it-we-burn-it/works/4368" ,
+
+"image1": "BenPeterson-T.R.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "paintdraw" ,
+
+"topic": "capitalism consumerism" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397341" ,
+
+"firstname": "Bernard" ,
+
+"lastname": "Brunon" ,
+
+"title": "That's Painting" ,
+
+"year": "1989-2016" ,
+
+"description": "" ,
+
+"link": "http://thatspainting.com/thats-painting" ,
+
+"image1": "BernardBrunon-ThatsPainting.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "paintdraw" ,
+
+"topic": "artcrit" ,
+
+"decade": "1980s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397342" ,
+
+"firstname": "Ben" ,
+
+"lastname": "Peterson" ,
+
+"title": "Baggage Claim" ,
+
+"year": "2010" ,
+
+"description": "" ,
+
+"link": "https://www.mutualart.com/Artwork/Baggage-Claim/191AB36ED2A5ED82" ,
+
+"image1": "BenPeterson-BaggageClaim.png" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "paintdraw" ,
+
+"topic": "capitalism consumerism" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397343" ,
+
+"firstname": "Brendan" ,
+
+"lastname": "Dawes" ,
+
+"title": "Amongst the Leaves" ,
+
+"year": "2018" ,
+
+"description": "" ,
+
+"link": "http://brendandawes.com/projects/amongsttheleaves" ,
+
+"image1": "BrendanDawes-AmongstTheLeaves.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture installation" ,
+
+"topic": "creativecoding nature" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397344" ,
+
+"firstname": "Brent" ,
+
+"lastname": "Watanabe" ,
+
+"title": "San Andreas Deer Cam" ,
+
+"year": "2015-2016" ,
+
+"description": "" ,
+
+"link": "http://bwatanabe.com/GTA_V_WanderingDeer.html" ,
+
+"image1": "BrentWatanabe-SanAndreasDeerCam.png" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "digital" ,
+
+"topic": "nature creativecoding spectacle" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397345" ,
+
+"firstname": "Brett" ,
+
+"lastname": "Balogh" ,
+
+"title": "Wolf" ,
+
+"year": "2015" ,
+
+"description": "" ,
+
+"link": "http://www.brettbalogh.com/" ,
+
+"image1": "BrettBalogh-Wolf.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "digital installation" ,
+
+"topic": "" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397346" ,
+
+"firstname": "Brian" ,
+
+"lastname": "Jungen" ,
+
+"title": "The Prince" ,
+
+"year": "2006" ,
+
+"description": "" ,
+
+"link": "https://www.si.edu/newsdesk/photos/prince" ,
+
+"image1": "BrianJungen-ThePrince.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture" ,
+
+"topic": "" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397347" ,
+
+"firstname": "Brian" ,
+
+"lastname": "Urlich" ,
+
+"title": "Granger" ,
+
+"year": "2003" ,
+
+"description": "" ,
+
+"link": "http://notifbutwhen.com/retail" ,
+
+"image1": "BrianUrlich-Granger.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "photo" ,
+
+"topic": "" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397348" ,
+
+"firstname": "Bruce" ,
+
+"lastname": "Nauman" ,
+
+"title": "Live-Taped Video Corridor" ,
+
+"year": "1970" ,
+
+"description": "" ,
+
+"link": "https://www.guggenheim.org/artwork/3153" ,
+
+"image1": "BruceNauman-LiveTapedVideoCorridor.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "installation filmvideo" ,
+
+"topic": "" ,
+
+"decade": "1970s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397349" ,
+
+"firstname": "Caleb" ,
+
+"lastname": "Larsen" ,
+
+"title": "A Tool to Deceive and Slaughter" ,
+
+"year": "2009" ,
+
+"description": "" ,
+
+"link": "https://rhizome.org/editorial/2010/mar/01/a-tool-to-deceive-and-slaughter-2009-caleb-larsen/" ,
+
+"image1": "CalebLarsen-AToolToDeceiveAndSlaughter.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture internet" ,
+
+"topic": "capitalism" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "ebay"
+
+},
+{
+
+"id": "1614397350" ,
+
+"firstname": "Casey" ,
+
+"lastname": "Reas" ,
+
+"title": "Ultraconcentrated" ,
+
+"year": "2013" ,
+
+"description": "" ,
+
+"link": "https://reas.com/ultraconcentrated/" ,
+
+"image1": "CaseyReas-ultraconcentrated.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "digital filmvideo" ,
+
+"topic": "creativecoding" ,
+
+"decade": "" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "p5 processing"
+
+},
+{
+
+"id": "1614397351" ,
+
+"firstname": "Charles" ,
+
+"lastname": "Gaines" ,
+
+"title": "Numbers and Trees: Central Park Series III: Tree 8, Andrea" ,
+
+"year": "2016" ,
+
+"description": "" ,
+
+"link": "https://www.maxhetzler.com/exhibitions/charles-gaines-grids-numbers-and-trees-iii-and-palm-trees-ii-2016/zoom-w/8" ,
+
+"image1": "CharlesGaines-NumbersAndTrees-CentralParkSeriesIIITree8Andrea.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "paintdraw" ,
+
+"topic": "nature creativecoding" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "tree"
+
+},
+{
+
+"id": "1614397352" ,
+
+"firstname": "Charles" ,
+
+"lastname": "Ray" ,
+
+"title": "Unpainted Sculpture" ,
+
+"year": "1997" ,
+
+"description": "" ,
+
+"link": "https://walkerart.org/collections/artworks/unpainted-sculpture" ,
+
+"image1": "CharlesRay-UnpaintedSculpture.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture" ,
+
+"topic": "" ,
+
+"decade": "1990s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397353" ,
+
+"firstname": "Cheryl" ,
+
+"lastname": "Pope" ,
+
+"title": "Remember to Remember" ,
+
+"year": "2013" ,
+
+"description": "\"Names and dates of Chicago youth killed by gun violence in 2012-May 2013. Haikus written by 7th and 8th grade students of Nobel Elementary School are placed between.\"" ,
+
+"link": "https://www.cherylpope.net/remeber-to-remember" ,
+
+"image1": "CherylPope-RememberToRemeber.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture installation" ,
+
+"topic": "" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397354" ,
+
+"firstname": "Chico" ,
+
+"lastname": "MacMurtie" ,
+
+"title": "Border Crossers" ,
+
+"year": "2017" ,
+
+"description": "\"Border Crossers comprise a series of lightweight robotic sculptures that poetically explore the notion of borders and boundary conditions. The inflatable sculptures rise up to several stories high and extend across a given threshold.\"" ,
+
+"link": "http://amorphicrobotworks.org/border-crossers" ,
+
+"image1": "ChicoMacMurtie-BorderCrossers.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "installation" ,
+
+"topic": "politics" ,
+
+"decade": "" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "border crossing"
+
+},
+{
+
+"id": "1614397355" ,
+
+"firstname": "Chico" ,
+
+"lastname": "MacMurtie" ,
+
+"title": "Totomobile" ,
+
+"year": "2012" ,
+
+"description": "" ,
+
+"link": "http://amorphicrobotworks.org/totemobile" ,
+
+"image1": "ChicoMacMurtie-Totemobile.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture" ,
+
+"topic": "technology nature" ,
+
+"decade": "" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "citroen totempole machine mechanical car"
+
+},
+{
+
+"id": "1614397356" ,
+
+"firstname": "Chris" ,
+
+"lastname": "Burden" ,
+
+"title": "Shoot" ,
+
+"year": "1971" ,
+
+"description": "" ,
+
+"link": "https://en.wikipedia.org/wiki/Shoot_(Burden)" ,
+
+"image1": "ChrisBurden-Shoot.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "conceptual performance photo" ,
+
+"topic": "artcrit" ,
+
+"decade": "1970s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397357" ,
+
+"firstname": "Christian" ,
+
+"lastname": "Moeller" ,
+
+"title": "Cheese" ,
+
+"year": "2003" ,
+
+"description": "" ,
+
+"link": "https://christianmoeller.com/Cheese" ,
+
+"image1": "ChristianMoeller-Cheese.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "installation" ,
+
+"topic": "creativecoding" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397358" ,
+
+"firstname": "Christine" ,
+
+"lastname": "Kozlov" ,
+
+"title": "Information Drift" ,
+
+"year": "1968" ,
+
+"description": "Inscription: Combined recordings of news bulletins of the shootings of Andy Warhol and Robert Kennedy." ,
+
+"link": "http://www.henry-moore.foundation/gallery/article/124/8" ,
+
+"image1": "ChristineKozlov-InformationDrift.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "conceptual audio" ,
+
+"topic": "spectacle" ,
+
+"decade": "1960s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397359" ,
+
+"firstname": "Christine" ,
+
+"lastname": "Kozlov" ,
+
+"title": "Information: No Theory" ,
+
+"year": "1971" ,
+
+"description": "" ,
+
+"link": "https://www.ubu.com/papers/kozlov_information.html" ,
+
+"image1": "ChristineKozlov-InformationNoTheory.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "conceptual audio installation" ,
+
+"topic": "" ,
+
+"decade": "1970s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397360" ,
+
+"firstname": "Cildo" ,
+
+"lastname": "Meireles" ,
+
+"title": "Zero Dollar" ,
+
+"year": "1974-1984" ,
+
+"description": "" ,
+
+"link": "https://www.macba.cat/en/art-artists/artists/meireles-cildo/zero-dollar" ,
+
+"image1": "CildoMeireles-ZeroDollar.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "print" ,
+
+"topic": "politics captialism" ,
+
+"decade": "1970s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "dollar bill"
+
+},
+{
+
+"id": "1614397361" ,
+
+"firstname": "Claire" ,
+
+"lastname": "Hentschker" ,
+
+"title": "Tiffany's from the Side" ,
+
+"year": "2017" ,
+
+"description": "" ,
+
+"link": "http://www.clairesophie.com/images" ,
+
+"image1": "ClaireHentschker-BreakfastAtTiffanysFromTheSide.png" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "digital" ,
+
+"topic": "technology" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "lidar vr ar movie"
+
+},
+{
+
+"id": "1614397362" ,
+
+"firstname": "Claire" ,
+
+"lastname": "Hentschker" ,
+
+"title": "Merch Mulch" ,
+
+"year": "2017" ,
+
+"description": "" ,
+
+"link": "http://www.clairesophie.com/merch-mulch" ,
+
+"image1": "ClaireHentschker-MerchMulch.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "digital" ,
+
+"topic": "capitalism technology" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "dead mall"
+
+},
+{
+
+"id": "1614397363" ,
+
+"firstname": "Clement" ,
+
+"lastname": "Valla" ,
+
+"title": "Hapax Phaenomena" ,
+
+"year": "2012" ,
+
+"description": "\"Hapax Phaenomena is a collection of historically unique images discovered by Google image search from collaborators Clement Valla and John Cayley.\"" ,
+
+"link": "http://clementvalla.com/work/hapax-phaenomena/" ,
+
+"image1": "ClementValla-HapaxPhaenomena.png" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "internet digital" ,
+
+"topic": "technology" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "google search"
+
+},
+{
+
+"id": "1614397364" ,
+
+"firstname": "Clement" ,
+
+"lastname": "Valla" ,
+
+"title": "Postcards from Google Earth" ,
+
+"year": "2010-ongoing" ,
+
+"description": "" ,
+
+"link": "http://www.postcards-from-google-earth.com/" ,
+
+"image1": "ClementValla-PostcardsFromGoogleEarth.png" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "digital internet print" ,
+
+"topic": "technology creativecoding" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "google map"
+
+},
+{
+
+"id": "1614397365" ,
+
+"firstname": "Clement" ,
+
+"lastname": "Valla" ,
+
+"title": "Sol LeWitt and Mechanical Turk" ,
+
+"year": "2009" ,
+
+"description": "\"Custom software recreates a Sol LeWitt drawing. The software also posts instructions on Amazon.com’s Mechanical Turk. Human workers execute the drawings online based on the instructions. The workers are paid 5¢ for each drawing. The software then assembles the Mechanical Turk drawings in a grid. The software drawings and the Mechancial Turk drawings are presented side by side.\"" ,
+
+"link": "http://clementvalla.com/work/sol-lewitt-mechanical-turk/" ,
+
+"image1": "ClementValla-SolLeWittAndMechanicalTurk.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "digital paintdraw internet print" ,
+
+"topic": "" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397366" ,
+
+"firstname": "Constantine" ,
+
+"lastname": "Zletev" ,
+
+"title": "The Last Gun" ,
+
+"year": "2012" ,
+
+"description": "\" The Last Gun is a mechano-robotic flute built out of a disabled shotgun and salvaged industrial components. The gun barrels have been transformed into a double-flute, which is played by compressed air. The installation graphically charts and then musically depicts the rise & fall of annual U.S. arms exports.\"" ,
+
+"link": "https://madeinconstantine.com/the-last-gun" ,
+
+"image1": "ConstantineZlatev-TheLastGun.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture technology politics" ,
+
+"topic": "" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "gun shotgun flute arduino raspberry pi"
+
+},
+{
+
+"id": "1614397367" ,
+
+"firstname": "Cory" ,
+
+"lastname": "Arcangel" ,
+
+"title": "Permanent Vacation" ,
+
+"year": "2008" ,
+
+"description": "\"2 computers stuck in an out of office email loop.\"" ,
+
+"link": "https://coryarcangel.com/things-i-made/2008-003-permanent-vacation" ,
+
+"image1": "CoryArcangel-PermanentVacation.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "installation digital internet" ,
+
+"topic": "repetition" ,
+
+"decade": "" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "email"
+
+},
+{
+
+"id": "1614397368" ,
+
+"firstname": "Cory" ,
+
+"lastname": "Arcangel" ,
+
+"title": "Super Mario Clouds" ,
+
+"year": "2002" ,
+
+"description": "Cory Arcangel “hacked” a cartridge of Super Mario Brothers, the original version of the blockbuster Nintendo video game released in the United States in 1985. By tweaking the game’s code, the artist erased all of the sound and visual elements except the iconic scrolling clouds." ,
+
+"link": "https://whitney.org/collection/works/20588" ,
+
+"image1": "CoryArcangel-SuperMarioClouds.png" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "digital" ,
+
+"topic": "technology nature creativecoding" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "game video mario nes nintendo"
+
+},
+{
+
+"id": "1614397369" ,
+
+"firstname": "Daito" ,
+
+"lastname": "Manabe" ,
+
+"title": "Face Visualizer" ,
+
+"year": "2008" ,
+
+"description": "" ,
+
+"link": "http://www.daito.ws/en/work/smiles.html" ,
+
+"image1": "DaitoManabe-FaceVisualizer.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "performance audio" ,
+
+"topic": "technology body" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "electric shock face japanese"
+
+},
+{
+
+"id": "1614397370" ,
+
+"firstname": "Damien" ,
+
+"lastname": "Hirst" ,
+
+"title": "For the Love of God" ,
+
+"year": "2007" ,
+
+"description": "" ,
+
+"link": "http://www.damienhirst.com/for-the-love-of-god" ,
+
+"image1": "DamienHirst-ForTheLoveOfGod.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "" ,
+
+"topic": "" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "diamonds skull"
+
+},
+{
+
+"id": "1614397371" ,
+
+"firstname": "Dan" ,
+
+"lastname": "Flavin" ,
+
+"title": "Untitled (to Pat and Bob Rohm)" ,
+
+"year": "1969" ,
+
+"description": "" ,
+
+"link": "https://www.artsy.net/artwork/dan-flavin-untitled-to-pat-and-bob-rohm" ,
+
+"image1": "DanFlavin-Untitled.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "installation sculptuer" ,
+
+"topic": "minimalism" ,
+
+"decade": "1960s" ,
+
+"movement": "lightart" ,
+
+"addedby": "" ,
+
+"keywords": "light flourescent tube color field"
+
+},
+{
+
+"id": "1614397372" ,
+
+"firstname": "Daniel" ,
+
+"lastname": "Agdag" ,
+
+"title": "The Third Fatality" ,
+
+"year": "2014" ,
+
+"description": "Cardboard and paper." ,
+
+"link": "http://publicoffice.com.au/works/the-third-fatality/" ,
+
+"image1": "DanielAgdag-TheThirdFatality.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture" ,
+
+"topic": "" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397373" ,
+
+"firstname": "Daniel Joseph" ,
+
+"lastname": "Martinez" ,
+
+"title": "Divine Violence" ,
+
+"year": "2007" ,
+
+"description": "\"Divine Violence functions, in Daniel Joseph Martinez’s words, as 'a typology of every organization in the world that uses violence or aggression to fulfill its political ideology.' The installation is comprised of 125 panels, each of which bears the name of a political organization in black lettering on a wooden ground painted with automotive gold flake. These organizations represent diverse—and sometimes vehemently contradictory—aims and politics.\"" ,
+
+"link": "https://whitney.org/collection/works/33379" ,
+
+"image1": "DanielJosephMartinez-DivineViolence.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "installation" ,
+
+"topic": "politics" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614397374" ,
+
+"firstname": "Daniel" ,
+
+"lastname": "Rozin" ,
+
+"title": "Penguins Mirror" ,
+
+"year": "2015" ,
+
+"description": "" ,
+
+"link": "https://www.youtube.com/watch?v=9QAVauBL2mc" ,
+
+"image1": "DanielRozin-PenguinsMirror.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "sculpture installation" ,
+
+"topic": "physicalcomputing creativecode cvml" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "motor penguin mirror arduino"
+
+},
+{
+
+"id": "1614397375" ,
+
+"firstname": "Doug" ,
+
+"lastname": "Rosman" ,
+
+"title": "self-contained" ,
+
+"year": "2019" ,
+
+"description": "GAN synthesized portraits of the artist, unstable, surreal forms expressing the algorithm's uncertainity in how to resolve a human form." ,
+
+"link": "https://dougrosman.com/" ,
+
+"image1": "DougRosman-SelfContained.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "video animation" ,
+
+"topic": "machine_learning cvml" ,
+
+"decade": "2020" ,
+
+"movement": "" ,
+
+"addedby": "" ,
+
+"keywords": "Neural GAN Generative Bodies Morph Pix2Pix"
+
+},
+{
+
+"id": "1614397376" ,
+
+"firstname": "Doug" ,
+
+"lastname": "Rosman" ,
+
+"title": "self-contained" ,
+
+"year": "2019" ,
+
+"description": "GAN synthesized portraits of the artist, unstable, surreal forms expressing the algorithm's uncertainity in how to resolve a human form." ,
+
+"link": "https://dougrosman.com/" ,
+
+"image1": "DougRosman-SelfContained.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "Video, Animation" ,
+
+"topic": "machine learning, cvml" ,
+
+"decade": "2020" ,
+
+"movement": "" ,
+
+"addedby": "doug" ,
+
+"keywords": "Neural GAN Generative Bodies Morph Pix2Pix"
+
+},
+{
+
+"id": "1614995470" ,
+
+"firstname": "Daniel" ,
+
+"lastname": "Seiple" ,
+
+"title": "Landreform Carousel" ,
+
+"year": "2008" ,
+
+"description": "" ,
+
+"link": "http://www.travelhome.org/bmw/info.html" ,
+
+"image1": "DanielSeiple-LandreformCarousel.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "" ,
+
+"topic": "" ,
+
+"decade": "" ,
+
+"movement": "" ,
+
+"addedby": "blake" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614995531" ,
+
+"firstname": "Dan" ,
+
+"lastname": "Lam" ,
+
+"title": "Bombshell" ,
+
+"year": "2015" ,
+
+"description": "" ,
+
+"link": "https://www.bydanlam.com/sculptures/man-eater-yl4le-ppar8" ,
+
+"image1": "DanLam-Bombshell.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "" ,
+
+"topic": "" ,
+
+"decade": "" ,
+
+"movement": "" ,
+
+"addedby": "blake" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614995666" ,
+
+"firstname": "Darius" ,
+
+"lastname": "Kazemi" ,
+
+"title": "Amazon Random Shopper" ,
+
+"year": "2012" ,
+
+"description": "" ,
+
+"link": "https://randomshopper.tumblr.com/" ,
+
+"image1": "DariusKazemi-AmazonRandomShopper.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "" ,
+
+"topic": "" ,
+
+"decade": "2010s" ,
+
+"movement": "" ,
+
+"addedby": "blake" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614995838" ,
+
+"firstname": "Dave" ,
+
+"lastname": "Cole" ,
+
+"title": "Flags of the World" ,
+
+"year": "2008" ,
+
+"description": "" ,
+
+"link": "http://davecoledavecole.com/#/flags-of-the-world/" ,
+
+"image1": "DaveCole-FlagsOfTheWorld.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "" ,
+
+"topic": "" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "blake" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614995928" ,
+
+"firstname": "Dave" ,
+
+"lastname": "Cole" ,
+
+"title": "Knitted with Loaded Shotguns (Safeties Off)" ,
+
+"year": "2008-2010" ,
+
+"description": "" ,
+
+"link": "http://davecoledavecole.com/#/knitting-with-loaded-shotguns-safeties-off/" ,
+
+"image1": "DaveCole-KnittedWithLoadedShotguns.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "" ,
+
+"topic": "" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "blake" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1614995974" ,
+
+"firstname": "Dave" ,
+
+"lastname": "Cole" ,
+
+"title": "The Knitting Machine" ,
+
+"year": "2005" ,
+
+"description": "" ,
+
+"link": "http://davecoledavecole.com/#/the-knitting-machine/" ,
+
+"image1": "DaveCole-KnittingMachine.jpg" ,
+
+"image2": "" ,
+
+"image3": "" ,
+
+"video": "" ,
+
+"medium": "" ,
+
+"topic": "" ,
+
+"decade": "2000s" ,
+
+"movement": "" ,
+
+"addedby": "blake" ,
+
+"keywords": ""
+
+},
+{
+
+"id": "1615062245",
+
+"firstname": "David",
+
+"lastname": "Bowen",
+
+"title": "Da46°41'58.365' LAT. -91°59'49.0128' LONG. @ 30M",
+
+"year": "2015",
+
+"description": "",
+
+"link": "https://www.dwbowen.com/464158365-lat-9159490128-long-30m",
+
+"image1": "DavidBowen-464158365lat9159490128long30m.jpg",
+
+"image2": "",
+
+"image3": "",
+
+"video": "",
+
+"medium": "sculpture",
+
+"topic": "",
+
+"decade": "2010s",
+
+"movement": "",
+
+"addedby": "blake",
+
+"keywords": "water surface waves"
+
+},
+{
+
+"id": "1615062388",
+
+"firstname": "David ",
+
+"lastname": "Bowen",
+
+"title": "Fly AI",
+
+"year": "2016",
+
+"description": "Flies are fed based on whether a computer vision system recognizes the image of a fly.",
+
+"link": "https://www.dwbowen.com/flyai",
+
+"image1": "DavidBowen-FlyAI.jpg",
+
+"image2": "",
+
+"image3": "",
+
+"video": "",
+
+"medium": "sculpture",
+
+"topic": "computer_vision AI",
+
+"decade": "2010s",
+
+"movement": "",
+
+"addedby": "blake",
+
+"keywords": "fly artificial intelligence"
+
+},
+{
+
+"id": "1615062513",
+
+"firstname": "David",
+
+"lastname": "Bowen",
+
+"title": "Fly Tweet",
+
+"year": "2012",
+
+"description": "",
+
+"link": "https://www.dwbowen.com/flytweet",
+
+"image1": "DavidBowen-FlyTweet.jpg",
+
+"image2": "",
+
+"image3": "",
+
+"video": "",
+
+"medium": "sculpture",
+
+"topic": "computer_vision",
+
+"decade": "2010s",
+
+"movement": "",
+
+"addedby": "blake",
+
+"keywords": "flies tweets twitter"
+
+},
+{
+
+"id": "1615062598",
+
+"firstname": "David",
+
+"lastname": "Bowen",
+
+"title": "Space Junk",
+
+"year": "2016",
+
+"description": "",
+
+"link": "https://www.dwbowen.com/spacejunk",
+
+"image1": "DavidBowen-SpaceJunk.jpg",
+
+"image2": "",
+
+"image3": "",
+
+"video": "",
+
+"medium": "",
+
+"topic": "physical_computing",
+
+"decade": "2010s",
+
+"movement": "",
+
+"addedby": "blake",
+
+"keywords": "space tracking twigs"
+
+},
+{
+
+"id": "1615062695",
+
+"firstname": "David",
+
+"lastname": "Bowen",
+
+"title": "Telepresent Wind",
+
+"year": "2018",
+
+"description": "",
+
+"link": "https://www.dwbowen.com/telepresent-wind",
+
+"image1": "DavidBowen-TelepresentWind.jpg",
+
+"image2": "",
+
+"image3": "",
+
+"video": "",
+
+"medium": "",
+
+"topic": "nature physical_computing",
+
+"decade": "2010s",
+
+"movement": "",
+
+"addedby": "blake",
+
+"keywords": "twig wind servo"
+
+},
+{
+
+"id": "1615062813",
+
+"firstname": "David",
+
+"lastname": "Brooks",
+
+"title": "Desert Rooftops",
+
+"year": "2012",
+
+"description": "",
+
+"link": "https://art21.org/read/david-brooks-desert-rooftops/",
+
+"image1": "DavidBrooks-DesertRooftops.jpg",
+
+"image2": "",
+
+"image3": "",
+
+"video": "",
+
+"medium": "sculpture",
+
+"topic": "",
+
+"decade": "2010s",
+
+"movement": "",
+
+"addedby": "blake",
+
+"keywords": ""
+
+},
+{
+
+"id": "1615063009",
+
+"firstname": "David",
+
+"lastname": "Bowen",
+
+"title": "Cloud Piano",
+
+"year": "2014",
+
+"description": "",
+
+"link": "https://www.dwbowen.com/cloud-piano",
+
+"image1": "DavidBowen-CloudPiano.jpg",
+
+"image2": "",
+
+"image3": "",
+
+"video": "",
+
+"medium": "sculpture",
+
+"topic": "physical_computing computer_vision",
+
+"decade": "2010s",
+
+"movement": "",
+
+"addedby": "blake",
+
+"keywords": ""
+
+},
+{
+
+"id": "1615063112",
+
+"firstname": "David ",
+
+"lastname": "Hall",
+
+"title": "1001 TV Sets",
+
+"year": "2012",
+
+"description": "",
+
+"link": "https://mymodernmet.com/david-hall-1001-tv-sets-end-piece/",
+
+"image1": "DavidHall-1001TVSets.jpg",
+
+"image2": "",
+
+"image3": "",
+
+"video": "",
+
+"medium": "sculpture",
+
+"topic": "repetition",
+
+"decade": "2010s",
+
+"movement": "",
+
+"addedby": "blake",
+
+"keywords": "television signal"
+
+},
+{
+
+"id": "1615063233",
+
+"firstname": "David",
+
+"lastname": "Quayola",
+
+"title": "Remains Series",
+
+"year": "2018",
+
+"description": "",
+
+"link": "https://quayola.com/work/series/remains-series.php",
+
+"image1": "DavidQuayola-RemainsSeries.jpg",
+
+"image2": "",
+
+"image3": "",
+
+"video": "",
+
+"medium": "",
+
+"topic": "computer_vision nature",
+
+"decade": "2010s",
+
+"movement": "",
+
+"addedby": "blake",
+
+"keywords": "lidar"
+
+},
+{
+
+"id": "1615063338",
+
+"firstname": "David",
+
+"lastname": "Quayola",
+
+"title": "Sculpture Factory",
+
+"year": "2016",
+
+"description": "",
+
+"link": "https://quayola.com/work/series/sculpture-factory.php",
+
+"image1": "DavidQuayola-SculptureFactory.jpg",
+
+"image2": "",
+
+"image3": "",
+
+"video": "",
+
+"medium": "sculpture",
+
+"topic": "physical_computing",
+
+"decade": "2010s",
+
+"movement": "",
+
+"addedby": "blake",
+
+"keywords": "robot carving machine foam"
+
+},
+{
+
+"id": "1615063422",
+
+"firstname": "David",
+
+"lastname": "Reuter",
+
+"title": "Barbed Wire Fence Telephone",
+
+"year": "2013",
+
+"description": "",
+
+"link": "http://davidrueter.com/projects/2013-11-barbedwire.html",
+
+"image1": "DavidReuter-BarbedWireFenceTelephone.jpg",
+
+"image2": "",
+
+"image3": "",
+
+"video": "",
+
+"medium": "sculpture",
+
+"topic": "",
+
+"decade": "2010s",
+
+"movement": "",
+
+"addedby": "blake",
+
+"keywords": ""
+
+},
+{
+
+"id": "1615063505",
+
+"firstname": "Douglas",
+
+"lastname": "Gordon",
+
+"title": "24 Hour Psycho",
+
+"year": "1993",
+
+"description": "",
+
+"link": "https://en.wikipedia.org/wiki/24_Hour_Psycho",
+
+"image1": "DouglasGordon-24HourPsycho.jpg",
+
+"image2": "",
+
+"image3": "",
+
+"video": "",
+
+"medium": "film_video",
+
+"topic": "",
+
+"decade": "1990s",
+
+"movement": "",
+
+"addedby": "blake",
+
+"keywords": ""
+
+}
 ]
