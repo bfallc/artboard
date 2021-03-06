@@ -191,7 +191,7 @@ function generateContent() {
 
       let $newItem = $(
         `<div class='item ${data[i].medium} ${data[i].topic} ${data[i].decade} ${data[i].movement} ${data[i].addedby}'>
-          <a href='project_page.html?id=${data[i].id}' target='_blank'><img class=image src='thumbs/${data[i].image1}'></a>
+          <a href='project_page.html?id=${data[i].id}' target='_blank'><img class='image' src='thumbs/${data[i].image1}'></a>
           <div class="item__text">
             <p class='titlebar'><span class='firstname'>${data[i].firstname}</span> <span class='lastname'>${data[i].lastname}</span> - <span class='title'>${data[i].title}</span> (<span class='year'>${data[i].year}</span>)</p>
             <p class='description'>${data[i].description}</p>
@@ -203,6 +203,40 @@ function generateContent() {
       // $container.append( $newItem ).isotope( 'appended', $newItem );    
       $container.isotope( 'insert', $newItem );    
     }
+
+// /////////// MAGNIFICATION OF THE GRID ////
+
+//Plus
+$('.magnify-plus').click(function(){
+  //get the current size of the item in css
+  let currentCellSize = parseInt( $('.item').css("max-width"), 10);
+  let nextCellSize = currentCellSize + 25;
+  
+  //if larger than 150px, include description
+  if( nextCellSize > 150){
+    $('.description').css("display", "block");
+  }
+  //increase cell size
+  $('.item').css("max-width", (currentCellSize + 25) );
+
+  //re-order the isotope grid
+  $container.isotope();
+})
+
+//Minus
+$('.magnify-minus').click(function(){
+  let currentCellSize = parseInt( $('.item').css("max-width"), 10);
+  let nextCellSize = currentCellSize - 25;
+
+  if( nextCellSize <= 150 ){
+    $('.description').css("display", "none");
+  }
+
+  if( nextCellSize > 50 ){
+    $('.item').css("max-width", (currentCellSize - 25) );
+    $container.isotope();
+  }
+})
 
 //////////////// FUNCTIONS
 
